@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!--URDF MODEL only arms-->
+<robot xmlns:xacro="http://wiki.ros.org/xacro" name="bottle">
+  <xacro:macro name="bottle" params="parent_link_name xyz rpy item">
+
+  <joint name="base_bottle_${item}" type="fixed">
+    <parent link="${parent_link_name}"/>
+    <child link="bottle_${item}_link"/>
+    <origin xyz="${xyz}" rpy="${rpy}" />
+  </joint>
+
+
+    <link
+      name="bottle_${item}_link">
+      <inertial>
+        <origin
+          xyz="4.9607E-08 3.4543E-09 0.13895"
+          rpy="0 0 0" />
+        <mass
+          value="1.4606" />
+        <inertia
+          ixx="0.0097643"
+          ixy="-2.1497E-09"
+          ixz="-1.1285E-08"
+          iyy="0.009765"
+          iyz="-8.0842E-10"
+          izz="0.0012278" />
+      </inertial>
+      <visual>
+        <origin
+          xyz="0 0 0"
+          rpy="0 0 0" />
+        <geometry>
+          <mesh
+            filename="package://hrc_case_study_descriptions/mesh/bottle.STL" scale="0.001 0.001 0.001" />
+        </geometry>
+        <material
+          name="">
+          <color
+            rgba="0.79216 0.81961 0.93333 1" />
+        </material>
+      </visual>
+      <collision>
+        <origin
+          xyz="0 0 0"
+          rpy="0 0 0" />
+        <geometry>
+          <mesh
+            filename="package://hrc_case_study_descriptions/mesh/bottle.STL" scale="0.001 0.001 0.001" />
+        </geometry>
+      </collision>
+    </link>
+
+
+  </xacro:macro>
+
+</robot>

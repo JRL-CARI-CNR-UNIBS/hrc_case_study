@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>hrc_case_study_safety</name>
+  <version>0.0.0</version>
+  <description>The hrc_case_study_safety package</description>
+
+  <maintainer email="samuele.sandrini@polito.it">Samuele Sandrini</maintainer>
+
+  <license>BSD3</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <export>
+  </export>
+</package>

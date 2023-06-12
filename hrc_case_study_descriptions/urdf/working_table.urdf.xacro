@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<!--URDF MODEL only arms-->
+<robot xmlns:xacro="http://wiki.ros.org/xacro" name="working_table">
+  <xacro:macro name="working_table_with_wheels" params="parent_link_name xyz rpy">
+
+  <joint name="base_working_table" type="fixed">
+    <parent link="${parent_link_name}"/>
+    <child link="working_table_with_wheels_link"/>
+    <origin xyz="${xyz}" rpy="${rpy}" />
+  </joint>
+
+  <link
+    name="working_table_with_wheels_link">
+    <inertial>
+      <origin
+        xyz="0.2503 0.50105 0.67682"
+        rpy="0 0 0" />
+      <mass
+        value="37.726" />
+      <inertia
+        ixx="6.0362"
+        ixy="0.012989"
+        ixz="0.0016097"
+        iyy="2.7997"
+        iyz="-0.0022709"
+        izz="5.507" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hrc_case_study_descriptions/mesh/working_table_with_wheels.STL" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hrc_case_study_descriptions/mesh/working_table_with_wheels.STL" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint
+    name="working_table_top"
+    type="fixed">
+    <origin
+      xyz="-0.01757 -0.016679 1.1096"
+      rpy="0 0 0" />
+    <parent
+      link="working_table_with_wheels_link" />
+    <child
+      link="working_table_top_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link name="working_table_top_link" />
+
+  </xacro:macro>
+
+</robot>

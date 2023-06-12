@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: hrc_case_study_descriptions
+    relative_path: urdf/sharework_cembre_simplified.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/sharework_cembre_simplified.srdf
+  CONFIG:
+    author_name: Samuele Sandrnini
+    author_email: samuele.sandrini@polito.it
+    generated_timestamp: 1627562639

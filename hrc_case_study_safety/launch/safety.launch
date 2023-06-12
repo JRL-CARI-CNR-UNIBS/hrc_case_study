@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<launch>
+  <arg name="baseline" default="false"/>
+  <arg name="launch_camera" default="false"/>
+
+<include unless="$(arg baseline)"  file="$(find hrc_case_study_safety)/launch/thor_safety.launch"/>
+<include if="$(arg baseline)"      file="$(find hrc_case_study_safety)/launch/fixed_area_safety.launch"/>
+<include if="$(arg launch_camera)" file="$(find hrc_case_study_safety)/launch/vision.launch"/>
+
+<include if="$(arg launch_camera)" file="$(find hrc_case_study_safety)/launch/realsense.launch">
+</include>
+<include file="$(find hrc_case_study_sensors)/launch/centroid.launch">
+  <arg name="remote_pc" value="$(arg launch_camera)"/>
+</include>
+</launch>

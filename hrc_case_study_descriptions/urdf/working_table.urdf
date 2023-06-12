@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com)
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="working_table">
+  <link
+    name="working_table_with_wheels_link">
+    <inertial>
+      <origin
+        xyz="0.2503 0.50105 0.67682"
+        rpy="0 0 0" />
+      <mass
+        value="37.726" />
+      <inertia
+        ixx="6.0362"
+        ixy="0.012989"
+        ixz="0.0016097"
+        iyy="2.7997"
+        iyz="-0.0022709"
+        izz="5.507" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hrc_case_study_descriptions/meshes/working_table_with_wheels_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hrc_case_study_descriptions/meshes/working_table_with_wheels_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>
