@@ -476,47 +476,23 @@
 
 
 
-
-
+<!-- Include and call the working table with wheels macro -->
 <xacro:include filename="$(find hrc_case_study_descriptions)/urdf/working_table.urdf.xacro" />
 <xacro:working_table_with_wheels
   parent_link_name="world"
   xyz = "1.5 -1.5 0"
   rpy="0 0 -1.57079632679"/>
 
+<!-- Include bottle pack xacro macro -->
+<xacro:include filename="$(find hrc_case_study_descriptions)/urdf/bottles_pack.urdf.xacro" />
+<!-- Property with the name of yaml file with bottles locations  -->
+<xacro:property name="user_pack_yaml_file_name"    value="$(find hrc_case_study_descriptions)/config/bottle_distributions.yaml"/>
+<!-- Call the pack macro in order to create the bottles pack with the config specified in the yaml -->
+<xacro:pack parent_link_name="working_table_top_link" pack_name="user_pack" yaml_file_name="${user_pack_yaml_file_name}"/>
 
-<xacro:include filename="$(find hrc_case_study_descriptions)/urdf/bottle.urdf.xacro" />+
 
-<xacro:bottle
-  parent_link_name="working_table_top_link"
-  xyz = "0.2 0.4 0"
-  rpy="0 0 0"
-  item="1"/>
-<xacro:bottle
-  parent_link_name="working_table_top_link"
-  xyz = "0.2 0.5 0"
-  rpy="0 0 0"
-  item="2"/>
-<xacro:bottle
-  parent_link_name="working_table_top_link"
-  xyz = "0.2 0.6 0"
-  rpy="0 0 0"
-  item="3"/>
-<xacro:bottle
-  parent_link_name="working_table_top_link"
-  xyz = "0.3 0.4 0"
-  rpy="0 0 0"
-  item="4"/>
-<xacro:bottle
-  parent_link_name="working_table_top_link"
-  xyz = "0.3 0.5 0"
-  rpy="0 0 0"
-  item="5"/>
-<xacro:bottle
-  parent_link_name="working_table_top_link"
-  xyz = "0.3 0.6 0"
-  rpy="0 0 0"
-  item="6"/>
+
+
 </xacro:macro>
 
 </robot>
