@@ -486,11 +486,23 @@
 <!-- Include bottle pack xacro macro -->
 <xacro:include filename="$(find hrc_case_study_descriptions)/urdf/bottles_pack.urdf.xacro" />
 <!-- Property with the name of yaml file with bottles locations  -->
-<xacro:property name="user_pack_yaml_file_name"    value="$(find hrc_case_study_descriptions)/config/bottle_distributions.yaml"/>
+<xacro:property name="user_pack_yaml_file_name"    value="$(find hrc_case_study_descriptions)/config/user_bottle_distributions.yaml"/>
+<xacro:property name="robot_pack_yaml_file_name"    value="$(find hrc_case_study_descriptions)/config/robot_bottle_distributions.yaml"/>
+
 <!-- Call the pack macro in order to create the bottles pack with the config specified in the yaml -->
 <xacro:pack parent_link_name="working_table_top_link" pack_name="user_pack" yaml_file_name="${user_pack_yaml_file_name}"/>
+<xacro:pack parent_link_name="robot_box_link" pack_name="robot_pack" yaml_file_name="${robot_pack_yaml_file_name}"/>
 
-
+<!-- Include and call the box macro in order to create the box -->
+<xacro:include filename="$(find hrc_case_study_descriptions)/urdf/box.urdf.xacro" />
+<xacro:box parent_link_name="rail"
+           box_name="robot_box"
+           xyz = "0 0 0"
+           rpy="0 0 0" />
+<xacro:box parent_link_name="rail"
+          box_name="human_box"
+          xyz = "0.15 2.5 0"
+          rpy="0 0 1.57079632679" />
 
 
 </xacro:macro>

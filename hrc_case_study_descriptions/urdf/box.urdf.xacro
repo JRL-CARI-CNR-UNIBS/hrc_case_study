@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!--URDF MODEL only arms-->
+<robot xmlns:xacro="http://wiki.ros.org/xacro" name="box">
+  <xacro:macro name="box" params="box_name parent_link_name xyz rpy">
+
+  <joint name="${box_name}" type="fixed">
+    <parent link="${parent_link_name}"/>
+    <child link="${box_name}_link"/>
+    <origin xyz="${xyz}" rpy="${rpy}" />
+  </joint>
+
+  <link
+    name="${box_name}_link">
+    <inertial>
+      <origin
+        xyz="0.198 0.149 0.13085"
+        rpy="0 0 0" />
+      <mass
+        value="3.3211" />
+      <inertia
+        ixx="0.086235"
+        ixy="2.3962E-17"
+        ixz="-9.9823E-17"
+        iyy="0.12255"
+        iyz="-3.1652E-17"
+        izz="0.13198" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hrc_case_study_descriptions/mesh/box.STL" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 0.50196 0.50196 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hrc_case_study_descriptions/mesh/box.STL" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+  </link>
+
+  </xacro:macro>
+
+</robot>

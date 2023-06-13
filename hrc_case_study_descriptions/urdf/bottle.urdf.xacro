@@ -3,7 +3,7 @@
 <robot xmlns:xacro="http://wiki.ros.org/xacro" name="bottle">
   <xacro:macro name="bottle" params="parent_link_name pack_name xyz rpy item">
 
-  <joint name="base_bottle_${item}" type="fixed">
+  <joint name="bottle_${pack_name}_${item}" type="fixed">
     <parent link="${parent_link_name}"/>
     <child link="bottle_${pack_name}_${item}_link"/>
     <origin xyz="${xyz}" rpy="${rpy}" />
