@@ -491,7 +491,7 @@
 <xacro:property name="both_agents_pack_yaml_file_name"    value="$(find hrc_case_study_descriptions)/config/both_agents_bottle_distributions.yaml"/>
 
 <!-- Call the pack macro in order to create the bottles pack with the config specified in the yaml -->
-<xacro:pack parent_link_name="working_table_top_link" pack_name="user_pack" yaml_file_name="${user_pack_yaml_file_name}"/>
+<xacro:pack parent_link_name="working_table_top_link" pack_name="user_pack" yaml_file_name="${user_pack_yaml_file_name}" color="0.79216 0.81961 0.93333 1"/>
 
 <!-- Util link for robot bottles pack -->
 <joint name="robot_box_util" type="fixed">
@@ -501,7 +501,7 @@
   </joint>
 <link name="robot_box_util_link"/>
 
-<xacro:pack parent_link_name="robot_box_util_link" pack_name="robot_pack" yaml_file_name="${robot_pack_yaml_file_name}"/>
+<xacro:pack parent_link_name="robot_box_util_link" pack_name="robot_pack" yaml_file_name="${robot_pack_yaml_file_name}" color="0.79216 0.81961 0.93333 1"/>
 
 <!-- Util link for both agents bottles pack -->
 <joint name="both_agents_bottles_util" type="fixed">
@@ -511,7 +511,7 @@
   </joint>
 <link name="both_agents_bottles_link"/>
 
-<xacro:pack parent_link_name="both_agents_bottles_link" pack_name="both_agents_pack" yaml_file_name="${both_agents_pack_yaml_file_name}"/>
+<xacro:pack parent_link_name="both_agents_bottles_link" pack_name="both_agents_pack" yaml_file_name="${both_agents_pack_yaml_file_name}" color="0.93333333 0.89019608 0.79607843  1"/>
 
 <!-- Include and call the box macro in order to create the boxes -->
 <xacro:include filename="$(find hrc_case_study_descriptions)/urdf/box.urdf.xacro" />
@@ -522,7 +522,7 @@
 <xacro:box parent_link_name="rail"
           box_name="human_box"
           xyz = "0.15 2.7 0"
-          rpy="0 0 1.57079632679" />
+          rpy="0 0 1.57079632679"/>
 
 
 </xacro:macro>

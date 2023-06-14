@@ -2,14 +2,14 @@
 <robot xmlns:xacro="http://wiki.ros.org/xacro" name="pack">
   <xacro:include filename="$(find hrc_case_study_descriptions)/urdf/bottle.urdf.xacro" />
 
-  <xacro:macro name="pack" params="parent_link_name pack_name yaml_file_name">
+  <xacro:macro name="pack" params="parent_link_name pack_name yaml_file_name color">
 
     <xacro:property name="yaml" value="${xacro.load_yaml(yaml_file_name)}"/>
     <xacro:property name="bottles_locations"             value="${yaml['bottles_locations']}" />
     <xacro:property name="n_bottles"             value="${yaml['n_bottles']}" />
 
 
-      <xacro:macro name="loop" params="item parent_link_name pack_name bottles_locations">
+      <xacro:macro name="loop" params="item parent_link_name pack_name bottles_locations color">
         <xacro:property name="location" value="${bottles_locations[item]}" />
 
         <xacro:if value="${item+1}">
@@ -19,11 +19,12 @@
             pack_name="${pack_name}"
             xyz = "${location['xyz']}"
             rpy="${location['rpy']}"
-            item="${item}"/>
+            item="${item}"
+            color="${color}"/>
 
 
           <!-- recursively call myself -->
-          <xacro:loop item="${item-1}" parent_link_name="${parent_link_name}" pack_name="${pack_name}" bottles_locations="${bottles_locations}" />
+          <xacro:loop item="${item-1}" parent_link_name="${parent_link_name}" pack_name="${pack_name}" bottles_locations="${bottles_locations}" color="${color}"/>
         </xacro:if>
       </xacro:macro>
 
@@ -31,7 +32,8 @@
       <xacro:loop item="${n_bottles-1}"
                   parent_link_name="${parent_link_name}"
                   pack_name="${pack_name}"
-                  bottles_locations="${bottles_locations}"/>
+                  bottles_locations="${bottles_locations}"
+                  color="${color}"/>
   </xacro:macro>
 
 </robot>

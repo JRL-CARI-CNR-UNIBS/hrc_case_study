@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!--URDF MODEL only arms-->
 <robot xmlns:xacro="http://wiki.ros.org/xacro" name="bottle">
-  <xacro:macro name="bottle" params="parent_link_name pack_name xyz rpy item">
+  <xacro:macro name="bottle" params="parent_link_name pack_name xyz rpy item color">
 
   <joint name="bottle_${pack_name}_${item}" type="fixed">
     <parent link="${parent_link_name}"/>
@@ -37,7 +37,7 @@
         <material
           name="">
           <color
-            rgba="0.79216 0.81961 0.93333 1" />
+            rgba="${color}" />
         </material>
       </visual>
       <collision>
