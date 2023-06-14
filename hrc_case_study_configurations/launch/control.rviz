@@ -11,7 +11,7 @@ Panels:
         - /TF1/Frames1
         - /Camera1
       Splitter Ratio: 0.6619718074798584
-    Tree Height: 622
+    Tree Height: 892
   - Class: rviz/Help
     Name: Help
   - Class: rviz/Views
@@ -101,32 +101,62 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
-          bottle_1_link:
+          bottle_robot_pack_0_link:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          bottle_2_link:
+          bottle_robot_pack_1_link:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          bottle_3_link:
+          bottle_robot_pack_2_link:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          bottle_4_link:
+          bottle_robot_pack_3_link:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          bottle_5_link:
+          bottle_robot_pack_4_link:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          bottle_6_link:
+          bottle_robot_pack_5_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          bottle_user_pack_0_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          bottle_user_pack_1_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          bottle_user_pack_2_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          bottle_user_pack_3_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          bottle_user_pack_4_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          bottle_user_pack_5_link:
             Alpha: 1
             Show Axes: false
             Show Trail: false
@@ -155,6 +185,11 @@ Visualization Manager:
             Show Trail: false
             Value: true
           guide_fixed:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          human_box_link:
             Alpha: 1
             Show Axes: false
             Show Trail: false
@@ -237,6 +272,15 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
+          robot_box_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          robot_box_util_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
           robotiq_arg2f_base_link:
             Alpha: 1
             Show Axes: false
@@ -388,32 +432,62 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
-          bottle_1_link:
+          bottle_robot_pack_0_link:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          bottle_2_link:
+          bottle_robot_pack_1_link:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          bottle_3_link:
+          bottle_robot_pack_2_link:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          bottle_4_link:
+          bottle_robot_pack_3_link:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          bottle_5_link:
+          bottle_robot_pack_4_link:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          bottle_6_link:
+          bottle_robot_pack_5_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          bottle_user_pack_0_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          bottle_user_pack_1_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          bottle_user_pack_2_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          bottle_user_pack_3_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          bottle_user_pack_4_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          bottle_user_pack_5_link:
             Alpha: 1
             Show Axes: false
             Show Trail: false
@@ -442,6 +516,11 @@ Visualization Manager:
             Show Trail: false
             Value: true
           guide_fixed:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          human_box_link:
             Alpha: 1
             Show Axes: false
             Show Trail: false
@@ -524,6 +603,15 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
+          robot_box_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          robot_box_util_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
           robotiq_arg2f_base_link:
             Alpha: 1
             Show Axes: false
@@ -740,18 +828,30 @@ Visualization Manager:
           Value: false
         base_link_inertia:
           Value: false
-        bottle_1_link:
-          Value: false
-        bottle_2_link:
-          Value: false
-        bottle_3_link:
-          Value: false
-        bottle_4_link:
-          Value: false
-        bottle_5_link:
-          Value: false
-        bottle_6_link:
-          Value: false
+        bottle_robot_pack_0_link:
+          Value: true
+        bottle_robot_pack_1_link:
+          Value: true
+        bottle_robot_pack_2_link:
+          Value: true
+        bottle_robot_pack_3_link:
+          Value: true
+        bottle_robot_pack_4_link:
+          Value: true
+        bottle_robot_pack_5_link:
+          Value: true
+        bottle_user_pack_0_link:
+          Value: true
+        bottle_user_pack_1_link:
+          Value: true
+        bottle_user_pack_2_link:
+          Value: true
+        bottle_user_pack_3_link:
+          Value: true
+        bottle_user_pack_4_link:
+          Value: true
+        bottle_user_pack_5_link:
+          Value: true
         camera2_link:
           Value: false
         camera_link:
@@ -768,6 +868,8 @@ Visualization Manager:
           Value: false
         guide_fixed:
           Value: false
+        human_box_link:
+          Value: true
         left_column:
           Value: false
         left_inner_finger:
@@ -800,6 +902,10 @@ Visualization Manager:
           Value: false
         right_outer_knuckle:
           Value: false
+        robot_box_link:
+          Value: true
+        robot_box_util_link:
+          Value: true
         robotiq_arg2f_base_link:
           Value: false
         robotiq_coupler:
@@ -862,7 +968,24 @@ Visualization Manager:
           right_column:
             {}
           table:
+            bottle_robot_pack_0_link:
+              {}
+            bottle_robot_pack_1_link:
+              {}
+            bottle_robot_pack_2_link:
+              {}
+            bottle_robot_pack_3_link:
+              {}
+            bottle_robot_pack_4_link:
+              {}
+            bottle_robot_pack_5_link:
+              {}
             rail:
+              human_box_link:
+                {}
+              robot_box_link:
+                {}
+            robot_box_util_link:
               {}
             screwdriver_holder:
               {}
@@ -911,17 +1034,17 @@ Visualization Manager:
             {}
           working_table_with_wheels_link:
             working_table_top_link:
-              bottle_1_link:
+              bottle_user_pack_0_link:
                 {}
-              bottle_2_link:
+              bottle_user_pack_1_link:
                 {}
-              bottle_3_link:
+              bottle_user_pack_2_link:
                 {}
-              bottle_4_link:
+              bottle_user_pack_3_link:
                 {}
-              bottle_5_link:
+              bottle_user_pack_4_link:
                 {}
-              bottle_6_link:
+              bottle_user_pack_5_link:
                 {}
       Update Interval: 0
       Value: true
@@ -1060,7 +1183,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/XYOrbit
-      Distance: 5.765335559844971
+      Distance: 5.918978691101074
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -1068,17 +1191,17 @@ Visualization Manager:
         Value: false
       Field of View: 0.7853981852531433
       Focal Point:
-        X: 0.9591528177261353
-        Y: 0.18413907289505005
+        X: -0.37518370151519775
+        Y: 0.10199934244155884
         Z: -0.8950005769729614
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.6647958755493164
+      Pitch: 0.8497960567474365
       Target Frame: table
-      Yaw: 0.7936060428619385
+      Yaw: 0.523607075214386
     Saved:
       - Class: rviz/XYOrbit
         Distance: 5
@@ -1107,7 +1230,7 @@ Window Geometry:
     collapsed: false
   Displays:
     collapsed: false
-  Height: 773
+  Height: 1043
   Help:
     collapsed: false
   Hide Left Dock: false
@@ -1118,9 +1241,9 @@ Window Geometry:
     collapsed: false
   MotionPlanning - Trajectory Slider:
     collapsed: false
-  QMainWindow State: 000000ff00000000fd00000003000000000000021d000002abfc020000000bfb000000100044006900730070006c006100790073010000003d000002ab000000c900fffffffb0000000800480065006c00700000000191000000bb0000006e00fffffffb0000000a005600690065007700730000000144000000b7000000a400fffffffb0000001e004d006f00740069006f006e00200050006c0061006e006e0069006e00670100000374000001890000000000000000fb00000044004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000001600000016fc00000145000002b10000000000fffffffa000000020100000006fb0000000a0049006d0061006700650000000000ffffffff0000005e00fffffffb0000000c00430061006d0065007200610000000000ffffffff0000006900fffffffb0000000c00430061006d0065007200610100000000ffffffff0000000000000000fb0000000c00430061006d0065007200610100000000ffffffff0000000000000000fb0000000a0049006d0061006700650000000000ffffffff0000000000000000fb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e0067000000000000000244000001f300fffffffb0000000c00430061006d0065007200610200000000000000000000078000000438fb0000000c00430061006d006500720061010000018d000002720000000000000000fb0000000a0049006d006100670065000000003d0000039e0000000000000000fb0000000a0049006d0061006700650000000206000001d50000000000000000fb000000100044006900730070006c00610079007300000002b300000128000000c900ffffff00000001000002b70000039efc0200000003fc0000003d0000039e0000000000fffffffa000000000100000003fb0000002600480061006e0064004500790065002000430061006c006900620072006100740069006f006e0000000000ffffffff0000000000000000fb0000000c00430061006d0065007200610100000000ffffffff0000000000000000fb000000280043006f006e00660069006700750072006100740069006f006e004d0061006e006100670065007200000005e90000014f0000011700fffffffb000000280043006f006e00660069006700750072006100740069006f006e004d0061006e0061006700650072000000003d0000039e0000025300fffffffb000000280043006f006e00660069006700750072006100740069006f006e004d0061006e0061006700650072000000003d0000039e0000025300ffffff00000002000004ad0000023afc0100000001fb0000000c00430061006d0065007200610100000290000004ad000000000000000000000347000002ab00000001000000020000000100000002fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd00000003000000000000021d000003b9fc020000000bfb000000100044006900730070006c006100790073010000003d000003b9000000c900fffffffb0000000800480065006c00700000000191000000bb0000006e00fffffffb0000000a005600690065007700730000000144000000b7000000a400fffffffb0000001e004d006f00740069006f006e00200050006c0061006e006e0069006e00670100000374000001890000000000000000fb00000044004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000001600000016fc00000145000002b10000000000fffffffa000000020100000006fb0000000a0049006d0061006700650000000000ffffffff0000005e00fffffffb0000000c00430061006d0065007200610000000000ffffffff0000006900fffffffb0000000c00430061006d0065007200610100000000ffffffff0000000000000000fb0000000c00430061006d0065007200610100000000ffffffff0000000000000000fb0000000a0049006d0061006700650000000000ffffffff0000000000000000fb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e0067000000000000000244000001f300fffffffb0000000c00430061006d0065007200610200000000000000000000078000000438fb0000000c00430061006d006500720061010000018d000002720000000000000000fb0000000a0049006d006100670065000000003d0000039e0000000000000000fb0000000a0049006d0061006700650000000206000001d50000000000000000fb000000100044006900730070006c00610079007300000002b300000128000000c900ffffff00000001000002b70000039efc0200000003fc0000003d0000039e0000000000fffffffa000000000100000003fb0000002600480061006e0064004500790065002000430061006c006900620072006100740069006f006e0000000000ffffffff0000000000000000fb0000000c00430061006d0065007200610100000000ffffffff0000000000000000fb000000280043006f006e00660069006700750072006100740069006f006e004d0061006e006100670065007200000005e90000014f0000011700fffffffb000000280043006f006e00660069006700750072006100740069006f006e004d0061006e0061006700650072000000003d0000039e0000025300fffffffb000000280043006f006e00660069006700750072006100740069006f006e004d0061006e0061006700650072000000003d0000039e0000025300ffffff00000002000004ad0000023afc0100000001fb0000000c00430061006d0065007200610100000290000004ad000000000000000000000515000003b900000001000000020000000100000002fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Views:
     collapsed: false
-  Width: 1386
-  X: 303
-  Y: 89
+  Width: 1848
+  X: 72
+  Y: 0

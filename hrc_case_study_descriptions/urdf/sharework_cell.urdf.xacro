@@ -488,20 +488,40 @@
 <!-- Property with the name of yaml file with bottles locations  -->
 <xacro:property name="user_pack_yaml_file_name"    value="$(find hrc_case_study_descriptions)/config/user_bottle_distributions.yaml"/>
 <xacro:property name="robot_pack_yaml_file_name"    value="$(find hrc_case_study_descriptions)/config/robot_bottle_distributions.yaml"/>
+<xacro:property name="both_agents_pack_yaml_file_name"    value="$(find hrc_case_study_descriptions)/config/both_agents_bottle_distributions.yaml"/>
 
 <!-- Call the pack macro in order to create the bottles pack with the config specified in the yaml -->
 <xacro:pack parent_link_name="working_table_top_link" pack_name="user_pack" yaml_file_name="${user_pack_yaml_file_name}"/>
-<xacro:pack parent_link_name="robot_box_link" pack_name="robot_pack" yaml_file_name="${robot_pack_yaml_file_name}"/>
 
-<!-- Include and call the box macro in order to create the box -->
+<!-- Util link for robot bottles pack -->
+<joint name="robot_box_util" type="fixed">
+    <parent link="table"/>
+    <child link="robot_box_util_link"/>
+    <origin xyz="-0.6 0.1 0.05"/>
+  </joint>
+<link name="robot_box_util_link"/>
+
+<xacro:pack parent_link_name="robot_box_util_link" pack_name="robot_pack" yaml_file_name="${robot_pack_yaml_file_name}"/>
+
+<!-- Util link for both agents bottles pack -->
+<joint name="both_agents_bottles_util" type="fixed">
+    <parent link="rail"/>
+    <child link="both_agents_bottles_link"/>
+    <origin xyz="-0.15 1.4 0"/>
+  </joint>
+<link name="both_agents_bottles_link"/>
+
+<xacro:pack parent_link_name="both_agents_bottles_link" pack_name="both_agents_pack" yaml_file_name="${both_agents_pack_yaml_file_name}"/>
+
+<!-- Include and call the box macro in order to create the boxes -->
 <xacro:include filename="$(find hrc_case_study_descriptions)/urdf/box.urdf.xacro" />
 <xacro:box parent_link_name="rail"
            box_name="robot_box"
-           xyz = "0 0 0"
-           rpy="0 0 0" />
+           xyz = "0.15 0 0"
+           rpy="0 0 1.57079632679" />
 <xacro:box parent_link_name="rail"
           box_name="human_box"
-          xyz = "0.15 2.5 0"
+          xyz = "0.15 2.7 0"
           rpy="0 0 1.57079632679" />
 
 
