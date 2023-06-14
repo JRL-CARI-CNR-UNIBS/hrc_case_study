@@ -101,6 +101,40 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
+          both_agents_bottles_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          bottle_both_agents_pack_0_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          bottle_both_agents_pack_1_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          bottle_both_agents_pack_2_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          bottle_both_agents_pack_3_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          bottle_both_agents_pack_4_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          bottle_both_agents_pack_5_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
           bottle_robot_pack_0_link:
             Alpha: 1
             Show Axes: false
@@ -428,6 +462,40 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
           base_link_inertia:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          both_agents_bottles_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+          bottle_both_agents_pack_0_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          bottle_both_agents_pack_1_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          bottle_both_agents_pack_2_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          bottle_both_agents_pack_3_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          bottle_both_agents_pack_4_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          bottle_both_agents_pack_5_link:
             Alpha: 1
             Show Axes: false
             Show Trail: false
@@ -828,30 +896,44 @@ Visualization Manager:
           Value: false
         base_link_inertia:
           Value: false
+        both_agents_bottles_link:
+          Value: false
+        bottle_both_agents_pack_0_link:
+          Value: false
+        bottle_both_agents_pack_1_link:
+          Value: false
+        bottle_both_agents_pack_2_link:
+          Value: false
+        bottle_both_agents_pack_3_link:
+          Value: false
+        bottle_both_agents_pack_4_link:
+          Value: false
+        bottle_both_agents_pack_5_link:
+          Value: false
         bottle_robot_pack_0_link:
-          Value: true
+          Value: false
         bottle_robot_pack_1_link:
-          Value: true
+          Value: false
         bottle_robot_pack_2_link:
-          Value: true
+          Value: false
         bottle_robot_pack_3_link:
-          Value: true
+          Value: false
         bottle_robot_pack_4_link:
-          Value: true
+          Value: false
         bottle_robot_pack_5_link:
-          Value: true
+          Value: false
         bottle_user_pack_0_link:
-          Value: true
+          Value: false
         bottle_user_pack_1_link:
-          Value: true
+          Value: false
         bottle_user_pack_2_link:
-          Value: true
+          Value: false
         bottle_user_pack_3_link:
-          Value: true
+          Value: false
         bottle_user_pack_4_link:
-          Value: true
+          Value: false
         bottle_user_pack_5_link:
-          Value: true
+          Value: false
         camera2_link:
           Value: false
         camera_link:
@@ -869,7 +951,7 @@ Visualization Manager:
         guide_fixed:
           Value: false
         human_box_link:
-          Value: true
+          Value: false
         left_column:
           Value: false
         left_inner_finger:
@@ -903,9 +985,9 @@ Visualization Manager:
         right_outer_knuckle:
           Value: false
         robot_box_link:
-          Value: true
+          Value: false
         robot_box_util_link:
-          Value: true
+          Value: false
         robotiq_arg2f_base_link:
           Value: false
         robotiq_coupler:
@@ -968,25 +1050,37 @@ Visualization Manager:
           right_column:
             {}
           table:
-            bottle_robot_pack_0_link:
-              {}
-            bottle_robot_pack_1_link:
-              {}
-            bottle_robot_pack_2_link:
-              {}
-            bottle_robot_pack_3_link:
-              {}
-            bottle_robot_pack_4_link:
-              {}
-            bottle_robot_pack_5_link:
-              {}
             rail:
+              both_agents_bottles_link:
+                bottle_both_agents_pack_0_link:
+                  {}
+                bottle_both_agents_pack_1_link:
+                  {}
+                bottle_both_agents_pack_2_link:
+                  {}
+                bottle_both_agents_pack_3_link:
+                  {}
+                bottle_both_agents_pack_4_link:
+                  {}
+                bottle_both_agents_pack_5_link:
+                  {}
               human_box_link:
                 {}
               robot_box_link:
                 {}
             robot_box_util_link:
-              {}
+              bottle_robot_pack_0_link:
+                {}
+              bottle_robot_pack_1_link:
+                {}
+              bottle_robot_pack_2_link:
+                {}
+              bottle_robot_pack_3_link:
+                {}
+              bottle_robot_pack_4_link:
+                {}
+              bottle_robot_pack_5_link:
+                {}
             screwdriver_holder:
               {}
           upper_beam:
@@ -1183,7 +1277,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/XYOrbit
-      Distance: 5.918978691101074
+      Distance: 7.424767017364502
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -1199,9 +1293,9 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.8497960567474365
+      Pitch: 0.544796347618103
       Target Frame: table
-      Yaw: 0.523607075214386
+      Yaw: 0.343607097864151
     Saved:
       - Class: rviz/XYOrbit
         Distance: 5
