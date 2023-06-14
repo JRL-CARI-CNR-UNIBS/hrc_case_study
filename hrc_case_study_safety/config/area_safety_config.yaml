@@ -3,10 +3,10 @@ ssm:
   override_decrease_speed: 100 # [%/s]
   areas:
   - name: "area0"
-    override: 50
+    override: 70
     corners:
-    - [0,-1.7]
-    - [0.6,-1.7]
+    - [0,0.6]
+    - [0.6,0.6]
     - [0.6,2.0]
     - [0,2.0]
 
@@ -17,3 +17,17 @@ ssm:
     - [0.6,-0.5]
     - [0.6,0.3]
     - [0.0,0.3]
+  - name: "risky_area_left"
+    override: 30
+    corners:
+    - [0,-1.7]
+    - [0.6,-1.7]
+    - [0.6,-0.5]
+    - [0,-0.5]
+  - name: "risky_area_right"
+    override: 40
+    corners:
+    - [0,0.3]
+    - [0.6,0.3]
+    - [0.6,0.6]
+    - [0,0.6]
