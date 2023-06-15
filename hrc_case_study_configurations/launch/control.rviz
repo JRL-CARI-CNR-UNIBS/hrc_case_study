@@ -1,17 +1,14 @@
 Panels:
   - Class: rviz/Displays
-    Help Height: 0
+    Help Height: 84
     Name: Displays
     Property Tree Widget:
       Expanded:
-        - /Global Options1
+        - /MotionPlanning1/Scene Robot1
         - /MotionPlanning1/Planning Request1
         - /MotionPlanning1/Planned Path1
-        - /TF1
-        - /TF1/Frames1
-        - /Camera1
-      Splitter Ratio: 0.6619718074798584
-    Tree Height: 892
+      Splitter Ratio: 0.46881288290023804
+    Tree Height: 808
   - Class: rviz/Help
     Name: Help
   - Class: rviz/Views
@@ -19,19 +16,6 @@ Panels:
       - /Current View1
     Name: Views
     Splitter Ratio: 0.5
-  - Class: configuration_gui/ConfigurationManager
-    Name: ConfigurationManager
-  - Class: rviz/Displays
-    Help Height: 70
-    Name: Displays
-    Property Tree Widget:
-      Expanded: ~
-      Splitter Ratio: 0.5
-    Tree Height: 371
-  - Class: configuration_gui/ConfigurationManager
-    Name: ConfigurationManager
-  - Class: configuration_gui/ConfigurationManager
-    Name: ConfigurationManager
 Preferences:
   PromptSaveOnExit: true
 Toolbars:
@@ -57,7 +41,7 @@ Visualization Manager:
       Plane Cell Count: 10
       Reference Frame: <Fixed Frame>
       Value: true
-    - Acceleration_Scaling_Factor: 0.1
+    - Acceleration_Scaling_Factor: 1
       Class: moveit_rviz_plugin/MotionPlanning
       Enabled: true
       Move Group Namespace: ""
@@ -105,96 +89,6 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-          bottle_both_agents_pack_0_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bottle_both_agents_pack_1_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bottle_both_agents_pack_2_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bottle_both_agents_pack_3_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bottle_both_agents_pack_4_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bottle_both_agents_pack_5_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bottle_robot_pack_0_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bottle_robot_pack_1_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bottle_robot_pack_2_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bottle_robot_pack_3_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bottle_robot_pack_4_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bottle_robot_pack_5_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bottle_user_pack_0_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bottle_user_pack_1_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bottle_user_pack_2_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bottle_user_pack_3_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bottle_user_pack_4_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bottle_user_pack_5_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
           closed_tip:
             Alpha: 1
             Show Axes: false
@@ -306,15 +200,15 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
+          robot_bottles_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
           robot_box_link:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          robot_box_util_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
           robotiq_arg2f_base_link:
             Alpha: 1
             Show Axes: false
@@ -364,6 +258,10 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
+          user_bottles_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
           virtual_wall_1:
             Alpha: 1
             Show Axes: false
@@ -411,8 +309,8 @@ Visualization Manager:
         Robot Alpha: 0.5
         Robot Color: 150; 50; 150
         Show Robot Collision: false
-        Show Robot Visual: false
-        Show Trail: true
+        Show Robot Visual: true
+        Show Trail: false
         State Display Time: 0.05 s
         Trail Step Size: 1
         Trajectory Topic: move_group/display_planned_path
@@ -470,96 +368,6 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-          bottle_both_agents_pack_0_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bottle_both_agents_pack_1_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bottle_both_agents_pack_2_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bottle_both_agents_pack_3_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bottle_both_agents_pack_4_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bottle_both_agents_pack_5_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bottle_robot_pack_0_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bottle_robot_pack_1_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bottle_robot_pack_2_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bottle_robot_pack_3_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bottle_robot_pack_4_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bottle_robot_pack_5_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bottle_user_pack_0_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bottle_user_pack_1_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bottle_user_pack_2_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bottle_user_pack_3_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bottle_user_pack_4_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          bottle_user_pack_5_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
           closed_tip:
             Alpha: 1
             Show Axes: false
@@ -671,15 +479,15 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
+          robot_bottles_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
           robot_box_link:
             Alpha: 1
             Show Axes: false
             Show Trail: false
             Value: true
-          robot_box_util_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
           robotiq_arg2f_base_link:
             Alpha: 1
             Show Axes: false
@@ -729,6 +537,10 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
+          user_bottles_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
           virtual_wall_1:
             Alpha: 1
             Show Axes: false
@@ -776,490 +588,254 @@ Visualization Manager:
         Show Robot Collision: false
         Show Robot Visual: true
       Value: true
-      Velocity_Scaling_Factor: 0.1
-    - Class: rviz/Marker
+      Velocity_Scaling_Factor: 1
+    - Class: jsk_rviz_plugin/LinearGauge
       Enabled: true
-      Marker Topic: /marker_visualization_topic
-      Name: Marker
-      Namespaces:
-        {}
-      Queue Size: 100
-      Value: true
-    - Alpha: 1
-      Autocompute Intensity Bounds: true
-      Autocompute Value Bounds:
-        Max Value: 10
-        Min Value: -10
-        Value: true
-      Axis: Z
-      Channel Name: intensity
-      Class: rviz/PointCloud2
-      Color: 255; 255; 255
-      Color Transformer: RGB8
-      Decay Time: 0
-      Enabled: false
-      Invert Rainbow: false
-      Max Color: 255; 255; 255
-      Min Color: 0; 0; 0
-      Name: rs1
-      Position Transformer: XYZ
-      Queue Size: 10
-      Selectable: true
-      Size (Pixels): 3
-      Size (m): 0.009999999776482582
-      Style: Flat Squares
-      Topic: /camera/depth/color/points
-      Unreliable: false
-      Use Fixed Frame: true
-      Use rainbow: true
-      Value: false
-    - Alpha: 1
-      Autocompute Intensity Bounds: true
-      Autocompute Value Bounds:
-        Max Value: 10
-        Min Value: -10
-        Value: true
-      Axis: Z
-      Channel Name: intensity
-      Class: rviz/PointCloud2
-      Color: 255; 255; 255
-      Color Transformer: RGB8
-      Decay Time: 0
-      Enabled: false
-      Invert Rainbow: false
-      Max Color: 255; 255; 255
-      Min Color: 0; 0; 0
-      Name: rs2
-      Position Transformer: XYZ
-      Queue Size: 10
-      Selectable: true
-      Size (Pixels): 3
-      Size (m): 0.009999999776482582
-      Style: Flat Squares
-      Topic: /camera2/depth/color/points
-      Unreliable: false
-      Use Fixed Frame: true
-      Use rainbow: true
-      Value: false
-    - Buffer length: 100
-      Class: jsk_rviz_plugin/Plotter2D
-      Enabled: true
-      Name: Safe override
+      Name: Human Tasks
       Show Value: true
-      Topic: /safe_ovr_1_float
+      Topic: task_number_info_human_right_arm
       Value: true
-      auto color change: true
-      auto scale: false
+      Vertical Gauge: false
+      auto color change: false
       background color: 0; 0; 0
       backround alpha: 0
       border: true
       foreground alpha: 0.699999988079071
-      foreground color: 239; 41; 41
-      height: 128
-      left: 1
+      foreground color: 25; 255; 240
+      height: 50
+      left: 128
       linewidth: 1
-      max color: 115; 210; 22
+      max color: 255; 0; 0
       max value: 100
       min value: 0
       show caption: true
       text size: 12
-      top: 1
+      top: 50
       update interval: 0.03999999910593033
-      width: 128
-    - Alpha: 1
-      Arrow Length: 0.30000001192092896
-      Axes Length: 0.10000000149011612
-      Axes Radius: 0.10000000149011612
-      Class: rviz/PoseArray
-      Color: 255; 25; 0
+      width: 500
+    - Class: jsk_rviz_plugin/LinearGauge
       Enabled: true
-      Head Length: 0.07000000029802322
-      Head Radius: 0.029999999329447746
-      Name: PoseArray
-      Queue Size: 10
-      Shaft Length: 0.23000000417232513
-      Shaft Radius: 0.009999999776482582
-      Shape: Axes
-      Topic: /poses
-      Unreliable: false
+      Name: Robot Tasks
+      Show Value: true
+      Topic: /task_number_info_ur5_on_guide
       Value: true
-    - Class: rviz/TF
-      Enabled: true
-      Filter (blacklist): ""
-      Filter (whitelist): ""
-      Frame Timeout: 15
-      Frames:
-        All Enabled: false
-        base:
-          Value: false
-        base_link:
-          Value: false
-        base_link_inertia:
-          Value: false
-        both_agents_bottles_link:
-          Value: false
-        bottle_both_agents_pack_0_link:
-          Value: false
-        bottle_both_agents_pack_1_link:
-          Value: false
-        bottle_both_agents_pack_2_link:
-          Value: false
-        bottle_both_agents_pack_3_link:
-          Value: false
-        bottle_both_agents_pack_4_link:
-          Value: false
-        bottle_both_agents_pack_5_link:
-          Value: false
-        bottle_robot_pack_0_link:
-          Value: false
-        bottle_robot_pack_1_link:
-          Value: false
-        bottle_robot_pack_2_link:
-          Value: false
-        bottle_robot_pack_3_link:
-          Value: false
-        bottle_robot_pack_4_link:
-          Value: false
-        bottle_robot_pack_5_link:
-          Value: false
-        bottle_user_pack_0_link:
-          Value: false
-        bottle_user_pack_1_link:
-          Value: false
-        bottle_user_pack_2_link:
-          Value: false
-        bottle_user_pack_3_link:
-          Value: false
-        bottle_user_pack_4_link:
-          Value: false
-        bottle_user_pack_5_link:
-          Value: false
-        camera2_link:
-          Value: false
-        camera_link:
-          Value: false
-        closed_tip:
-          Value: false
-        cursor:
-          Value: false
-        flange:
-          Value: false
-        floor:
-          Value: false
-        forearm_link:
-          Value: false
-        guide_fixed:
-          Value: false
-        human_box_link:
-          Value: false
-        left_column:
-          Value: false
-        left_inner_finger:
-          Value: false
-        left_inner_finger_pad:
-          Value: false
-        left_inner_knuckle:
-          Value: false
-        left_outer_finger:
-          Value: false
-        left_outer_knuckle:
-          Value: false
-        lower_beam:
-          Value: false
-        open_tip:
-          Value: false
-        portal:
-          Value: false
-        rail:
-          Value: false
-        right_column:
-          Value: false
-        right_inner_finger:
-          Value: false
-        right_inner_finger_pad:
-          Value: false
-        right_inner_knuckle:
-          Value: false
-        right_outer_finger:
-          Value: false
-        right_outer_knuckle:
-          Value: false
-        robot_box_link:
-          Value: false
-        robot_box_util_link:
-          Value: false
-        robotiq_arg2f_base_link:
-          Value: false
-        robotiq_coupler:
-          Value: false
-        robotiq_simplified:
-          Value: false
-        rq_connector:
-          Value: false
-        screwdriver_holder:
-          Value: false
-        shoulder_link:
-          Value: false
-        table:
-          Value: false
-        tool0:
-          Value: false
-        upper_arm_link:
-          Value: false
-        upper_beam:
-          Value: false
-        virtual_wall_1:
-          Value: false
-        virtual_wall_2:
-          Value: false
-        wall:
-          Value: false
-        working_table_top_link:
-          Value: false
-        working_table_with_wheels_link:
-          Value: false
-        world:
-          Value: false
-        wrist_1_link:
-          Value: false
-        wrist_2_link:
-          Value: false
-        wrist_3_link:
-          Value: false
-      Marker Alpha: 1
-      Marker Scale: 1
-      Name: TF
-      Show Arrows: false
-      Show Axes: true
-      Show Names: true
-      Tree:
-        world:
-          camera2_link:
-            {}
-          camera_link:
-            {}
-          left_column:
-            {}
-          lower_beam:
-            {}
-          portal:
-            floor:
-              {}
-            wall:
-              {}
-          right_column:
-            {}
-          table:
-            rail:
-              both_agents_bottles_link:
-                bottle_both_agents_pack_0_link:
-                  {}
-                bottle_both_agents_pack_1_link:
-                  {}
-                bottle_both_agents_pack_2_link:
-                  {}
-                bottle_both_agents_pack_3_link:
-                  {}
-                bottle_both_agents_pack_4_link:
-                  {}
-                bottle_both_agents_pack_5_link:
-                  {}
-              human_box_link:
-                {}
-              robot_box_link:
-                {}
-            robot_box_util_link:
-              bottle_robot_pack_0_link:
-                {}
-              bottle_robot_pack_1_link:
-                {}
-              bottle_robot_pack_2_link:
-                {}
-              bottle_robot_pack_3_link:
-                {}
-              bottle_robot_pack_4_link:
-                {}
-              bottle_robot_pack_5_link:
-                {}
-            screwdriver_holder:
-              {}
-          upper_beam:
-            guide_fixed:
-              cursor:
-                base_link:
-                  base:
-                    {}
-                  base_link_inertia:
-                    shoulder_link:
-                      upper_arm_link:
-                        forearm_link:
-                          wrist_1_link:
-                            wrist_2_link:
-                              wrist_3_link:
-                                flange:
-                                  tool0:
-                                    robotiq_coupler:
-                                      closed_tip:
-                                        {}
-                                      open_tip:
-                                        {}
-                                      robotiq_arg2f_base_link:
-                                        left_inner_knuckle:
-                                          {}
-                                        left_outer_knuckle:
-                                          left_outer_finger:
-                                            left_inner_finger:
-                                              left_inner_finger_pad:
-                                                {}
-                                        right_inner_knuckle:
-                                          {}
-                                        right_outer_knuckle:
-                                          right_outer_finger:
-                                            right_inner_finger:
-                                              right_inner_finger_pad:
-                                                {}
-                                      robotiq_simplified:
-                                        {}
-                                      rq_connector:
-                                        {}
-              virtual_wall_1:
-                {}
-          virtual_wall_2:
-            {}
-          working_table_with_wheels_link:
-            working_table_top_link:
-              bottle_user_pack_0_link:
-                {}
-              bottle_user_pack_1_link:
-                {}
-              bottle_user_pack_2_link:
-                {}
-              bottle_user_pack_3_link:
-                {}
-              bottle_user_pack_4_link:
-                {}
-              bottle_user_pack_5_link:
-                {}
-      Update Interval: 0
-      Value: true
-    - Class: rviz/Camera
+      Vertical Gauge: false
+      auto color change: false
+      background color: 0; 0; 0
+      backround alpha: 0
+      border: true
+      foreground alpha: 0.699999988079071
+      foreground color: 25; 255; 240
+      height: 50
+      left: 128
+      linewidth: 1
+      max color: 255; 0; 0
+      max value: 100
+      min value: 0
+      show caption: true
+      text size: 12
+      top: 130
+      update interval: 0.03999999910593033
+      width: 500
+    - Class: jsk_rviz_plugin/PieChart
       Enabled: false
-      Image Rendering: background and overlay
-      Image Topic: /camera/color/image_raw
-      Name: Camera
-      Overlay Alpha: 0.5
-      Queue Size: 2
-      Transport Hint: raw
-      Unreliable: false
+      Name: Human Task Percentage
+      Topic: /completition_info_human_right_arm
       Value: false
-      Visibility:
-        Grid: true
-        Image: true
-        Marker: true
-        MotionPlanning: true
-        PoseArray: true
-        RobotModel: true
-        Safe override: true
-        TF: true
-        Value: true
-        hrc distance: true
-        rs1: true
-        rs2: true
-      Zoom Factor: 1
-    - Alpha: 1
-      Arrow Length: 0.30000001192092896
-      Axes Length: 0.30000001192092896
-      Axes Radius: 0.009999999776482582
-      Class: rviz/PoseArray
-      Color: 255; 25; 0
+      auto color change: false
+      background color: 0; 0; 0
+      backround alpha: 0
+      clockwise rotate direction: false
+      foreground alpha: 0.699999988079071
+      foreground alpha 2: 0.4000000059604645
+      foreground color: 25; 255; 240
+      left: 800
+      max color: 255; 0; 0
+      max color change threthold: 0
+      max value: 1
+      med color: 255; 0; 0
+      med color change threthold: 0
+      min value: 0
+      show caption: true
+      size: 128
+      text size: 14
+      top: 50
+    - Class: jsk_rviz_plugin/PieChart
       Enabled: false
-      Head Length: 0.07000000029802322
-      Head Radius: 0.029999999329447746
-      Name: PoseArray
-      Queue Size: 10
-      Shaft Length: 0.23000000417232513
-      Shaft Radius: 0.009999999776482582
-      Shape: Arrow (Flat)
-      Topic: /centroid_detection_rs2/centroid
-      Unreliable: false
+      Name: Robot Task Percentage
+      Topic: /completition_info_ur5_on_guide
       Value: false
-    - Class: rviz/Marker
+      auto color change: false
+      background color: 0; 0; 0
+      backround alpha: 0
+      clockwise rotate direction: false
+      foreground alpha: 0.699999988079071
+      foreground alpha 2: 0.4000000059604645
+      foreground color: 0; 153; 5
+      left: 1000
+      max color: 255; 0; 0
+      max color change threthold: 0
+      max value: 1
+      med color: 255; 0; 0
+      med color change threthold: 0
+      min value: 0
+      show caption: true
+      size: 128
+      text size: 11
+      top: 50
+    - Class: jsk_rviz_plugin/LinearGauge
       Enabled: true
-      Marker Topic: /skeleton_filtered
-      Name: Marker
-      Namespaces:
-        {}
-      Queue Size: 100
+      Name: Human Task Percentage
+      Show Value: true
+      Topic: /completition_info_human_right_arm
       Value: true
+      Vertical Gauge: false
+      auto color change: true
+      background color: 0; 0; 0
+      backround alpha: 0
+      border: true
+      foreground alpha: 0.699999988079071
+      foreground color: 0; 153; 5
+      height: 50
+      left: 700
+      linewidth: 1
+      max color: 255; 0; 0
+      max value: 100
+      min value: 0
+      show caption: true
+      text size: 12
+      top: 50
+      update interval: 0.03999999910593033
+      width: 500
+    - Class: jsk_rviz_plugin/LinearGauge
+      Enabled: true
+      Name: Robot Task Percentage
+      Show Value: true
+      Topic: /completition_info_ur5_on_guide
+      Value: true
+      Vertical Gauge: false
+      auto color change: true
+      background color: 0; 0; 0
+      backround alpha: 0
+      border: true
+      foreground alpha: 0.699999988079071
+      foreground color: 0; 153; 5
+      height: 50
+      left: 700
+      linewidth: 1
+      max color: 255; 0; 0
+      max value: 100
+      min value: 0
+      show caption: true
+      text size: 12
+      top: 130
+      update interval: 0.03999999910593033
+      width: 500
+    - Align Bottom: false
+      Background Alpha: 0.800000011920929
+      Background Color: 0; 0; 0
+      Class: jsk_rviz_plugin/String
+      Enabled: true
+      Foreground Alpha: 0.800000011920929
+      Foreground Color: 25; 255; 240
+      Name: Current Human Task
+      Overtake Color Properties: false
+      Overtake Position Properties: true
+      Topic: /current_task_human_right_arm
+      Value: true
+      font: DejaVu Sans Mono
+      height: 25
+      left: 680
+      line width: 2
+      text size: 12
+      top: 10
+      width: 600
+    - Align Bottom: false
+      Background Alpha: 0.800000011920929
+      Background Color: 0; 0; 0
+      Class: jsk_rviz_plugin/String
+      Enabled: true
+      Foreground Alpha: 0.800000011920929
+      Foreground Color: 25; 255; 240
+      Name: Current Robot Task
+      Overtake Color Properties: false
+      Overtake Position Properties: true
+      Topic: /current_task_ur5_on_guide
+      Value: true
+      font: DejaVu Sans Mono
+      height: 25
+      left: 80
+      line width: 2
+      text size: 12
+      top: 10
+      width: 600
     - Buffer length: 100
       Class: jsk_rviz_plugin/Plotter2D
       Enabled: true
-      Name: hrc distance
+      Name: Min Distance
       Show Value: true
       Topic: /min_distance_from_poses
       Value: true
       auto color change: false
-      auto scale: false
+      auto scale: true
       background color: 0; 0; 0
       backround alpha: 0
       border: true
       foreground alpha: 0.699999988079071
-      foreground color: 237; 212; 0
+      foreground color: 25; 255; 240
       height: 128
-      left: 140
+      left: 128
       linewidth: 1
-      max color: 115; 210; 22
-      max value: 100
-      min value: 0
+      max color: 255; 0; 0
+      max value: 1
+      min value: -1
       show caption: true
       text size: 12
-      top: 1
+      top: 800
       update interval: 0.03999999910593033
       width: 128
-    - Alpha: 1
-      Arrow Length: 0.30000001192092896
-      Axes Length: 0.10000000149011612
-      Axes Radius: 0.10000000149011612
-      Class: rviz/PoseArray
-      Color: 255; 25; 0
+    - Buffer length: 100
+      Class: jsk_rviz_plugin/Plotter2D
       Enabled: true
-      Head Length: 0.07000000029802322
-      Head Radius: 0.029999999329447746
-      Name: PoseArray
-      Queue Size: 10
-      Shaft Length: 0.23000000417232513
-      Shaft Radius: 0.009999999776482582
-      Shape: Axes
-      Topic: /centroids
-      Unreliable: false
+      Name: Ovr
+      Show Value: true
+      Topic: /safe_ovr_1_float
       Value: true
-    - Alpha: 1
-      Class: rviz/RobotModel
-      Collision Enabled: false
+      auto color change: true
+      auto scale: true
+      background color: 0; 0; 0
+      backround alpha: 0
+      border: true
+      foreground alpha: 0.699999988079071
+      foreground color: 0; 153; 5
+      height: 128
+      left: 300
+      linewidth: 1
+      max color: 255; 0; 0
+      max value: 1
+      min value: -1
+      show caption: true
+      text size: 12
+      top: 800
+      update interval: 0.03999999910593033
+      width: 128
+    - Class: rviz/TF
       Enabled: false
-      Links:
-        All Links Enabled: true
-        Expand Joint Details: false
-        Expand Link Details: false
-        Expand Tree: false
-        Link Tree Style: Links in Alphabetic Order
-      Name: RobotModel
-      Robot Description: robot_description
-      TF Prefix: ""
+      Filter (blacklist): ""
+      Filter (whitelist): ""
+      Frame Timeout: 15
+      Frames:
+        AR1:
+          Value: true
+      Marker Alpha: 1
+      Marker Scale: 1
+      Name: TF
+      Show Arrows: true
+      Show Axes: true
+      Show Names: true
+      Tree:
+        {}
       Update Interval: 0
-      Value: false
-      Visual Enabled: true
-    - Class: rviz/Image
-      Enabled: false
-      Image Topic: /handeye_calibration/target_detection
-      Max Value: 1
-      Median window: 5
-      Min Value: 0
-      Name: Image
-      Normalize Range: true
-      Queue Size: 2
-      Transport Hint: raw
-      Unreliable: false
       Value: false
   Enabled: true
   Global Options:
@@ -1277,7 +853,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/XYOrbit
-      Distance: 7.424767017364502
+      Distance: 5.904229640960693
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -1285,57 +861,31 @@ Visualization Manager:
         Value: false
       Field of View: 0.7853981852531433
       Focal Point:
-        X: -0.37518370151519775
-        Y: 0.10199934244155884
-        Z: -0.8950005769729614
+        X: 0.22826755046844482
+        Y: -0.6127662658691406
+        Z: -9.68574909165909e-07
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.544796347618103
-      Target Frame: table
-      Yaw: 0.343607097864151
-    Saved:
-      - Class: rviz/XYOrbit
-        Distance: 5
-        Enable Stereo Rendering:
-          Stereo Eye Separation: 0.05999999865889549
-          Stereo Focal Distance: 1
-          Swap Stereo Eyes: false
-          Value: false
-        Field of View: 0.7853981852531433
-        Focal Point:
-          X: 0.6212647557258606
-          Y: 1.2713850736618042
-          Z: -0.8949999809265137
-        Focal Shape Fixed Size: true
-        Focal Shape Size: 0.05000000074505806
-        Invert Z Axis: false
-        Name: XYOrbit
-        Near Clip Distance: 0.009999999776482582
-        Pitch: 0.48978379368782043
-        Target Frame: table
-        Yaw: 6.116769790649414
+      Pitch: 0.5097970366477966
+      Target Frame: world
+      Yaw: 0.7317762970924377
+    Saved: ~
 Window Geometry:
-  Camera:
-    collapsed: false
-  ConfigurationManager:
-    collapsed: false
   Displays:
     collapsed: false
   Height: 1043
   Help:
     collapsed: false
   Hide Left Dock: false
-  Hide Right Dock: true
-  Image:
-    collapsed: false
+  Hide Right Dock: false
   MotionPlanning:
     collapsed: false
   MotionPlanning - Trajectory Slider:
     collapsed: false
-  QMainWindow State: 000000ff00000000fd00000003000000000000021d000003b9fc020000000bfb000000100044006900730070006c006100790073010000003d000003b9000000c900fffffffb0000000800480065006c00700000000191000000bb0000006e00fffffffb0000000a005600690065007700730000000144000000b7000000a400fffffffb0000001e004d006f00740069006f006e00200050006c0061006e006e0069006e00670100000374000001890000000000000000fb00000044004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000001600000016fc00000145000002b10000000000fffffffa000000020100000006fb0000000a0049006d0061006700650000000000ffffffff0000005e00fffffffb0000000c00430061006d0065007200610000000000ffffffff0000006900fffffffb0000000c00430061006d0065007200610100000000ffffffff0000000000000000fb0000000c00430061006d0065007200610100000000ffffffff0000000000000000fb0000000a0049006d0061006700650000000000ffffffff0000000000000000fb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e0067000000000000000244000001f300fffffffb0000000c00430061006d0065007200610200000000000000000000078000000438fb0000000c00430061006d006500720061010000018d000002720000000000000000fb0000000a0049006d006100670065000000003d0000039e0000000000000000fb0000000a0049006d0061006700650000000206000001d50000000000000000fb000000100044006900730070006c00610079007300000002b300000128000000c900ffffff00000001000002b70000039efc0200000003fc0000003d0000039e0000000000fffffffa000000000100000003fb0000002600480061006e0064004500790065002000430061006c006900620072006100740069006f006e0000000000ffffffff0000000000000000fb0000000c00430061006d0065007200610100000000ffffffff0000000000000000fb000000280043006f006e00660069006700750072006100740069006f006e004d0061006e006100670065007200000005e90000014f0000011700fffffffb000000280043006f006e00660069006700750072006100740069006f006e004d0061006e0061006700650072000000003d0000039e0000025300fffffffb000000280043006f006e00660069006700750072006100740069006f006e004d0061006e0061006700650072000000003d0000039e0000025300ffffff00000002000004ad0000023afc0100000001fb0000000c00430061006d0065007200610100000290000004ad000000000000000000000515000003b900000001000000020000000100000002fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd0000000100000000000001f3000003b9fc0200000007fb000000100044006900730070006c006100790073010000003d000003b9000000c900fffffffb0000000800480065006c00700000000342000000bb0000006e00fffffffb0000000a0056006900650077007300000003b0000000b0000000a400fffffffb0000000c00430061006d00650072006100000002ff000001610000000000000000fb0000001e004d006f00740069006f006e00200050006c0061006e006e0069006e00670100000374000001890000000000000000fb00000044004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000001600000016fb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e006700000001e1000002150000017d00ffffff0000053f000003b900000001000000020000000100000002fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Views:
     collapsed: false
   Width: 1848
