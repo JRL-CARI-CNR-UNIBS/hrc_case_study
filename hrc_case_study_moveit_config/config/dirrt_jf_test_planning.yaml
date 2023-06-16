@@ -193,7 +193,7 @@ dirrt_paper:
   base_frame: world #base_frame of the chain. Note: poses must be published in this frame ***CHANGE IT***
   tool_frame: open_tip #tool_frame of the chain. ***CHANGE IT***
   minimum_distance: 0.2
-  detector_topic: /centroids  
+  detector_topic: /centroids
   links: # links used for measuring the distance between robot and human. ***CHANGE IT***
   - open_tip
   - tool0
@@ -220,7 +220,7 @@ dirrt_paper_warp:
   warp: false
   warp_once: true
   collision_distance: 0.01
-  mixed_strategy: true  
+  mixed_strategy: true
 
 
 multigoal_ssm_test:
