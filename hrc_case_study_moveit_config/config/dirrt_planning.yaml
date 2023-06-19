@@ -35,7 +35,7 @@ mg1:
   tube_radius: 0.02
   warp: false
   warp_once: true
-  collision_distance: 0.01
+  collision_distance: 0.001
 
 mg2:
   type: Multigoal
