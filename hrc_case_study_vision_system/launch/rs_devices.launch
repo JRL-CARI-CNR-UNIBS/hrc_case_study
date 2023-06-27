@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+
+<launch>
+<arg name="serial_no_camera1"    			default="922612070587"/> 			<!-- Note: Replace with actual serial number -->
+<arg name="serial_no_camera2"    			default="025222071790"/> 			<!-- Note: Replace with actual serial number -->
+<arg name="camera1"              			default="camera"/>		<!-- Note: Replace with camera name -->
+<arg name="camera2"              			default="camera2"/>		<!-- Note: Replace with camera name -->
+<arg name="tf_prefix_camera1"         default="$(arg camera1)"/>
+<arg name="tf_prefix_camera2"         default="$(arg camera2)"/>
+<arg name="initial_reset"             default="false"/>
+<arg name="enable_confidence"         default="false"/>
+
+<!-- <arg name="filters"                   default="pointcloud"/> -->
+
+<!-- <machine name="remote_machine" address="192.168.20.100" env-loader="/opt/ros/noetic/env_test.sh" default="false" user="ubuntu" password="edgeCARI"/> -->
+
+<group ns="$(arg camera1)">
+<include file="$(find sharework_cembre_sensors)/launch/nodelet.launch.xml">
+<arg name="serial_no"             value="$(arg serial_no_camera1)"/>
+<arg name="tf_prefix"         		value="$(arg camera1)"/>
+<arg name="initial_reset"         value="$(arg initial_reset)"/>
+<arg name="enable_confidence"     value="$(arg enable_confidence)"/>
+
+<!-- <arg name="filters"                  value="$(arg filters)"/> -->
+<!-- <arg name="machine"                  value="remote_machine"/> -->
+</include>
+
+<param name="stereo_module/visual_preset" value="3"/>
+</group>
+
+<group ns="$(arg camera2)">
+<include file="$(find sharework_cembre_sensors)/launch/nodelet.launch.xml">
+<arg name="serial_no"             value="$(arg serial_no_camera2)"/>
+<arg name="tf_prefix"		          value="$(arg camera2)"/>
+<arg name="initial_reset"         value="$(arg initial_reset)"/>
+<!-- <arg name="filters"                  value="$(arg filters)"/> -->
+<!-- <arg name="machine"                  value="remote_machine"/> -->
+</include>
+<param name="stereo_module/visual_preset" value="3"/>
+</group>
+
+
+</launch>

@@ -1,0 +1,25 @@
+<launch>
+<arg name="serial_no_camera"    			default="025222071790"/> 			<!-- Note: Replace with actual serial number -->
+<arg name="camera_ns"              		default="camera"/>		<!-- Note: Replace with camera name -->
+<arg name="initial_reset"             default="false"/>
+<arg name="filters"                   default="pointcloud"/>
+<arg name="enable_sync"               default="true"/>
+<arg name="enable_depth"              default="true"/>
+<arg name="align_depth"               default="true"/>
+
+<include file="$(find realsense2_camera)/launch/rs_camera.launch">
+<arg name="camera"                value="$(arg camera_ns)"/>
+<arg name="manager"               value="$(arg camera_ns)_manager"/>
+<arg name="serial_no"             value="$(arg serial_no_camera)"/>
+<arg name="tf_prefix"         		value="$(arg camera_ns)"/>
+<arg name="initial_reset"         value="$(arg initial_reset)"/>
+<arg name="filters"               value="$(arg filters)"/>
+<arg name="enable_sync"           value="$(arg enable_sync)"/>
+<arg name="enable_depth"          value="$(arg enable_depth)"/>
+<arg name="align_depth"          value="$(arg align_depth)"/>
+</include>
+
+<param name="stereo_module/visual_preset" value="3"/>
+
+
+</launch>

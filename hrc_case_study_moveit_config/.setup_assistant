@@ -6,6 +6,6 @@ moveit_setup_assistant_config:
   SRDF:
     relative_path: config/sharework_cembre_simplified.srdf
   CONFIG:
-    author_name: Samuele Sandrnini
+    author_name: Samuele Sandrini
     author_email: samuele.sandrini@polito.it
-    generated_timestamp: 1627562639
+    generated_timestamp: 1687177800
