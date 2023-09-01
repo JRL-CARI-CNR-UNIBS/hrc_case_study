@@ -3,3 +3,7 @@ agents:
     - motion
   human:
     - human
+
+agents_group_names:
+  motion: manipulator
+  human: human

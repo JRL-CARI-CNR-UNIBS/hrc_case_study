@@ -1,34 +1,67 @@
 goal:
-  - pick_robot_box_1:
-      task_name: pick_robot_box
+  - pick_human_bottle_1:
+      task_name: pick_human_bottle
       required_agents: []
       precedence_constraints: []
-  - pick_robot_box_2:
-      task_name: pick_robot_box
+      soft_precedence_constraints: []
+  - pick_human_bottle_2:
+      task_name: pick_human_bottle
       required_agents: []
       precedence_constraints: []
-  - pick_robot_box_3:
-      task_name: pick_robot_box
-      required_agents: []
-      precedence_constraints: []
-  - pick_robot_box_4:
-      task_name: pick_robot_box
-      required_agents: []
-      precedence_constraints: []
+      soft_precedence_constraints: []
 
-  - place_robot_box_1:
-      task_name: place_robot_box
+  - place_human_bottle_1:
+      task_name: place_human_bottle
       required_agents: []
-      precedence_constraints: [pick_robot_box_1]
-  - place_robot_box_2:
-      task_name: place_robot_box
+      precedence_constraints: [pick_human_bottle_1]
+      soft_precedence_constraints: []
+
+  - place_human_bottle_2:
+      task_name: place_human_bottle
       required_agents: []
-      precedence_constraints: [pick_robot_box_2]
-  - place_robot_box_3:
-      task_name: place_robot_box
+      precedence_constraints: [pick_human_bottle_2]
+      soft_precedence_constraints: []
+
+
+
+  - machine_test1:
+      task_name: machine_test
       required_agents: []
-      precedence_constraints: [pick_robot_box_3]
-  - place_robot_box_4:
-      task_name: place_robot_box
+      precedence_constraints: []
+      soft_precedence_constraints: []
+
+  - machine_test2:
+      task_name: machine_test
       required_agents: []
-      precedence_constraints: [pick_robot_box_4]
+      precedence_constraints: ["machine_test1"]
+      soft_precedence_constraints: []
+
+  # - pick_robot_box_3:
+  #     task_name: pick_robot_box
+  #     required_agents: []
+  #     precedence_constraints: []
+  # - pick_robot_box_4:
+  #     task_name: pick_robot_box
+  #     required_agents: []
+  #     precedence_constraints: []
+  #
+  # - place_robot_box_1:
+  #     task_name: place_robot_bottle
+  #     required_agents: []
+  #     precedence_constraints: [pick_robot_box_1]
+  #     soft_precedence_constraints: []
+  #
+  # - place_robot_box_2:
+  #     task_name: place_robot_bottle
+  #     required_agents: []
+  #     precedence_constraints: [pick_robot_box_2]
+  #     soft_precedence_constraints: []
+
+  # - place_robot_box_3:
+  #     task_name: place_robot_box
+  #     required_agents: []
+  #     precedence_constraints: [pick_robot_box_3]
+  # - place_robot_box_4:
+  #     task_name: place_robot_box
+  #     required_agents: []
+  #     precedence_constraints: [pick_robot_box_4]

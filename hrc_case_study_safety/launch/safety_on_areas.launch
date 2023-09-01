@@ -2,7 +2,7 @@
 
 <launch>
   <arg name="kalman_base" default="false"/>
-  <arg name="camera_window" default="false"/>
+  <arg name="camera_window" default="true"/>
 
   <rosparam command="load" file="$(find hrc_case_study_safety)/config/thor_safety_mediapipe.yaml" />
   <include file="$(find skeleton_trajectory)/launch/skeleton_trajectory.launch">

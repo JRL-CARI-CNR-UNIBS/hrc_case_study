@@ -11,6 +11,7 @@ optimization:
   # type: human_aware_approx
   # type: human_aware_approx_band
   # type: test
+  mip_gap: 0.0
   behaviour: continous
   objective: makespan
   n_recipe: 1

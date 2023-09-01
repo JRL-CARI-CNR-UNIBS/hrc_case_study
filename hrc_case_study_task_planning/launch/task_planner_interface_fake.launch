@@ -17,11 +17,11 @@
   <rosparam command="load" file="$(find hrc_case_study_task_planning)/config/single_agents.yaml" />
 
   <!-- TASK PLANNER INTERFACE NODE-->
-  <!-- <include file="$(find hrc_case_study_task_planning)/launch/task_service_manager.launch" >
+  <include file="$(find hrc_case_study_task_planning)/launch/task_service_manager.launch" >
       <arg name="hrc" value="false" />
       <arg name="recipe_name" value="$(arg recipe_name)" />
       <arg name="prefix" value="$(arg prefix)" />
-  </include> -->
+  </include>
 
   <!-- DB UPDATE NODE -->
   <include file="$(find hrc_case_study_task_planning)/launch/mongo_handler.launch" />
