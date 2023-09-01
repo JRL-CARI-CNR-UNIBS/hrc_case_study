@@ -520,41 +520,7 @@
   </joint>
 <link name="both_agents_bottles_link"/>
 
-<!-- <xacro:pack parent_link_name="both_agents_bottles_link" pack_name="both_agents_pack" yaml_file_name="${both_agents_pack_yaml_file_name}" color="0.93333333 0.89019608 0.79607843  1"/> -->
 
-<!-- Include and call the box macro in order to create the boxes -->
-<xacro:include filename="$(find hrc_case_study_descriptions)/urdf/box.urdf.xacro" />
-<xacro:box parent_link_name="rail"
-           box_name="robot_box"
-           xyz = "0.15 0.7 0"
-           rpy="0 0 1.57079632679" />
-<xacro:box parent_link_name="rail"
-          box_name="human_box"
-          xyz = "0.15 2.7 0"
-          rpy="0 0 1.57079632679"/>
-
-<!-- box -->
-<joint name="prova_joint" type="fixed">
-    <parent link="rail"/>
-    <child link="prova"/>
-    <origin xyz="-0.2 0.8 0.0"/>
-  </joint>
-<link name="prova">
-  <inertial>
-  <mass value="1"/>
-  <inertia ixx="0.0108" ixy="0" ixz="0" iyy="0.0083" iyz="0" izz="0.0042"/>
-  </inertial>
-  <visual>
-    <geometry>
-      <box size=".1 .5 .6"/>
-    </geometry>
-  </visual>
-  <collision name="box">
-    <geometry>
-      <box size=".1 .5 .6"/>
-    </geometry>
-  </collision>
-</link>
 
 </xacro:macro>
 
