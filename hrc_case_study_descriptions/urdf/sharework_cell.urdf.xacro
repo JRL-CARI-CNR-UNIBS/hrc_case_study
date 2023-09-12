@@ -480,8 +480,17 @@
 <xacro:include filename="$(find hrc_case_study_descriptions)/urdf/working_table.urdf.xacro" />
 <xacro:working_table_with_wheels
   parent_link_name="world"
-  xyz = "1.5 -1.5 0"
+  xyz = "1.5 1.5 0"
   rpy="0 0 -1.57079632679"/>
+
+
+<xacro:include filename="$(find hrc_case_study_descriptions)/urdf/eurobox.urdf.xacro" />
+<xacro:eurobox
+  parent_link_name="world"
+  box_name="gfd"
+  xyz = "-0.3 1.5 0"
+  rpy="0 0 0.1"/>
+
 
 <!-- Include bottle pack xacro macro -->
 <xacro:include filename="$(find hrc_case_study_descriptions)/urdf/bottles_pack.urdf.xacro" />
@@ -519,6 +528,38 @@
     <origin xyz="-0.15 1.4 0"/>
   </joint>
 <link name="both_agents_bottles_link"/>
+
+<!-- <xacro:pack parent_link_name="both_agents_bottles_link" pack_name="both_agents_pack" yaml_file_name="${both_agents_pack_yaml_file_name}" color="0.93333333 0.89019608 0.79607843  1"/> -->
+
+<!-- Include and call the box macro in order to create the boxes -->
+
+<!-- Aggiungi un nuovo giunto tra "rail" e il nuovo link -->
+<!-- Aggiungi un nuovo link -->
+<link name="collaborative_workspace_link">
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <geometry>
+      <box size="0.5 0.5 0.1" /> <!-- Dimensioni del nuovo link -->
+    </geometry>
+    <material name="LightGrey"> <!-- Materiale per il nuovo link, colore grigio chiaro -->
+      <color rgba="0.7 0.7 0.7 1"/> <!-- Colore grigio chiaro, RGBA -->
+    </material>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <geometry>
+      <box size="0.5 0.5 0.1" /> <!-- Dimensioni del nuovo link per la collisione -->
+    </geometry>
+  </collision>
+</link>
+
+<!-- Aggiungi un nuovo giunto tra "rail" e il nuovo link -->
+<joint name="rail_to_collaborative_workspace" type="fixed">
+  <parent link="rail"/>
+  <child link="collaborative_workspace_link"/>
+  <origin xyz="0 ${rail_size_y/2} 0" rpy="0 0 0" />
+</joint>
+
 
 
 
