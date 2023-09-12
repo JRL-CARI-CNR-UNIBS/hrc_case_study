@@ -13,7 +13,7 @@
     name="${box_name}_link">
     <!-- <inertial>
       <origin
-        xyz="0.2503 0.50105 0.67682"
+        xyz="0.0 0.0 0.0"
         rpy="0 0 0" />
       <mass
         value="37.726" />
@@ -31,7 +31,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hrc_case_study_descriptions/mesh/eurobox.STEP" scale="0.001 0.001 0.001" />
+          filename="package://hrc_case_study_descriptions/mesh/eurobox_2.STL" scale="1 1 1" />
       </geometry>
       <material
         name="">
@@ -45,7 +45,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://hrc_case_study_descriptions/mesh/eurobox.STEP" scale="0.001 0.001 0.001" />
+          filename="package://hrc_case_study_descriptions/mesh/eurobox_2.STL" scale="1 1 1" />
       </geometry>
     </collision>
   </link>

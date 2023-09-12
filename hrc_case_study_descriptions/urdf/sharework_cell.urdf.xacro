@@ -486,11 +486,26 @@
 
 <xacro:include filename="$(find hrc_case_study_descriptions)/urdf/eurobox.urdf.xacro" />
 <xacro:eurobox
-  parent_link_name="world"
-  box_name="gfd"
-  xyz = "-0.3 1.5 0"
-  rpy="0 0 0.1"/>
+  parent_link_name="table"
+  box_name="1"
+  xyz = "-0.3 1.45 0.01"
+  rpy="1.57079632679 0 0"/>
+<xacro:eurobox
+  parent_link_name="table"
+  box_name="2"
+  xyz = "-0.3 1.75 0.01"
+  rpy="1.57079632679 0 0"/>
 
+  <xacro:eurobox
+    parent_link_name="working_table_top_link"
+    box_name="3"
+    xyz = "0.3 0.3 -0.38"
+    rpy="1.57079632679 0 0"/>
+    <xacro:eurobox
+      parent_link_name="working_table_top_link"
+      box_name="4"
+      xyz = "0.3 0.6 -0.38"
+      rpy="1.57079632679 0 0"/>
 
 <!-- Include bottle pack xacro macro -->
 <xacro:include filename="$(find hrc_case_study_descriptions)/urdf/bottles_pack.urdf.xacro" />
