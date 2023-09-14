@@ -483,92 +483,59 @@
   xyz = "1.5 1.5 0"
   rpy="0 0 -1.57079632679"/>
 
+<xacro:include filename="$(find hrc_case_study_descriptions)/urdf/notebook.urdf.xacro" />
+<xacro:notebook
+  parent_link_name="working_table_top_link"
+  xyz = "0.1 0.1 0.01"
+  rpy="0 0 0"/>
 
 <xacro:include filename="$(find hrc_case_study_descriptions)/urdf/eurobox.urdf.xacro" />
+<!-- Euroboxes in robot workspace -->
 <xacro:eurobox
   parent_link_name="table"
   box_name="1"
-  xyz = "-0.3 1.45 0.01"
+  xyz = "-0.25 1.45 0.01"
   rpy="1.57079632679 0 0"/>
 <xacro:eurobox
   parent_link_name="table"
   box_name="2"
-  xyz = "-0.3 1.75 0.01"
+  xyz = "-0.25 1.7 0.01"
+  rpy="1.57079632679 0 0"/>
+<!-- Euroboxes in human workspace -->
+<xacro:eurobox
+  parent_link_name="working_table_top_link"
+  box_name="3"
+  xyz = "0.25 0.3 -0.38"
+  rpy="1.57079632679 0 0"/>
+<xacro:eurobox
+  parent_link_name="working_table_top_link"
+  box_name="4"
+  xyz = "0.3 0.6 -0.38"
   rpy="1.57079632679 0 0"/>
 
-  <xacro:eurobox
-    parent_link_name="working_table_top_link"
-    box_name="3"
-    xyz = "0.3 0.3 -0.38"
-    rpy="1.57079632679 0 0"/>
-    <xacro:eurobox
-      parent_link_name="working_table_top_link"
-      box_name="4"
-      xyz = "0.3 0.6 -0.38"
-      rpy="1.57079632679 0 0"/>
-
-<!-- Include bottle pack xacro macro -->
-<xacro:include filename="$(find hrc_case_study_descriptions)/urdf/bottles_pack.urdf.xacro" />
-<!-- Property with the name of yaml file with bottles locations  -->
-<!-- <xacro:property name="user_pack_yaml_file_name"    value="$(find hrc_case_study_descriptions)/config/user_bottle_distributions.yaml"/> -->
-<xacro:property name="robot_pack_yaml_file_name"    value="$(find hrc_case_study_descriptions)/config/robot_bottle_distributions.yaml"/>
-<xacro:property name="both_agents_pack_yaml_file_name"    value="$(find hrc_case_study_descriptions)/config/both_agents_bottle_distributions.yaml"/>
-
-<!-- Util link for user bottles pack -->
-<joint name="user_bottles_util" type="fixed">
-    <parent link="working_table_top_link"/>
-    <child link="user_bottles_link"/>
-    <origin xyz="0.2 0.4 0.0"/>
-  </joint>
-<link name="user_bottles_link"/>
 
 
-<!-- Call the pack macro in order to create the bottles pack with the config specified in the yaml -->
-<!-- <xacro:pack parent_link_name="user_bottles_link" pack_name="user_pack" yaml_file_name="${user_pack_yaml_file_name}" color="0.79216 0.81961 0.93333 1"/> -->
 
-<!-- Util link for robot bottles pack -->
-<joint name="robot_bottles_util" type="fixed">
-    <parent link="table"/>
-    <child link="robot_bottles_link"/>
-    <origin xyz="-0.6 0.2 0.05"/>
-  </joint>
-<link name="robot_bottles_link"/>
 
-<!-- <xacro:pack parent_link_name="robot_bottles_link" pack_name="robot_pack" yaml_file_name="${robot_pack_yaml_file_name}" color="0.79216 0.81961 0.93333 1"/> -->
-
-<!-- Util link for both agents bottles pack -->
-<joint name="both_agents_bottles_util" type="fixed">
-    <parent link="rail"/>
-    <child link="both_agents_bottles_link"/>
-    <origin xyz="-0.15 1.4 0"/>
-  </joint>
-<link name="both_agents_bottles_link"/>
-
-<!-- <xacro:pack parent_link_name="both_agents_bottles_link" pack_name="both_agents_pack" yaml_file_name="${both_agents_pack_yaml_file_name}" color="0.93333333 0.89019608 0.79607843  1"/> -->
-
-<!-- Include and call the box macro in order to create the boxes -->
-
-<!-- Aggiungi un nuovo giunto tra "rail" e il nuovo link -->
-<!-- Aggiungi un nuovo link -->
+<!-- Collaborative worspace (central box) -->
 <link name="collaborative_workspace_link">
   <visual>
     <origin xyz="0 0 0" rpy="0 0 0" />
     <geometry>
-      <box size="0.5 0.5 0.1" /> <!-- Dimensioni del nuovo link -->
+      <box size="0.5 0.5 0.1" />
     </geometry>
-    <material name="LightGrey"> <!-- Materiale per il nuovo link, colore grigio chiaro -->
-      <color rgba="0.7 0.7 0.7 1"/> <!-- Colore grigio chiaro, RGBA -->
+    <material name="LightGrey">
+      <color rgba="0.7 0.7 0.7 1"/>
     </material>
   </visual>
   <collision>
     <origin xyz="0 0 0" rpy="0 0 0" />
     <geometry>
-      <box size="0.5 0.5 0.1" /> <!-- Dimensioni del nuovo link per la collisione -->
+      <box size="0.5 0.5 0.1" />
     </geometry>
   </collision>
 </link>
 
-<!-- Aggiungi un nuovo giunto tra "rail" e il nuovo link -->
 <joint name="rail_to_collaborative_workspace" type="fixed">
   <parent link="rail"/>
   <child link="collaborative_workspace_link"/>

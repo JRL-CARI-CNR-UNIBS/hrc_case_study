@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!--URDF MODEL only arms-->
+<robot xmlns:xacro="http://wiki.ros.org/xacro" name="working_table">
+  <xacro:macro name="notebook" params="parent_link_name xyz rpy">
+
+  <joint name="base_notebook" type="fixed">
+    <parent link="${parent_link_name}"/>
+    <child link="notebook_link"/>
+    <origin xyz="${xyz}" rpy="${rpy}" />
+  </joint>
+
+  <link
+    name="notebook_link">
+    <inertial>
+      <origin
+        xyz="0.069358 0.18503 0.048236"
+        rpy="0 0 0" />
+      <mass
+        value="2.0472" />
+      <inertia
+        ixx="0.027727"
+        ixy="1.1437E-06"
+        ixz="0.0011012"
+        iyy="0.011261"
+        iyz="-4.3454E-07"
+        izz="0.032792" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hrc_case_study_descriptions/mesh/notebook.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hrc_case_study_descriptions/mesh/notebook.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  </xacro:macro>
+
+</robot>
