@@ -1,3 +1,19 @@
+# base_frame: "base_link"
+# tool_frame: "open_tip"
+# test_links:
+# - tool0
+# - forearm_link
+# - open_tip
+# - wrist_1_link
+# - upper_arm_link
+#
+# minimum_distance: 0.3
+# reaction_time: 0.15 #0.3
+#
+# #Information to publish obstacles
+# publish_obstacles: false
+# sphere_radius: 0.2
+# sphere_rgba: [1.0,1.0,1.0,0.2]
 base_frame: "base_link"
 tool_frame: "open_tip"
 test_links:
@@ -7,10 +23,14 @@ test_links:
 - wrist_1_link
 - upper_arm_link
 
-minimum_distance: 0.2
-reaction_time: 0.15 #0.3
+minimum_distance: 0.3
+reaction_time: 0.3 #0.3
+human_velocity: 1.6
+maximum_cartesian_acceleration: 1
 
 #Information to publish obstacles
 publish_obstacles: false
 sphere_radius: 0.2
 sphere_rgba: [1.0,1.0,1.0,0.2]
+
+publish_scaling: true

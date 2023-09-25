@@ -8,7 +8,7 @@ Panels:
         - /MotionPlanning1/Planning Request1
         - /MotionPlanning1/Planned Path1
       Splitter Ratio: 0.46881288290023804
-    Tree Height: 781
+    Tree Height: 357
   - Class: rviz/Help
     Name: Help
   - Class: rviz/Views
@@ -67,11 +67,41 @@ Visualization Manager:
         Color Enabled: false
         Interrupt Display: false
         Links:
+          1_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          2_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          3_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          4_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
           All Links Enabled: true
           Expand Joint Details: false
           Expand Link Details: false
           Expand Tree: false
           Link Tree Style: Links in Alphabetic Order
+          advanced_table:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          advanced_table_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
           base:
             Alpha: 1
             Show Axes: false
@@ -85,14 +115,15 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
-          both_agents_bottles_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
           closed_tip:
             Alpha: 1
             Show Axes: false
             Show Trail: false
+          collaborative_workspace_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
           cursor:
             Alpha: 1
             Show Axes: false
@@ -113,11 +144,6 @@ Visualization Manager:
             Show Trail: false
             Value: true
           guide_fixed:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          human_box_link:
             Alpha: 1
             Show Axes: false
             Show Trail: false
@@ -157,6 +183,11 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
+          notebook_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
           open_tip:
             Alpha: 1
             Show Axes: false
@@ -165,11 +196,6 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-          prova:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
           rail:
             Alpha: 1
             Show Axes: false
@@ -201,15 +227,6 @@ Visualization Manager:
             Show Trail: false
             Value: true
           right_outer_knuckle:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          robot_bottles_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          robot_box_link:
             Alpha: 1
             Show Axes: false
             Show Trail: false
@@ -263,10 +280,6 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
-          user_bottles_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
           virtual_wall_1:
             Alpha: 1
             Show Axes: false
@@ -351,11 +364,41 @@ Visualization Manager:
       Scene Robot:
         Attached Body Color: 150; 50; 150
         Links:
+          1_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          2_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          3_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          4_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
           All Links Enabled: true
           Expand Joint Details: false
           Expand Link Details: false
           Expand Tree: false
           Link Tree Style: Links in Alphabetic Order
+          advanced_table:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
+          advanced_table_2:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
           base:
             Alpha: 1
             Show Axes: false
@@ -369,14 +412,15 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
-          both_agents_bottles_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
           closed_tip:
             Alpha: 1
             Show Axes: false
             Show Trail: false
+          collaborative_workspace_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
           cursor:
             Alpha: 1
             Show Axes: false
@@ -397,11 +441,6 @@ Visualization Manager:
             Show Trail: false
             Value: true
           guide_fixed:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          human_box_link:
             Alpha: 1
             Show Axes: false
             Show Trail: false
@@ -441,6 +480,11 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
+          notebook_link:
+            Alpha: 1
+            Show Axes: false
+            Show Trail: false
+            Value: true
           open_tip:
             Alpha: 1
             Show Axes: false
@@ -449,11 +493,6 @@ Visualization Manager:
             Alpha: 1
             Show Axes: false
             Show Trail: false
-          prova:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
           rail:
             Alpha: 1
             Show Axes: false
@@ -485,15 +524,6 @@ Visualization Manager:
             Show Trail: false
             Value: true
           right_outer_knuckle:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-            Value: true
-          robot_bottles_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
-          robot_box_link:
             Alpha: 1
             Show Axes: false
             Show Trail: false
@@ -547,10 +577,6 @@ Visualization Manager:
             Show Axes: false
             Show Trail: false
             Value: true
-          user_bottles_link:
-            Alpha: 1
-            Show Axes: false
-            Show Trail: false
           virtual_wall_1:
             Alpha: 1
             Show Axes: false
@@ -846,6 +872,56 @@ Visualization Manager:
         {}
       Update Interval: 0
       Value: false
+    - Class: rviz/Marker
+      Enabled: true
+      Marker Topic: /camera/skeleton_filtered
+      Name: Marker
+      Namespaces:
+        {}
+      Queue Size: 100
+      Value: true
+    - Class: rviz/Marker
+      Enabled: true
+      Marker Topic: /camera2/skeleton_filtered
+      Name: Marker
+      Namespaces:
+        SegmentsFiltered: true
+      Queue Size: 100
+      Value: true
+    - Alpha: 1
+      Arrow Length: 0.30000001192092896
+      Axes Length: 0.30000001192092896
+      Axes Radius: 0.009999999776482582
+      Class: rviz/PoseArray
+      Color: 255; 25; 0
+      Enabled: true
+      Head Length: 0.07000000029802322
+      Head Radius: 0.029999999329447746
+      Name: PoseArray
+      Queue Size: 10
+      Shaft Length: 0.23000000417232513
+      Shaft Radius: 0.009999999776482582
+      Shape: Arrow (Flat)
+      Topic: /camera/poses
+      Unreliable: false
+      Value: true
+    - Alpha: 1
+      Arrow Length: 0.30000001192092896
+      Axes Length: 0.30000001192092896
+      Axes Radius: 0.009999999776482582
+      Class: rviz/PoseArray
+      Color: 255; 25; 0
+      Enabled: true
+      Head Length: 0.07000000029802322
+      Head Radius: 0.029999999329447746
+      Name: PoseArray
+      Queue Size: 10
+      Shaft Length: 0.23000000417232513
+      Shaft Radius: 0.009999999776482582
+      Shape: Arrow (Flat)
+      Topic: /camera2/poses
+      Unreliable: false
+      Value: true
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
@@ -862,7 +938,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/XYOrbit
-      Distance: 6.349920272827148
+      Distance: 4.378639221191406
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -870,33 +946,33 @@ Visualization Manager:
         Value: false
       Field of View: 0.7853981852531433
       Focal Point:
-        X: -0.7146347761154175
-        Y: -0.32416605949401855
+        X: -0.5540982484817505
+        Y: 0.4012637138366699
         Z: -9.68574909165909e-07
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.4347969591617584
+      Pitch: 1.0447965860366821
       Target Frame: world
-      Yaw: 0.5317761301994324
+      Yaw: 6.2349629402160645
     Saved: ~
 Window Geometry:
   Displays:
-    collapsed: false
-  Height: 1016
+    collapsed: true
+  Height: 1039
   Help:
     collapsed: false
-  Hide Left Dock: false
+  Hide Left Dock: true
   Hide Right Dock: false
   MotionPlanning:
     collapsed: false
   MotionPlanning - Trajectory Slider:
     collapsed: false
-  QMainWindow State: 000000ff00000000fd00000001000000000000027d0000039efc0200000007fb000000100044006900730070006c006100790073010000003d0000039e000000c900fffffffb0000000800480065006c00700000000342000000bb0000006e00fffffffb0000000a0056006900650077007300000003b0000000b0000000a400fffffffb0000000c00430061006d00650072006100000002ff000001610000000000000000fb0000001e004d006f00740069006f006e00200050006c0061006e006e0069006e00670100000374000001890000000000000000fb00000044004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000001600000016fb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e006700000001e1000002150000017d00ffffff000004b50000039e00000001000000020000000100000002fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  QMainWindow State: 000000ff00000000fd00000001000000000000027d000003b5fc0200000007fb000000100044006900730070006c006100790073000000003d000003b5000000c900fffffffb0000000800480065006c00700000000342000000bb0000006e00fffffffb0000000a0056006900650077007300000003b0000000b0000000a400fffffffb0000000c00430061006d00650072006100000002ff000001610000000000000000fb0000001e004d006f00740069006f006e00200050006c0061006e006e0069006e00670100000374000001890000000000000000fb00000044004d006f00740069006f006e0050006c0061006e006e0069006e00670020002d0020005400720061006a006500630074006f0072007900200053006c00690064006500720000000000ffffffff0000001600000016fb0000001c004d006f00740069006f006e0050006c0061006e006e0069006e006700000001e1000002150000017d00ffffff00000464000003b500000001000000020000000100000002fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Views:
     collapsed: false
-  Width: 1848
-  X: 72
-  Y: 1107
+  Width: 1124
+  X: 796
+  Y: 0

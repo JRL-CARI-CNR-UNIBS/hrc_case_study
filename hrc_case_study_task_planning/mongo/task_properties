@@ -1,0 +1,202 @@
+[{
+  "_id": {
+    "$oid": "626fd281baab6d0e016fa574"
+  },
+  "name": "pick_robot_bottle",
+  "type": "pick",
+  "description": "",
+  "agent": [
+    "manipulator"
+  ],
+  "goal": [
+    "robot_bottle"
+  ]
+},{
+  "_id": {
+    "$oid": "626fd282baab6d0e016fa579"
+  },
+  "name": "place_robot_bottle",
+  "type": "place",
+  "description": "",
+  "agent": [
+    "manipulator"
+  ],
+  "goal": [
+    "robot_box"
+  ]
+},{
+  "_id": {
+    "$oid": "648b2e55d2c7dc66606cfdce"
+  },
+  "name": "end",
+  "type": "goto",
+  "description": "",
+  "agent": [
+    "manipulator",
+    "human"
+  ],
+  "goal": [
+    "home"
+  ]
+},{
+  "_id": {
+    "$oid": "64b14efcdd3808908c5ec4b8"
+  },
+  "name": "pick_human_bottle",
+  "type": "pick",
+  "description": "",
+  "agent": [
+    "human"
+  ],
+  "goal": [
+    "human_bottle"
+  ]
+},{
+  "_id": {
+    "$oid": "64b14f4ad71063686ba3df64"
+  },
+  "name": "place_human_bottle",
+  "type": "place",
+  "description": "",
+  "agent": [
+    "human"
+  ],
+  "goal": [
+    "human_box"
+  ]
+},{
+  "_id": {
+    "$oid": "64b14fd9d71063686ba3df65"
+  },
+  "name": "shared_pick",
+  "type": "pick",
+  "description": "",
+  "agent": [
+    "manipulator",
+    "human"
+  ],
+  "goal": [
+    "both_agents_bottle"
+  ]
+},{
+  "_id": {
+    "$oid": "64b15056d71063686ba3df66"
+  },
+  "name": "place_shared_robot",
+  "type": "place",
+  "description": "",
+  "agent": [
+    "manipulator"
+  ],
+  "goal": [
+    "robot_box"
+  ]
+},{
+  "_id": {
+    "$oid": "64b1506fd71063686ba3df67"
+  },
+  "name": "place_shared_human",
+  "type": "place",
+  "description": "",
+  "agent": [
+    "human"
+  ],
+  "goal": [
+    "human_box"
+  ]
+},{
+  "_id": {
+    "$oid": "64edbe508058e358a84bb5ba"
+  },
+  "name": "go_home",
+  "type": "goto",
+  "description": "",
+  "agent": [
+    "manipulator",
+    "human"
+  ],
+  "goal": [
+    "home"
+  ]
+},{
+  "_id": {
+    "$oid": "64ef3ef4bbe3234de9062d46"
+  },
+  "name": "machine_test",
+  "type": "sequence",
+  "description": "",
+  "agent": [
+    "manipulator"
+  ],
+  "goal": [
+    "machine_test"
+  ]
+},{
+  "_id": {
+    "$oid": "64ff024abbe3234de9062d48"
+  },
+  "name": "board_localization",
+  "type": "sequence",
+  "description": "",
+  "agent": [
+    "manipulator"
+  ],
+  "goal": [
+    "board_localization"
+  ]
+},{
+  "_id": {
+    "$oid": "64ff4038bbe3234de9062d49"
+  },
+  "name": "remove_plug",
+  "type": "sequence",
+  "description": "",
+  "agent": [
+    "manipulator"
+  ],
+  "goal": [
+    "remove_plug"
+  ]
+},{
+  "_id": {
+    "$oid": "65018e25bbe3234de9062d4a"
+  },
+  "name": "get_away_battery",
+  "type": "pickplace",
+  "description": "",
+  "agent": [
+    "manipulator"
+  ],
+  "pick_goal": [
+    "AAA"
+  ],
+  "place_goal": [
+    "robot_box"
+  ]
+},{
+  "_id": {
+    "$oid": "6501a618bbe3234de9062d4b"
+  },
+  "name": "pick_aaa",
+  "type": "pick",
+  "description": "",
+  "agent": [
+    "manipulator"
+  ],
+  "goal": [
+    "AAA"
+  ]
+},{
+  "_id": {
+    "$oid": "6501a62fbbe3234de9062d4d"
+  },
+  "name": "place_aaa",
+  "type": "place",
+  "description": "",
+  "agent": [
+    "manipulator"
+  ],
+  "goal": [
+    "robot_box"
+  ]
+}]

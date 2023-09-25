@@ -14,8 +14,8 @@
     <param name="group_name" value="$(arg group_name)" />
     <!-- <remap from="/sharework/interfaces/request" to="/hmi/task_execution_request"/>
     <remap from="/sharework/interfaces/feedback" to="/hmi/task_execution_result"/> -->
-    <remap from="/hmi/task_execution_request" to="/sharework/interfaces/request"/>
-    <remap from="/hmi/task_execution_result" to="/sharework/interfaces/feedback"/>
+    <!-- <remap from="/hmi/task_execution_request" to="/sharework/interfaces/request"/>
+    <remap from="/hmi/task_execution_result" to="/sharework/interfaces/feedback"/> -->
   </node>
 
 

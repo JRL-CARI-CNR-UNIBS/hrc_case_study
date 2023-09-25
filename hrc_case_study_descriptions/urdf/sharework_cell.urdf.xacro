@@ -69,6 +69,13 @@
 <xacro:property name="beech" value="0.952941176470588	0.694117647058823	0.392156862745098 1" />
 <xacro:property name="floor" value="0.4 0.4 0.5 1" />
 
+<xacro:property name="advanced_table_x" value="1.00" />
+<xacro:property name="advanced_table_y" value="0.70" />
+<xacro:property name="advanced_table_z" value="0.05" />
+<xacro:property name="advanced_table2_x" value="0.2" />
+<xacro:property name="advanced_table2_y" value="1" />
+<xacro:property name="advanced_table2_z" value="0.05" />
+
 <link name="world"/>
 
 <joint name="base_to_right_leg" type="fixed">
@@ -542,8 +549,57 @@
   <origin xyz="0 ${rail_size_y/2} 0" rpy="0 0 0" />
 </joint>
 
+<joint name="table_to_advanced_table" type="fixed">
+  <parent link="table"/>
+  <child link="advanced_table"/>
+  <origin xyz="0 0 0" rpy="0 0 1.57"/>
+</joint>
+<joint name="adv_table_to_advanced_table2" type="fixed">
+  <parent link="advanced_table"/>
+  <child link="advanced_table_2"/>
+  <origin xyz="${advanced_table_x} ${advanced_table_y} 0" rpy="0 0 -1.57"/>
+</joint>
 
-
+<link name="advanced_table">
+   <visual>
+     <origin xyz="${0.5*advanced_table_x} ${0.5*advanced_table_y} ${0.5*advanced_table_z}" rpy="0 0 0" />
+     <geometry>
+       <box size="${advanced_table_x} ${advanced_table_y} ${advanced_table_z}" />
+     </geometry>
+     <material name="White">
+       <color rgba="1 1 1 1"/>
+     </material>
+   </visual>
+   <collision>
+     <origin xyz="${-0.5*advanced_table_x} 0 ${0.5*advanced_table_z}" rpy="0 0 0" />
+     <geometry>
+       <box size="${advanced_table_x} ${advanced_table_y} ${advanced_table_z}" />
+     </geometry>
+     <material name="White">
+       <color rgba="1 1 1 1"/>
+     </material>
+   </collision>
+</link>
+<link name="advanced_table_2">
+   <visual>
+     <origin xyz="${0.5*advanced_table2_x} ${0.5*advanced_table2_y} ${0.5*advanced_table2_z}" rpy="0 0 0" />
+     <geometry>
+       <box size="${advanced_table2_x} ${advanced_table2_y} ${advanced_table2_z}" />
+     </geometry>
+     <material name="White">
+       <color rgba="1 1 1 1"/>
+     </material>
+   </visual>
+   <collision>
+     <origin xyz="${advanced_table2_x} ${advanced_table2_y} ${advanced_table2_z}" rpy="0 0 0" />
+     <geometry>
+       <box size="${advanced_table2_x} ${advanced_table2_y} ${advanced_table2_z}" />
+     </geometry>
+     <material name="White">
+       <color rgba="1 1 1 1"/>
+     </material>
+   </collision>
+</link>
 
 </xacro:macro>
 

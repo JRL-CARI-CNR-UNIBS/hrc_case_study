@@ -1,67 +1,48 @@
 goal:
-  - pick_human_bottle_1:
-      task_name: pick_human_bottle
+  - board_localization:
+      task_name: board_localization
       required_agents: []
       precedence_constraints: []
       soft_precedence_constraints: []
-  - pick_human_bottle_2:
-      task_name: pick_human_bottle
+  - probe:
+      task_name: probe
+      required_agents: []
+      precedence_constraints: []
+      soft_precedence_constraints: ["board_localization"]
+  - remove_plug:
+      task_name: remove_plug
+      required_agents: []
+      precedence_constraints: []
+      soft_precedence_constraints: ["board_localization"]
+  - battery_sorting_1:
+      task_name: battery_sorting
       required_agents: []
       precedence_constraints: []
       soft_precedence_constraints: []
-
-  - place_human_bottle_1:
-      task_name: place_human_bottle
-      required_agents: []
-      precedence_constraints: [pick_human_bottle_1]
-      soft_precedence_constraints: []
-
-  - place_human_bottle_2:
-      task_name: place_human_bottle
-      required_agents: []
-      precedence_constraints: [pick_human_bottle_2]
-      soft_precedence_constraints: []
-
-
-
-  - machine_test1:
-      task_name: machine_test
+  - battery_sorting_2:
+      task_name: battery_sorting
       required_agents: []
       precedence_constraints: []
       soft_precedence_constraints: []
 
-  - machine_test2:
-      task_name: machine_test
+
+  - remove_notebook_cover:
+      task_name: remove_notebook_cover
       required_agents: []
-      precedence_constraints: ["machine_test1"]
+      precedence_constraints: []
       soft_precedence_constraints: []
-
-  # - pick_robot_box_3:
-  #     task_name: pick_robot_box
-  #     required_agents: []
-  #     precedence_constraints: []
-  # - pick_robot_box_4:
-  #     task_name: pick_robot_box
-  #     required_agents: []
-  #     precedence_constraints: []
-  #
-  # - place_robot_box_1:
-  #     task_name: place_robot_bottle
-  #     required_agents: []
-  #     precedence_constraints: [pick_robot_box_1]
-  #     soft_precedence_constraints: []
-  #
-  # - place_robot_box_2:
-  #     task_name: place_robot_bottle
-  #     required_agents: []
-  #     precedence_constraints: [pick_robot_box_2]
-  #     soft_precedence_constraints: []
-
-  # - place_robot_box_3:
-  #     task_name: place_robot_box
-  #     required_agents: []
-  #     precedence_constraints: [pick_robot_box_3]
-  # - place_robot_box_4:
-  #     task_name: place_robot_box
-  #     required_agents: []
-  #     precedence_constraints: [pick_robot_box_4]
+  - remove_notebook_components:
+      task_name: remove_notebook_components
+      required_agents: []
+      precedence_constraints: []
+      soft_precedence_constraints: ["remove_notebook_cover"]
+  - disassemble_remote_control_1:
+      task_name: disassemble_remote_control
+      required_agents: []
+      precedence_constraints: []
+      soft_precedence_constraints: []
+  - disassemble_remote_control_2:
+      task_name: disassemble_remote_control
+      required_agents: []
+      precedence_constraints: []
+      soft_precedence_constraints: []
