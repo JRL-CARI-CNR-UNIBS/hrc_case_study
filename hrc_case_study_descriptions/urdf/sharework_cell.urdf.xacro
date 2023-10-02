@@ -601,6 +601,14 @@
    </collision>
 </link>
 
+<xacro:include filename="$(find hrc_simulator_descriptions)/urdf/human14dof/human14dof.urdf.xacro"/>
+<xacro:human14dof/>
+
+<joint name="human_fixed_joint" type="fixed">
+  <parent link="world" />
+  <child  link = "origin_human14dof" />
+  <origin xyz="1.5 -0.2 0.0" rpy="0 0 ${pi}" />
+</joint>
 </xacro:macro>
 
 </robot>

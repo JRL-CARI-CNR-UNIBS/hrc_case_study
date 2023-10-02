@@ -1,0 +1,54 @@
+mao_planner_hw:
+  type           : "cnr/control/TopicsRobotHW"
+  appenders      : [file, screen]
+  levels         : [trace, debug]
+  pattern_layout : "[%5p][%d{HH:mm:ss,SSS}][%50M:%04L][%24c] %m%n"
+  file_name      : "mao_planner_hw"
+
+  resources: [ joint_resource ]
+  joint_resource:
+    joint_names:
+    - Belly_rotx
+    - Belly_roty
+    - jRightShoulder_rotx
+    - jRightShoulder_roty
+    - jRightShoulder_rotz
+    - jRightElbow_rotz
+    - jRightWristRoll
+    - jRightWristPitch
+    - jRightWristYaw
+    #- jLeftShoulder_rotx
+    #- jLeftShoulder_roty
+    #- jLeftShoulder_rotz
+    #- jLeftElbow_rotz
+    - joint_traslx
+    - joint_trasly
+    - joint_orientation
+    subscribed_topics :
+    - /mao/joint_states
+    - /mao/joint_states
+    - /mao/joint_states
+    - /mao/joint_states
+    - /mao/joint_states
+    - /mao/joint_states
+    - /mao/joint_states
+    - /mao/joint_states
+    - /mao/joint_states
+    - /mao/joint_states
+    - /mao/joint_states
+    - /mao/joint_states
+    #- /mao/joint_states
+    #- /mao/joint_states
+    #- /mao/joint_states
+    #- /mao/joint_states
+    published_topics :
+    - /mao/joint_target
+
+  sampling_period: 0.008
+  diagnostic_period: 0.1
+  feedback_joint_state_timeout: 20
+  maximum_missing_cycles: 1000
+  base_link: world
+  tool_link: RightTip
+  robot_description_param: /robot_description
+  robot_description_planning_param: /robot_description_planning

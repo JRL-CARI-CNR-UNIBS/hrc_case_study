@@ -4,12 +4,15 @@ control_configurations:
   - {hardware_interface: "ur10e_hw",   controller: "js_pub", description: ""}
   - {hardware_interface: "planner_hw", controller: "js_pub", description: ""}
   - {hardware_interface: "ur10e_hw", controller: "ft_pub", description: ""}
+  - {hardware_interface: "mao_hw", controller: "js_pub", description: ""}
+  - {hardware_interface: "mao_planner_hw", controller: "js_pub", description: ""}
 
 - name: "ctrl"
   depends: ["watch"]
   hidden: true  # do not appear in the gui
   components:
   - {hardware_interface: "ur10e_hw", controller: "ctrl1", description: ""}
+  - {hardware_interface: "mao_hw", controller: "ctrl1", description: ""}
 
 - name: "freq_est"
   depends: ["watch"]
@@ -39,6 +42,7 @@ control_configurations:
   depends: ["ctrl"]
   components:
   - {hardware_interface: "planner_hw", controller: "microinterpolator", description: ""}
+  - {hardware_interface: "mao_planner_hw", controller: "microinterpolator", description: ""}
 
 - name: "impedance"
   depends: ["watch"]
