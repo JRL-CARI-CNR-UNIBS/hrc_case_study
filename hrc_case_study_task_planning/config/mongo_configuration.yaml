@@ -1,5 +1,5 @@
 mongo_database: "hrc_case_study"
 mongo_collection_tasks: "task_properties"
-mongo_collection_results: "task_results"
+mongo_collection_results: "task_results_real_test0"
 coll_risk_name: "task_synergy"
 coll_duration_name: "task_durations"

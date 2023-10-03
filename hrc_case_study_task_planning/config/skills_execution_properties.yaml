@@ -1,0 +1,17 @@
+pick_execution_properties:
+  tool_id: "robotiq_gripper"
+  pre_exec_id: "open_60"
+  exec_id: "close"
+place_execution_properties:
+  tool_id: "robotiq_gripper"
+  pre_exec_id: "open_100"
+  exec_id: "open"
+pickplace_exeuction_properties:
+  pick:
+    tool_id: "robotiq_gripper"
+    pre_exec_id: "open_60"
+    exec_id: "close"
+  place:
+    tool_id: "robotiq_gripper"
+    pre_exec_id: "open_100"
+    exec_id: "open"

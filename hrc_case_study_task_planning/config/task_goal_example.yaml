@@ -24,25 +24,24 @@ goal:
       required_agents: []
       precedence_constraints: []
       soft_precedence_constraints: []
-
-
-  - remove_notebook_cover:
-      task_name: remove_notebook_cover
-      required_agents: []
-      precedence_constraints: []
-      soft_precedence_constraints: []
-  - remove_notebook_components:
-      task_name: remove_notebook_components
-      required_agents: []
-      precedence_constraints: []
-      soft_precedence_constraints: ["remove_notebook_cover"]
-  - disassemble_remote_control_1:
-      task_name: disassemble_remote_control
-      required_agents: []
-      precedence_constraints: []
-      soft_precedence_constraints: []
-  - disassemble_remote_control_2:
-      task_name: disassemble_remote_control
-      required_agents: []
-      precedence_constraints: []
-      soft_precedence_constraints: []
+  #
+  # - remove_notebook_cover:
+  #     task_name: remove_notebook_cover
+  #     required_agents: []
+  #     precedence_constraints: []
+  #     soft_precedence_constraints: []
+  # - remove_notebook_components:
+  #     task_name: remove_notebook_components
+  #     required_agents: []
+  #     precedence_constraints: []
+  #     soft_precedence_constraints: ["remove_notebook_cover"]
+  # - disassemble_remote_control_1:
+  #     task_name: disassemble_remote_control
+  #     required_agents: []
+  #     precedence_constraints: []
+  #     soft_precedence_constraints: []
+  # - disassemble_remote_control_2:
+  #     task_name: disassemble_remote_control
+  #     required_agents: []
+  #     precedence_constraints: []
+  #     soft_precedence_constraints: []

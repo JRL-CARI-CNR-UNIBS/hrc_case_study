@@ -14,13 +14,13 @@ optimization:
   mip_gap: 0.0
   behaviour: continous
   objective: makespan
-  n_recipe: 1
+  n_recipe: 3
 
   brute_force: false
 
 execution:
   repetitions: 1
-  n_recipe: 1
+  n_recipe: 2
 
 
 

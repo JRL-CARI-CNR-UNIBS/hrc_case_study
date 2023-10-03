@@ -6,6 +6,8 @@
 
   <arg name="dispatch_plan" default="true" />
   <arg name="save_result" default="true" />
+  <arg name="acquire_distance" default="false" />
+  <param name="acquire_distance" value="$(arg acquire_distance)" />
 
 
 

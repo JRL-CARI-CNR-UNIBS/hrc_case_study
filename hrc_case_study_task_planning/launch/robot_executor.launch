@@ -12,6 +12,8 @@
   <arg name="go_home_after_execution" default="false" />
   <param name="go_home_after_execution" value="$(arg go_home_after_execution)" />
 
+  <rosparam command="load" file="$(find hrc_case_study_task_planning)/config/skills_execution_properties.yaml" />
+
 <!-- launch-prefix="gdb -ex run meno meno args" -->
   <node name="$(arg agent_node)_task_executor" pkg="task_planner_interface" type="task_executor_node" output="screen" >
     <param name="topic_request_from_planner" value="$(arg topic_request_from_planner)" />
