@@ -1,7 +1,8 @@
 # Solver Selection #
 optimization:
-  # type: human_aware_complete
-  type: base
+  # type: human_aware_easier
+  type: areas
+  # type: base
   # type: human_aware_easier
   # type: human_aware_complete
   # type: human_aware_easier_abs
@@ -14,15 +15,17 @@ optimization:
   mip_gap: 0.0
   behaviour: continous
   objective: makespan
-  n_recipe: 3
+  n_recipe: 10
 
   brute_force: false
 
 execution:
   repetitions: 1
-  n_recipe: 2
+  n_recipe: 10
 
 
+robot_agents:
+  - manipulator
 
 
 

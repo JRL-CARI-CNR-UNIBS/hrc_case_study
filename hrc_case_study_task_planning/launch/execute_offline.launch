@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <!-- General Parameters -->
+
+  <arg name="dispatch_plan" default="true" />
+  <arg name="save_result" default="true" />
+
+  <arg name="acquire_distance" default="false" />
+  <param name="acquire_distance" value="$(arg acquire_distance)" />
+
+
+  <node name="execute_offline_node" pkg="task_planner" type="execute_offline.py"  output="screen" >
+    <rosparam command="load" file="$(find hrc_case_study_task_planning)/config/task_goal_example.yaml" />
+    <rosparam command="load" file="$(find hrc_case_study_task_planning)/config/task_planning_optimization.yaml" />
+    <!-- <rosparam command="load" file="$(find hrc_case_study_task_planning)/config/neighboring_tasks.yaml" /> -->
+
+    <param name="dispatch_plan" value="$(arg dispatch_plan)" />
+    <param name="save_result" value="$(arg save_result)" />
+    <param name="result_file_path" value="$(find hrc_case_study_task_planning)/solutions/new_safety_areas/final_version/" />
+
+    <!-- <rosparam command="load" file="$(find task_planner)/config/task_planning_optimization.yaml" ns="optimization_parameters/"/> -->
+  </node>
+
+</launch>

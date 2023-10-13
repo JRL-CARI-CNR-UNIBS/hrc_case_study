@@ -8,4 +8,4 @@ moveit_setup_assistant_config:
   CONFIG:
     author_name: Samuele Sandrini
     author_email: samuele.sandrini@polito.it
-    generated_timestamp: 1687177800
+    generated_timestamp: 1696346494

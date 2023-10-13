@@ -1,0 +1,5 @@
+neighboring_tasks_pairs:
+  - [battery_sorting_1, disassemble_remote_control_1]
+  - [battery_sorting_1, disassemble_remote_control_2]
+  - [battery_sorting_2, disassemble_remote_control_1]
+  - [battery_sorting_2, disassemble_remote_control_2]

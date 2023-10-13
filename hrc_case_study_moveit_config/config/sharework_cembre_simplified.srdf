@@ -32,15 +32,153 @@
     <!--END EFFECTOR: Purpose: Represent information about an end effector.-->
     <end_effector name="end_effector" parent_link="robotiq_coupler" group="manipulator"/>
     <!--DISABLE COLLISIONS: By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->
+    <disable_collisions link1="1_link" link2="2_link" reason="Never"/>
+    <disable_collisions link1="1_link" link2="3_link" reason="Never"/>
+    <disable_collisions link1="1_link" link2="4_link" reason="Never"/>
+    <disable_collisions link1="1_link" link2="advanced_table" reason="Never"/>
+    <disable_collisions link1="1_link" link2="advanced_table_2" reason="Default"/>
+    <disable_collisions link1="1_link" link2="base_link_inertia" reason="Never"/>
+    <disable_collisions link1="1_link" link2="collaborative_workspace_link" reason="Never"/>
+    <disable_collisions link1="1_link" link2="cursor" reason="Never"/>
+    <disable_collisions link1="1_link" link2="guide_fixed" reason="Never"/>
+    <disable_collisions link1="1_link" link2="left_column" reason="Never"/>
+    <disable_collisions link1="1_link" link2="lower_beam" reason="Default"/>
+    <disable_collisions link1="1_link" link2="notebook_link" reason="Never"/>
+    <disable_collisions link1="1_link" link2="rail" reason="Never"/>
+    <disable_collisions link1="1_link" link2="right_column" reason="Never"/>
+    <disable_collisions link1="1_link" link2="screwdriver_holder" reason="Never"/>
+    <disable_collisions link1="1_link" link2="shoulder_link" reason="Never"/>
+    <disable_collisions link1="1_link" link2="table" reason="Adjacent"/>
+    <disable_collisions link1="1_link" link2="upper_arm_link" reason="Never"/>
+    <disable_collisions link1="1_link" link2="upper_beam" reason="Never"/>
+    <disable_collisions link1="1_link" link2="virtual_wall_1" reason="Never"/>
+    <disable_collisions link1="1_link" link2="virtual_wall_2" reason="Never"/>
+    <disable_collisions link1="1_link" link2="wall" reason="Never"/>
+    <disable_collisions link1="1_link" link2="working_table_with_wheels_link" reason="Never"/>
+    <disable_collisions link1="2_link" link2="3_link" reason="Never"/>
+    <disable_collisions link1="2_link" link2="4_link" reason="Never"/>
+    <disable_collisions link1="2_link" link2="advanced_table" reason="Never"/>
+    <disable_collisions link1="2_link" link2="advanced_table_2" reason="Default"/>
+    <disable_collisions link1="2_link" link2="base_link_inertia" reason="Never"/>
+    <disable_collisions link1="2_link" link2="collaborative_workspace_link" reason="Never"/>
+    <disable_collisions link1="2_link" link2="cursor" reason="Never"/>
+    <disable_collisions link1="2_link" link2="guide_fixed" reason="Never"/>
+    <disable_collisions link1="2_link" link2="left_column" reason="Never"/>
+    <disable_collisions link1="2_link" link2="lower_beam" reason="Default"/>
+    <disable_collisions link1="2_link" link2="notebook_link" reason="Never"/>
+    <disable_collisions link1="2_link" link2="rail" reason="Never"/>
+    <disable_collisions link1="2_link" link2="right_column" reason="Never"/>
+    <disable_collisions link1="2_link" link2="screwdriver_holder" reason="Never"/>
+    <disable_collisions link1="2_link" link2="shoulder_link" reason="Never"/>
+    <disable_collisions link1="2_link" link2="table" reason="Adjacent"/>
+    <disable_collisions link1="2_link" link2="upper_arm_link" reason="Never"/>
+    <disable_collisions link1="2_link" link2="upper_beam" reason="Never"/>
+    <disable_collisions link1="2_link" link2="virtual_wall_1" reason="Never"/>
+    <disable_collisions link1="2_link" link2="virtual_wall_2" reason="Never"/>
+    <disable_collisions link1="2_link" link2="wall" reason="Never"/>
+    <disable_collisions link1="2_link" link2="working_table_with_wheels_link" reason="Never"/>
+    <disable_collisions link1="3_link" link2="4_link" reason="Adjacent"/>
+    <disable_collisions link1="3_link" link2="advanced_table" reason="Never"/>
+    <disable_collisions link1="3_link" link2="advanced_table_2" reason="Never"/>
+    <disable_collisions link1="3_link" link2="base_link_inertia" reason="Never"/>
+    <disable_collisions link1="3_link" link2="collaborative_workspace_link" reason="Never"/>
+    <disable_collisions link1="3_link" link2="cursor" reason="Never"/>
+    <disable_collisions link1="3_link" link2="forearm_link" reason="Never"/>
+    <disable_collisions link1="3_link" link2="guide_fixed" reason="Never"/>
+    <disable_collisions link1="3_link" link2="left_column" reason="Never"/>
+    <disable_collisions link1="3_link" link2="lower_beam" reason="Never"/>
+    <disable_collisions link1="3_link" link2="notebook_link" reason="Adjacent"/>
+    <disable_collisions link1="3_link" link2="rail" reason="Never"/>
+    <disable_collisions link1="3_link" link2="right_column" reason="Never"/>
+    <disable_collisions link1="3_link" link2="robotiq_coupler" reason="Never"/>
+    <disable_collisions link1="3_link" link2="robotiq_simplified" reason="Never"/>
+    <disable_collisions link1="3_link" link2="rq_connector" reason="Never"/>
+    <disable_collisions link1="3_link" link2="screwdriver_holder" reason="Never"/>
+    <disable_collisions link1="3_link" link2="shoulder_link" reason="Never"/>
+    <disable_collisions link1="3_link" link2="table" reason="Never"/>
+    <disable_collisions link1="3_link" link2="upper_arm_link" reason="Never"/>
+    <disable_collisions link1="3_link" link2="upper_beam" reason="Never"/>
+    <disable_collisions link1="3_link" link2="virtual_wall_1" reason="Never"/>
+    <disable_collisions link1="3_link" link2="virtual_wall_2" reason="Default"/>
+    <disable_collisions link1="3_link" link2="wall" reason="Never"/>
+    <disable_collisions link1="3_link" link2="working_table_with_wheels_link" reason="Adjacent"/>
+    <disable_collisions link1="3_link" link2="wrist_1_link" reason="Never"/>
+    <disable_collisions link1="3_link" link2="wrist_2_link" reason="Never"/>
+    <disable_collisions link1="3_link" link2="wrist_3_link" reason="Never"/>
+    <disable_collisions link1="4_link" link2="advanced_table" reason="Never"/>
+    <disable_collisions link1="4_link" link2="advanced_table_2" reason="Never"/>
+    <disable_collisions link1="4_link" link2="base_link_inertia" reason="Never"/>
+    <disable_collisions link1="4_link" link2="collaborative_workspace_link" reason="Never"/>
+    <disable_collisions link1="4_link" link2="cursor" reason="Never"/>
+    <disable_collisions link1="4_link" link2="forearm_link" reason="Never"/>
+    <disable_collisions link1="4_link" link2="guide_fixed" reason="Never"/>
+    <disable_collisions link1="4_link" link2="left_column" reason="Never"/>
+    <disable_collisions link1="4_link" link2="lower_beam" reason="Never"/>
+    <disable_collisions link1="4_link" link2="notebook_link" reason="Adjacent"/>
+    <disable_collisions link1="4_link" link2="rail" reason="Never"/>
+    <disable_collisions link1="4_link" link2="right_column" reason="Never"/>
+    <disable_collisions link1="4_link" link2="robotiq_coupler" reason="Never"/>
+    <disable_collisions link1="4_link" link2="robotiq_simplified" reason="Never"/>
+    <disable_collisions link1="4_link" link2="rq_connector" reason="Never"/>
+    <disable_collisions link1="4_link" link2="screwdriver_holder" reason="Never"/>
+    <disable_collisions link1="4_link" link2="shoulder_link" reason="Never"/>
+    <disable_collisions link1="4_link" link2="table" reason="Never"/>
+    <disable_collisions link1="4_link" link2="upper_arm_link" reason="Never"/>
+    <disable_collisions link1="4_link" link2="upper_beam" reason="Never"/>
+    <disable_collisions link1="4_link" link2="virtual_wall_1" reason="Never"/>
+    <disable_collisions link1="4_link" link2="virtual_wall_2" reason="Never"/>
+    <disable_collisions link1="4_link" link2="wall" reason="Never"/>
+    <disable_collisions link1="4_link" link2="working_table_with_wheels_link" reason="Adjacent"/>
+    <disable_collisions link1="4_link" link2="wrist_1_link" reason="Never"/>
+    <disable_collisions link1="4_link" link2="wrist_2_link" reason="Never"/>
+    <disable_collisions link1="4_link" link2="wrist_3_link" reason="Never"/>
+    <disable_collisions link1="advanced_table" link2="advanced_table_2" reason="Adjacent"/>
+    <disable_collisions link1="advanced_table" link2="base_link_inertia" reason="Never"/>
+    <disable_collisions link1="advanced_table" link2="collaborative_workspace_link" reason="Never"/>
+    <disable_collisions link1="advanced_table" link2="cursor" reason="Never"/>
+    <disable_collisions link1="advanced_table" link2="forearm_link" reason="Never"/>
+    <disable_collisions link1="advanced_table" link2="guide_fixed" reason="Never"/>
+    <disable_collisions link1="advanced_table" link2="left_column" reason="Default"/>
+    <disable_collisions link1="advanced_table" link2="lower_beam" reason="Default"/>
+    <disable_collisions link1="advanced_table" link2="notebook_link" reason="Never"/>
+    <disable_collisions link1="advanced_table" link2="rail" reason="Default"/>
+    <disable_collisions link1="advanced_table" link2="right_column" reason="Never"/>
+    <disable_collisions link1="advanced_table" link2="screwdriver_holder" reason="Never"/>
+    <disable_collisions link1="advanced_table" link2="shoulder_link" reason="Never"/>
+    <disable_collisions link1="advanced_table" link2="table" reason="Adjacent"/>
+    <disable_collisions link1="advanced_table" link2="upper_arm_link" reason="Never"/>
+    <disable_collisions link1="advanced_table" link2="upper_beam" reason="Never"/>
+    <disable_collisions link1="advanced_table" link2="virtual_wall_1" reason="Never"/>
+    <disable_collisions link1="advanced_table" link2="virtual_wall_2" reason="Never"/>
+    <disable_collisions link1="advanced_table" link2="wall" reason="Never"/>
+    <disable_collisions link1="advanced_table" link2="working_table_with_wheels_link" reason="Never"/>
+    <disable_collisions link1="advanced_table" link2="wrist_1_link" reason="Never"/>
+    <disable_collisions link1="advanced_table_2" link2="base_link_inertia" reason="Never"/>
+    <disable_collisions link1="advanced_table_2" link2="collaborative_workspace_link" reason="Never"/>
+    <disable_collisions link1="advanced_table_2" link2="cursor" reason="Never"/>
+    <disable_collisions link1="advanced_table_2" link2="guide_fixed" reason="Never"/>
+    <disable_collisions link1="advanced_table_2" link2="left_column" reason="Never"/>
+    <disable_collisions link1="advanced_table_2" link2="lower_beam" reason="Never"/>
+    <disable_collisions link1="advanced_table_2" link2="notebook_link" reason="Never"/>
+    <disable_collisions link1="advanced_table_2" link2="rail" reason="Never"/>
+    <disable_collisions link1="advanced_table_2" link2="right_column" reason="Default"/>
+    <disable_collisions link1="advanced_table_2" link2="screwdriver_holder" reason="Never"/>
+    <disable_collisions link1="advanced_table_2" link2="shoulder_link" reason="Never"/>
+    <disable_collisions link1="advanced_table_2" link2="table" reason="Never"/>
+    <disable_collisions link1="advanced_table_2" link2="upper_arm_link" reason="Never"/>
+    <disable_collisions link1="advanced_table_2" link2="upper_beam" reason="Never"/>
+    <disable_collisions link1="advanced_table_2" link2="virtual_wall_1" reason="Never"/>
+    <disable_collisions link1="advanced_table_2" link2="virtual_wall_2" reason="Never"/>
+    <disable_collisions link1="advanced_table_2" link2="wall" reason="Never"/>
+    <disable_collisions link1="advanced_table_2" link2="working_table_with_wheels_link" reason="Never"/>
+    <disable_collisions link1="base_link_inertia" link2="collaborative_workspace_link" reason="Never"/>
     <disable_collisions link1="base_link_inertia" link2="cursor" reason="Adjacent"/>
     <disable_collisions link1="base_link_inertia" link2="guide_fixed" reason="Never"/>
-    <disable_collisions link1="base_link_inertia" link2="human_box_link" reason="Never"/>
     <disable_collisions link1="base_link_inertia" link2="left_column" reason="Never"/>
     <disable_collisions link1="base_link_inertia" link2="lower_beam" reason="Never"/>
-    <disable_collisions link1="base_link_inertia" link2="prova" reason="Never"/>
+    <disable_collisions link1="base_link_inertia" link2="notebook_link" reason="Never"/>
     <disable_collisions link1="base_link_inertia" link2="rail" reason="Never"/>
     <disable_collisions link1="base_link_inertia" link2="right_column" reason="Never"/>
-    <disable_collisions link1="base_link_inertia" link2="robot_box_link" reason="Never"/>
     <disable_collisions link1="base_link_inertia" link2="robotiq_coupler" reason="Never"/>
     <disable_collisions link1="base_link_inertia" link2="rq_connector" reason="Never"/>
     <disable_collisions link1="base_link_inertia" link2="screwdriver_holder" reason="Never"/>
@@ -55,14 +193,28 @@
     <disable_collisions link1="base_link_inertia" link2="wrist_1_link" reason="Never"/>
     <disable_collisions link1="base_link_inertia" link2="wrist_2_link" reason="Never"/>
     <disable_collisions link1="base_link_inertia" link2="wrist_3_link" reason="Never"/>
+    <disable_collisions link1="collaborative_workspace_link" link2="cursor" reason="Never"/>
+    <disable_collisions link1="collaborative_workspace_link" link2="guide_fixed" reason="Never"/>
+    <disable_collisions link1="collaborative_workspace_link" link2="left_column" reason="Never"/>
+    <disable_collisions link1="collaborative_workspace_link" link2="lower_beam" reason="Never"/>
+    <disable_collisions link1="collaborative_workspace_link" link2="notebook_link" reason="Never"/>
+    <disable_collisions link1="collaborative_workspace_link" link2="rail" reason="Adjacent"/>
+    <disable_collisions link1="collaborative_workspace_link" link2="right_column" reason="Never"/>
+    <disable_collisions link1="collaborative_workspace_link" link2="screwdriver_holder" reason="Never"/>
+    <disable_collisions link1="collaborative_workspace_link" link2="shoulder_link" reason="Never"/>
+    <disable_collisions link1="collaborative_workspace_link" link2="table" reason="Never"/>
+    <disable_collisions link1="collaborative_workspace_link" link2="upper_arm_link" reason="Never"/>
+    <disable_collisions link1="collaborative_workspace_link" link2="upper_beam" reason="Never"/>
+    <disable_collisions link1="collaborative_workspace_link" link2="virtual_wall_1" reason="Never"/>
+    <disable_collisions link1="collaborative_workspace_link" link2="virtual_wall_2" reason="Never"/>
+    <disable_collisions link1="collaborative_workspace_link" link2="wall" reason="Never"/>
+    <disable_collisions link1="collaborative_workspace_link" link2="working_table_with_wheels_link" reason="Never"/>
     <disable_collisions link1="cursor" link2="guide_fixed" reason="Adjacent"/>
-    <disable_collisions link1="cursor" link2="human_box_link" reason="Never"/>
     <disable_collisions link1="cursor" link2="left_column" reason="Never"/>
     <disable_collisions link1="cursor" link2="lower_beam" reason="Never"/>
-    <disable_collisions link1="cursor" link2="prova" reason="Never"/>
+    <disable_collisions link1="cursor" link2="notebook_link" reason="Never"/>
     <disable_collisions link1="cursor" link2="rail" reason="Never"/>
     <disable_collisions link1="cursor" link2="right_column" reason="Never"/>
-    <disable_collisions link1="cursor" link2="robot_box_link" reason="Never"/>
     <disable_collisions link1="cursor" link2="screwdriver_holder" reason="Never"/>
     <disable_collisions link1="cursor" link2="shoulder_link" reason="Default"/>
     <disable_collisions link1="cursor" link2="table" reason="Never"/>
@@ -72,18 +224,17 @@
     <disable_collisions link1="cursor" link2="virtual_wall_2" reason="Never"/>
     <disable_collisions link1="cursor" link2="wall" reason="Never"/>
     <disable_collisions link1="cursor" link2="working_table_with_wheels_link" reason="Never"/>
+    <disable_collisions link1="forearm_link" link2="notebook_link" reason="Never"/>
     <disable_collisions link1="forearm_link" link2="upper_arm_link" reason="Adjacent"/>
     <disable_collisions link1="forearm_link" link2="virtual_wall_2" reason="Never"/>
     <disable_collisions link1="forearm_link" link2="working_table_with_wheels_link" reason="Never"/>
     <disable_collisions link1="forearm_link" link2="wrist_1_link" reason="Adjacent"/>
     <disable_collisions link1="forearm_link" link2="wrist_2_link" reason="Default"/>
-    <disable_collisions link1="guide_fixed" link2="human_box_link" reason="Never"/>
     <disable_collisions link1="guide_fixed" link2="left_column" reason="Default"/>
     <disable_collisions link1="guide_fixed" link2="lower_beam" reason="Never"/>
-    <disable_collisions link1="guide_fixed" link2="prova" reason="Never"/>
+    <disable_collisions link1="guide_fixed" link2="notebook_link" reason="Never"/>
     <disable_collisions link1="guide_fixed" link2="rail" reason="Never"/>
     <disable_collisions link1="guide_fixed" link2="right_column" reason="Default"/>
-    <disable_collisions link1="guide_fixed" link2="robot_box_link" reason="Never"/>
     <disable_collisions link1="guide_fixed" link2="screwdriver_holder" reason="Never"/>
     <disable_collisions link1="guide_fixed" link2="shoulder_link" reason="Never"/>
     <disable_collisions link1="guide_fixed" link2="table" reason="Never"/>
@@ -93,26 +244,10 @@
     <disable_collisions link1="guide_fixed" link2="virtual_wall_2" reason="Never"/>
     <disable_collisions link1="guide_fixed" link2="wall" reason="Never"/>
     <disable_collisions link1="guide_fixed" link2="working_table_with_wheels_link" reason="Never"/>
-    <disable_collisions link1="human_box_link" link2="left_column" reason="Never"/>
-    <disable_collisions link1="human_box_link" link2="lower_beam" reason="Never"/>
-    <disable_collisions link1="human_box_link" link2="prova" reason="Never"/>
-    <disable_collisions link1="human_box_link" link2="rail" reason="Adjacent"/>
-    <disable_collisions link1="human_box_link" link2="right_column" reason="Never"/>
-    <disable_collisions link1="human_box_link" link2="robot_box_link" reason="Never"/>
-    <disable_collisions link1="human_box_link" link2="screwdriver_holder" reason="Never"/>
-    <disable_collisions link1="human_box_link" link2="shoulder_link" reason="Never"/>
-    <disable_collisions link1="human_box_link" link2="table" reason="Never"/>
-    <disable_collisions link1="human_box_link" link2="upper_arm_link" reason="Never"/>
-    <disable_collisions link1="human_box_link" link2="upper_beam" reason="Never"/>
-    <disable_collisions link1="human_box_link" link2="virtual_wall_1" reason="Never"/>
-    <disable_collisions link1="human_box_link" link2="virtual_wall_2" reason="Never"/>
-    <disable_collisions link1="human_box_link" link2="wall" reason="Never"/>
-    <disable_collisions link1="human_box_link" link2="working_table_with_wheels_link" reason="Never"/>
     <disable_collisions link1="left_column" link2="lower_beam" reason="Adjacent"/>
-    <disable_collisions link1="left_column" link2="prova" reason="Never"/>
+    <disable_collisions link1="left_column" link2="notebook_link" reason="Never"/>
     <disable_collisions link1="left_column" link2="rail" reason="Never"/>
     <disable_collisions link1="left_column" link2="right_column" reason="Adjacent"/>
-    <disable_collisions link1="left_column" link2="robot_box_link" reason="Never"/>
     <disable_collisions link1="left_column" link2="screwdriver_holder" reason="Never"/>
     <disable_collisions link1="left_column" link2="shoulder_link" reason="Never"/>
     <disable_collisions link1="left_column" link2="table" reason="Adjacent"/>
@@ -122,10 +257,9 @@
     <disable_collisions link1="left_column" link2="virtual_wall_2" reason="Adjacent"/>
     <disable_collisions link1="left_column" link2="wall" reason="Adjacent"/>
     <disable_collisions link1="left_column" link2="working_table_with_wheels_link" reason="Adjacent"/>
-    <disable_collisions link1="lower_beam" link2="prova" reason="Never"/>
+    <disable_collisions link1="lower_beam" link2="notebook_link" reason="Never"/>
     <disable_collisions link1="lower_beam" link2="rail" reason="Never"/>
     <disable_collisions link1="lower_beam" link2="right_column" reason="Adjacent"/>
-    <disable_collisions link1="lower_beam" link2="robot_box_link" reason="Never"/>
     <disable_collisions link1="lower_beam" link2="screwdriver_holder" reason="Never"/>
     <disable_collisions link1="lower_beam" link2="shoulder_link" reason="Never"/>
     <disable_collisions link1="lower_beam" link2="table" reason="Adjacent"/>
@@ -135,20 +269,24 @@
     <disable_collisions link1="lower_beam" link2="virtual_wall_2" reason="Adjacent"/>
     <disable_collisions link1="lower_beam" link2="wall" reason="Adjacent"/>
     <disable_collisions link1="lower_beam" link2="working_table_with_wheels_link" reason="Adjacent"/>
-    <disable_collisions link1="prova" link2="rail" reason="Adjacent"/>
-    <disable_collisions link1="prova" link2="right_column" reason="Never"/>
-    <disable_collisions link1="prova" link2="robot_box_link" reason="Never"/>
-    <disable_collisions link1="prova" link2="screwdriver_holder" reason="Never"/>
-    <disable_collisions link1="prova" link2="shoulder_link" reason="Never"/>
-    <disable_collisions link1="prova" link2="table" reason="Default"/>
-    <disable_collisions link1="prova" link2="upper_arm_link" reason="Never"/>
-    <disable_collisions link1="prova" link2="upper_beam" reason="Never"/>
-    <disable_collisions link1="prova" link2="virtual_wall_1" reason="Never"/>
-    <disable_collisions link1="prova" link2="virtual_wall_2" reason="Never"/>
-    <disable_collisions link1="prova" link2="wall" reason="Never"/>
-    <disable_collisions link1="prova" link2="working_table_with_wheels_link" reason="Never"/>
+    <disable_collisions link1="notebook_link" link2="rail" reason="Never"/>
+    <disable_collisions link1="notebook_link" link2="right_column" reason="Never"/>
+    <disable_collisions link1="notebook_link" link2="robotiq_coupler" reason="Never"/>
+    <disable_collisions link1="notebook_link" link2="robotiq_simplified" reason="Never"/>
+    <disable_collisions link1="notebook_link" link2="rq_connector" reason="Never"/>
+    <disable_collisions link1="notebook_link" link2="screwdriver_holder" reason="Never"/>
+    <disable_collisions link1="notebook_link" link2="shoulder_link" reason="Never"/>
+    <disable_collisions link1="notebook_link" link2="table" reason="Never"/>
+    <disable_collisions link1="notebook_link" link2="upper_arm_link" reason="Never"/>
+    <disable_collisions link1="notebook_link" link2="upper_beam" reason="Never"/>
+    <disable_collisions link1="notebook_link" link2="virtual_wall_1" reason="Never"/>
+    <disable_collisions link1="notebook_link" link2="virtual_wall_2" reason="Never"/>
+    <disable_collisions link1="notebook_link" link2="wall" reason="Never"/>
+    <disable_collisions link1="notebook_link" link2="working_table_with_wheels_link" reason="Adjacent"/>
+    <disable_collisions link1="notebook_link" link2="wrist_1_link" reason="Never"/>
+    <disable_collisions link1="notebook_link" link2="wrist_2_link" reason="Never"/>
+    <disable_collisions link1="notebook_link" link2="wrist_3_link" reason="Never"/>
     <disable_collisions link1="rail" link2="right_column" reason="Never"/>
-    <disable_collisions link1="rail" link2="robot_box_link" reason="Adjacent"/>
     <disable_collisions link1="rail" link2="screwdriver_holder" reason="Never"/>
     <disable_collisions link1="rail" link2="shoulder_link" reason="Never"/>
     <disable_collisions link1="rail" link2="table" reason="Adjacent"/>
@@ -158,7 +296,6 @@
     <disable_collisions link1="rail" link2="virtual_wall_2" reason="Never"/>
     <disable_collisions link1="rail" link2="wall" reason="Never"/>
     <disable_collisions link1="rail" link2="working_table_with_wheels_link" reason="Never"/>
-    <disable_collisions link1="right_column" link2="robot_box_link" reason="Never"/>
     <disable_collisions link1="right_column" link2="screwdriver_holder" reason="Never"/>
     <disable_collisions link1="right_column" link2="shoulder_link" reason="Never"/>
     <disable_collisions link1="right_column" link2="table" reason="Adjacent"/>
@@ -168,15 +305,6 @@
     <disable_collisions link1="right_column" link2="virtual_wall_2" reason="Adjacent"/>
     <disable_collisions link1="right_column" link2="wall" reason="Adjacent"/>
     <disable_collisions link1="right_column" link2="working_table_with_wheels_link" reason="Adjacent"/>
-    <disable_collisions link1="robot_box_link" link2="screwdriver_holder" reason="Never"/>
-    <disable_collisions link1="robot_box_link" link2="shoulder_link" reason="Never"/>
-    <disable_collisions link1="robot_box_link" link2="table" reason="Never"/>
-    <disable_collisions link1="robot_box_link" link2="upper_arm_link" reason="Never"/>
-    <disable_collisions link1="robot_box_link" link2="upper_beam" reason="Never"/>
-    <disable_collisions link1="robot_box_link" link2="virtual_wall_1" reason="Never"/>
-    <disable_collisions link1="robot_box_link" link2="virtual_wall_2" reason="Never"/>
-    <disable_collisions link1="robot_box_link" link2="wall" reason="Never"/>
-    <disable_collisions link1="robot_box_link" link2="working_table_with_wheels_link" reason="Never"/>
     <disable_collisions link1="robotiq_coupler" link2="robotiq_simplified" reason="Adjacent"/>
     <disable_collisions link1="robotiq_coupler" link2="rq_connector" reason="Adjacent"/>
     <disable_collisions link1="robotiq_coupler" link2="virtual_wall_2" reason="Never"/>
