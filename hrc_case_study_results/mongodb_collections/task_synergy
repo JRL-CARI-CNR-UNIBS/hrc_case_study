@@ -1,0 +1,289 @@
+[{
+  "_id": {
+    "$oid": "652047215712ef7900edc013"
+  },
+  "agent": "human",
+  "concurrent_agent": "manipulator",
+  "agent_skill": "remove_notebook_components",
+  "concurrent_skill": "battery_sorting",
+  "success_rate": 1,
+  "dynamic_risk": 1.055119276046753,
+  "std_err": 0.02477344498038292,
+  "counter": 25
+},{
+  "_id": {
+    "$oid": "652047215712ef7900edc014"
+  },
+  "agent": "human",
+  "concurrent_agent": "manipulator",
+  "agent_skill": "disassemble_remote_control",
+  "concurrent_skill": "battery_sorting",
+  "success_rate": 1,
+  "dynamic_risk": 0.9631618857383728,
+  "std_err": 0.010891871526837349,
+  "counter": 39
+},{
+  "_id": {
+    "$oid": "652047215712ef7900edc015"
+  },
+  "agent": "human",
+  "concurrent_agent": "manipulator",
+  "agent_skill": "remove_notebook_cover",
+  "concurrent_skill": "battery_sorting",
+  "success_rate": 1,
+  "dynamic_risk": 0.9831483960151672,
+  "std_err": 0.020370906218886375,
+  "counter": 18
+},{
+  "_id": {
+    "$oid": "652047365712ef7900edc016"
+  },
+  "agent": "human",
+  "concurrent_agent": "manipulator",
+  "agent_skill": "remove_notebook_components",
+  "concurrent_skill": "probe",
+  "success_rate": 1,
+  "dynamic_risk": 1.0005134344100952,
+  "std_err": 0.03630109131336212,
+  "counter": 9
+},{
+  "_id": {
+    "$oid": "652047365712ef7900edc017"
+  },
+  "agent": "human",
+  "concurrent_agent": "manipulator",
+  "agent_skill": "disassemble_remote_control",
+  "concurrent_skill": "probe",
+  "success_rate": 1,
+  "dynamic_risk": 0.9794967174530029,
+  "std_err": 0.014127249829471111,
+  "counter": 37
+},{
+  "_id": {
+    "$oid": "652047365712ef7900edc018"
+  },
+  "agent": "human",
+  "concurrent_agent": "manipulator",
+  "agent_skill": "remove_notebook_cover",
+  "concurrent_skill": "probe",
+  "success_rate": 1,
+  "dynamic_risk": 1.0342377424240112,
+  "std_err": 0.02544439397752285,
+  "counter": 15
+},{
+  "_id": {
+    "$oid": "6520474b5712ef7900edc019"
+  },
+  "agent": "human",
+  "concurrent_agent": "manipulator",
+  "agent_skill": "remove_notebook_components",
+  "concurrent_skill": "remove_plug",
+  "success_rate": 1,
+  "dynamic_risk": 0.9622414708137512,
+  "std_err": 0.03685680776834488,
+  "counter": 13
+},{
+  "_id": {
+    "$oid": "6520474b5712ef7900edc01a"
+  },
+  "agent": "human",
+  "concurrent_agent": "manipulator",
+  "agent_skill": "disassemble_remote_control",
+  "concurrent_skill": "remove_plug",
+  "success_rate": 1,
+  "dynamic_risk": 1.0169357061386108,
+  "std_err": 0.017804184928536415,
+  "counter": 19
+},{
+  "_id": {
+    "$oid": "6520474b5712ef7900edc01b"
+  },
+  "agent": "human",
+  "concurrent_agent": "manipulator",
+  "agent_skill": "remove_notebook_cover",
+  "concurrent_skill": "remove_plug",
+  "success_rate": 1,
+  "dynamic_risk": 0.884914755821228,
+  "std_err": 0.06819254159927368,
+  "counter": 7
+},{
+  "_id": {
+    "$oid": "652047625712ef7900edc01c"
+  },
+  "agent": "human",
+  "concurrent_agent": "manipulator",
+  "agent_skill": "remove_notebook_components",
+  "concurrent_skill": "board_localization",
+  "success_rate": 1,
+  "dynamic_risk": 1.1254749298095703,
+  "std_err": 0.5740116834640503,
+  "counter": 0
+},{
+  "_id": {
+    "$oid": "652047625712ef7900edc01d"
+  },
+  "agent": "human",
+  "concurrent_agent": "manipulator",
+  "agent_skill": "disassemble_remote_control",
+  "concurrent_skill": "board_localization",
+  "success_rate": 1,
+  "dynamic_risk": 0.9864969253540039,
+  "std_err": 0.01941061206161976,
+  "counter": 19
+},{
+  "_id": {
+    "$oid": "652047625712ef7900edc01e"
+  },
+  "agent": "human",
+  "concurrent_agent": "manipulator",
+  "agent_skill": "remove_notebook_cover",
+  "concurrent_skill": "board_localization",
+  "success_rate": 1,
+  "dynamic_risk": 1.0082749128341675,
+  "std_err": 0.030469458550214767,
+  "counter": 15
+},{
+  "_id": {
+    "$oid": "652047915712ef7900edc01f"
+  },
+  "agent": "manipulator",
+  "concurrent_agent": "human",
+  "agent_skill": "battery_sorting",
+  "concurrent_skill": "remove_notebook_cover",
+  "success_rate": 1,
+  "dynamic_risk": 0.7338639497756958,
+  "std_err": 0.015559636987745762,
+  "counter": 18
+},{
+  "_id": {
+    "$oid": "652047915712ef7900edc022"
+  },
+  "agent": "manipulator",
+  "concurrent_agent": "human",
+  "agent_skill": "remove_plug",
+  "concurrent_skill": "remove_notebook_cover",
+  "success_rate": 1,
+  "dynamic_risk": 1.11995530128479,
+  "std_err": 0.0747494101524353,
+  "counter": 7
+},{
+  "_id": {
+    "$oid": "652047915712ef7900edc023"
+  },
+  "agent": "manipulator",
+  "concurrent_agent": "human",
+  "agent_skill": "probe",
+  "concurrent_skill": "remove_notebook_cover",
+  "success_rate": 1,
+  "dynamic_risk": 1.076389193534851,
+  "std_err": 0.026497559621930122,
+  "counter": 15
+},{
+  "_id": {
+    "$oid": "652047915712ef7900edc024"
+  },
+  "agent": "manipulator",
+  "concurrent_agent": "human",
+  "agent_skill": "board_localization",
+  "concurrent_skill": "remove_notebook_cover",
+  "success_rate": 1,
+  "dynamic_risk": 0.6431639790534973,
+  "std_err": 0.04370278865098953,
+  "counter": 15
+},{
+  "_id": {
+    "$oid": "652047cb5712ef7900edc025"
+  },
+  "agent": "manipulator",
+  "concurrent_agent": "human",
+  "agent_skill": "battery_sorting",
+  "concurrent_skill": "disassemble_remote_control",
+  "success_rate": 1,
+  "dynamic_risk": 1.4596325159072876,
+  "std_err": 0.018045777454972267,
+  "counter": 39
+},{
+  "_id": {
+    "$oid": "652047cb5712ef7900edc028"
+  },
+  "agent": "manipulator",
+  "concurrent_agent": "human",
+  "agent_skill": "remove_plug",
+  "concurrent_skill": "disassemble_remote_control",
+  "success_rate": 1,
+  "dynamic_risk": 0.8907872438430786,
+  "std_err": 0.024274855852127075,
+  "counter": 19
+},{
+  "_id": {
+    "$oid": "652047cb5712ef7900edc029"
+  },
+  "agent": "manipulator",
+  "concurrent_agent": "human",
+  "agent_skill": "probe",
+  "concurrent_skill": "disassemble_remote_control",
+  "success_rate": 1,
+  "dynamic_risk": 0.9605217576026917,
+  "std_err": 0.018710389733314514,
+  "counter": 37
+},{
+  "_id": {
+    "$oid": "652047cb5712ef7900edc02a"
+  },
+  "agent": "manipulator",
+  "concurrent_agent": "human",
+  "agent_skill": "board_localization",
+  "concurrent_skill": "disassemble_remote_control",
+  "success_rate": 1,
+  "dynamic_risk": 1.1950818300247192,
+  "std_err": 0.03380882367491722,
+  "counter": 19
+},{
+  "_id": {
+    "$oid": "652047f65712ef7900edc02b"
+  },
+  "agent": "manipulator",
+  "concurrent_agent": "human",
+  "agent_skill": "battery_sorting",
+  "concurrent_skill": "remove_notebook_components",
+  "success_rate": 1,
+  "dynamic_risk": 0.9035606980323792,
+  "std_err": 0.0212869755923748,
+  "counter": 25
+},{
+  "_id": {
+    "$oid": "652047f65712ef7900edc02e"
+  },
+  "agent": "manipulator",
+  "concurrent_agent": "human",
+  "agent_skill": "remove_plug",
+  "concurrent_skill": "remove_notebook_components",
+  "success_rate": 1,
+  "dynamic_risk": 1.011191487312317,
+  "std_err": 0.042309775948524475,
+  "counter": 13
+},{
+  "_id": {
+    "$oid": "652047f65712ef7900edc02f"
+  },
+  "agent": "manipulator",
+  "concurrent_agent": "human",
+  "agent_skill": "probe",
+  "concurrent_skill": "remove_notebook_components",
+  "success_rate": 1,
+  "dynamic_risk": 0.8318479061126709,
+  "std_err": 0.030548512935638428,
+  "counter": 9
+},{
+  "_id": {
+    "$oid": "652047f65712ef7900edc030"
+  },
+  "agent": "manipulator",
+  "concurrent_agent": "human",
+  "agent_skill": "board_localization",
+  "concurrent_skill": "remove_notebook_components",
+  "success_rate": 1,
+  "dynamic_risk": 1.1233314275741577,
+  "std_err": 0.5808308124542236,
+  "counter": 0
+}]

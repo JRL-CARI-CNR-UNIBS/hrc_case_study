@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<launch>
+
+  <!-- General Parameters -->
+
+
+  <arg name="acquire_distance" default="false" />
+  <param name="acquire_distance" value="$(arg acquire_distance)" />
+
+  <arg name="repetitions" default="1" />
+
+  <arg name="method" default="A" />
+
+
+  <node name="execute_offline_node" pkg="task_planner" type="execute_offline_real_test.py"  output="screen" >
+    <rosparam command="load" file="$(find hrc_case_study_task_planning)/config/task_goal_example.yaml" />
+    <param name="repetitions" value="$(arg repetitions)" />
+    <param name="method" value="$(arg method)" />
+
+  </node>
+
+</launch>

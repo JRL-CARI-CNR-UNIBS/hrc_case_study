@@ -1,0 +1,123 @@
+[{
+  "_id": {
+    "$oid": "648b2e55d2c7dc66606cfdce"
+  },
+  "name": "end",
+  "type": "goto",
+  "description": "",
+  "agent": [
+    "manipulator",
+    "human"
+  ],
+  "goal": [
+    "home"
+  ]
+},{
+  "_id": {
+    "$oid": "64b14f4ad71063686ba3df64"
+  },
+  "name": "remove_notebook_cover",
+  "type": "sequence",
+  "description": "",
+  "agent": [
+    "human"
+  ],
+  "goal": [
+    "remove_notebook_cover"
+  ]
+},{
+  "_id": {
+    "$oid": "64b1506fd71063686ba3df67"
+  },
+  "name": "remove_notebook_components",
+  "type": "sequence",
+  "description": "",
+  "agent": [
+    "human"
+  ],
+  "goal": [
+    "remove_notebook_components"
+  ]
+},{
+  "_id": {
+    "$oid": "64edbe508058e358a84bb5ba"
+  },
+  "name": "go_home",
+  "type": "goto",
+  "description": "",
+  "agent": [
+    "manipulator",
+    "human"
+  ],
+  "goal": [
+    "home"
+  ]
+},{
+  "_id": {
+    "$oid": "64ef3ef4bbe3234de9062d46"
+  },
+  "name": "probe",
+  "type": "sequence",
+  "description": "",
+  "agent": [
+    "manipulator"
+  ],
+  "goal": [
+    "probe"
+  ]
+},{
+  "_id": {
+    "$oid": "64ff024abbe3234de9062d48"
+  },
+  "name": "board_localization",
+  "type": "sequence",
+  "description": "",
+  "agent": [
+    "manipulator"
+  ],
+  "goal": [
+    "board_localization"
+  ]
+},{
+  "_id": {
+    "$oid": "64ff4038bbe3234de9062d49"
+  },
+  "name": "remove_plug",
+  "type": "sequence",
+  "description": "",
+  "agent": [
+    "manipulator"
+  ],
+  "goal": [
+    "remove_plug"
+  ]
+},{
+  "_id": {
+    "$oid": "65018e25bbe3234de9062d4a"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "description": "",
+  "agent": [
+    "manipulator"
+  ],
+  "pick_goal": [
+    "AAA"
+  ],
+  "place_goal": [
+    "robot_box"
+  ]
+},{
+  "_id": {
+    "$oid": "6503148bbbe3234de9062d4e"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "description": "",
+  "agent": [
+    "human"
+  ],
+  "goal": [
+    "disassemble_remote_control"
+  ]
+}]

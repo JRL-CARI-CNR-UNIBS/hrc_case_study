@@ -1,0 +1,92 @@
+[{
+  "_id": {
+    "agent": "manipulator",
+    "name": "battery_sorting"
+  },
+  "counter": 60,
+  "success_rate": 1,
+  "min": 25.84156894683838,
+  "max": 94.06491136550903,
+  "name": "battery_sorting",
+  "agent": "manipulator",
+  "expected_duration": 43.561535863081616,
+  "duration_stddev": 17.428584923106396
+},{
+  "_id": {
+    "agent": "manipulator",
+    "name": "board_localization"
+  },
+  "counter": 30,
+  "success_rate": 1,
+  "min": 14.292654514312744,
+  "max": 35.996060371398926,
+  "name": "board_localization",
+  "agent": "manipulator",
+  "expected_duration": 16.854136904080708,
+  "duration_stddev": 3.9638516593540682
+},{
+  "_id": {
+    "agent": "human",
+    "name": "disassemble_remote_control"
+  },
+  "counter": 60,
+  "success_rate": 1,
+  "min": 32.50074052810669,
+  "max": 46.90069055557251,
+  "name": "disassemble_remote_control",
+  "agent": "human",
+  "expected_duration": 39.73911949793498,
+  "duration_stddev": 2.501672591016371
+},{
+  "_id": {
+    "agent": "manipulator",
+    "name": "probe"
+  },
+  "counter": 30,
+  "success_rate": 1,
+  "min": 33.53318667411804,
+  "max": 74.23058938980103,
+  "name": "probe",
+  "agent": "manipulator",
+  "expected_duration": 44.18191113471985,
+  "duration_stddev": 10.71808609015469
+},{
+  "_id": {
+    "agent": "human",
+    "name": "remove_notebook_components"
+  },
+  "counter": 30,
+  "success_rate": 1,
+  "min": 19.100769758224487,
+  "max": 35.10067534446716,
+  "name": "remove_notebook_components",
+  "agent": "human",
+  "expected_duration": 25.0774001677831,
+  "duration_stddev": 2.9701503830672444
+},{
+  "_id": {
+    "agent": "human",
+    "name": "remove_notebook_cover"
+  },
+  "counter": 30,
+  "success_rate": 1,
+  "min": 26.600818634033203,
+  "max": 50.900694608688354,
+  "name": "remove_notebook_cover",
+  "agent": "human",
+  "expected_duration": 32.8708118279775,
+  "duration_stddev": 5.123040228639857
+},{
+  "_id": {
+    "agent": "manipulator",
+    "name": "remove_plug"
+  },
+  "counter": 30,
+  "success_rate": 1,
+  "min": 17.12665629386902,
+  "max": 35.23504090309143,
+  "name": "remove_plug",
+  "agent": "manipulator",
+  "expected_duration": 24.50008142789205,
+  "duration_stddev": 3.1538449561435598
+}]

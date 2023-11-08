@@ -1,5 +1,5 @@
 mongo_database: "hrc_case_study"
 mongo_collection_tasks: "task_properties_limited"
-mongo_collection_results: "task_results_online_complete"      # Risultati nuovi
+mongo_collection_results: "real_test_results"      # Risultati nuovi
 coll_risk_name: "task_synergy_test"                           # Sinergia stimata ok
 coll_duration_name: "task_durations_test"                     # Durate stimate pronte

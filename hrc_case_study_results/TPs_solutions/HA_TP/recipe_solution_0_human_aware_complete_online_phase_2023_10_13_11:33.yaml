@@ -1,0 +1,36 @@
+board_localization:
+  t_start: 35.76899025871243
+  t_end: 54.24599137037274
+  agent: manipulator
+probe:
+  t_start: 76.33380210992574
+  t_end: 118.83773276731483
+  agent: manipulator
+remove_plug:
+  t_start: 54.24599137037274
+  t_end: 76.33380210992578
+  agent: manipulator
+battery_sorting_1:
+  t_start: 0.0
+  t_end: 35.76899025871243
+  agent: manipulator
+battery_sorting_2:
+  t_start: 118.83773276731483
+  t_end: 159.98082166305275
+  agent: manipulator
+remove_notebook_cover:
+  t_start: 6.488681943467313
+  t_end: 39.35949377144481
+  agent: human
+remove_notebook_components:
+  t_start: 134.9034214952696
+  t_end: 159.98082166305272
+  agent: human
+disassemble_remote_control_1:
+  t_start: 79.09861326937983
+  t_end: 118.8377327673148
+  agent: human
+disassemble_remote_control_2:
+  t_start: 39.359493771444804
+  t_end: 79.09861326937978
+  agent: human

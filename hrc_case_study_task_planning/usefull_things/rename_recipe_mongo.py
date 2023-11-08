@@ -7,7 +7,7 @@ client = pymongo.MongoClient("mongodb://localhost:27017/")
 db = client["hrc_case_study"]
 
 # Seleziona la collezione "task_results_offline_real"
-collection = db["task_results_real_filtered"]
+collection = db["merging"]
 
 # Recupera tutti i documenti dalla collezione
 documents = collection.find()

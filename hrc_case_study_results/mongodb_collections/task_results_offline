@@ -1,0 +1,5401 @@
+[{
+  "_id": {
+    "$oid": "65200254c3903e230f3a2dd8"
+  },
+  "name": "board_localization",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T12:49:24.303Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_0_rep_0_2023_10_06_14:48_0",
+  "agent": "manipulator",
+  "t_start": 1696596548.5775642,
+  "t_end": 1696596564.3005543,
+  "t_start_planned": 0,
+  "t_end_planned": 15.705727338790894
+},{
+  "_id": {
+    "$oid": "65200264c3903e230f3a2dd9"
+  },
+  "name": "remove_notebook_cover",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 31.800111261,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T12:49:40.386Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_0_rep_0_2023_10_06_14:48_0",
+  "agent": "human",
+  "t_start": 1696596548.5788634,
+  "t_end": 1696596580.381135,
+  "t_start_planned": -1.0842882147699129e-11,
+  "t_end_planned": 30.662411708087348
+},{
+  "_id": {
+    "$oid": "65200279c3903e230f3a2dda"
+  },
+  "name": "probe",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T12:50:01.967Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_0_rep_0_2023_10_06_14:48_0",
+  "agent": "manipulator",
+  "t_start": 1696596564.3741498,
+  "t_end": 1696596601.9637628,
+  "t_start_planned": 15.705727338790892,
+  "t_end_planned": 52.88940644264221
+},{
+  "_id": {
+    "$oid": "6520028ac3903e230f3a2ddb"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 38.200099014,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T12:50:18.679Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_0_rep_0_2023_10_06_14:48_0",
+  "agent": "human",
+  "t_start": 1696596580.4739585,
+  "t_end": 1696596618.674677,
+  "t_start_planned": 30.662411708087348,
+  "t_end_planned": 70.66241170808735
+},{
+  "_id": {
+    "$oid": "652002aec3903e230f3a2ddc"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 35.500110369,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T12:50:54.779Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_0_rep_0_2023_10_06_14:48_0",
+  "agent": "human",
+  "t_start": 1696596619.2740386,
+  "t_end": 1696596654.7746785,
+  "t_start_planned": 70.66241170808735,
+  "t_end_planned": 110.66241170808735
+},{
+  "_id": {
+    "$oid": "652002c1c3903e230f3a2ddd"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 11.009122383000001,
+  "duration_real": 71.03523067500001,
+  "planning_time": 0.103969322,
+  "path_length": 9.881537776242551,
+  "date": {
+    "$date": "2023-10-06T12:51:13.387Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_0_rep_0_2023_10_06_14:48_0",
+  "agent": "manipulator",
+  "t_start": 1696596601.9755046,
+  "t_end": 1696596673.38272,
+  "t_start_planned": 52.88940644264221,
+  "t_end_planned": 82.43124051888783
+},{
+  "_id": {
+    "$oid": "652002ccc3903e230f3a2dde"
+  },
+  "name": "remove_notebook_components",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 24.900115464,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T12:51:24.180Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_0_rep_0_2023_10_06_14:48_0",
+  "agent": "human",
+  "t_start": 1696596659.2743075,
+  "t_end": 1696596684.1750236,
+  "t_start_planned": 110.66241170808735,
+  "t_end_planned": 140.66241170808735
+},{
+  "_id": {
+    "$oid": "652002d9c3903e230f3a2de0"
+  },
+  "name": "remove_plug",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T12:51:37.658Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_0_rep_0_2023_10_06_14:48_0",
+  "agent": "manipulator",
+  "t_start": 1696596673.4746017,
+  "t_end": 1696596697.6555703,
+  "t_start_planned": 85.02887469375689,
+  "t_end_planned": 111.12057763183672
+},{
+  "_id": {
+    "$oid": "652002fbc3903e230f3a2de1"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 10.975952422999999,
+  "duration_real": 33.141467345,
+  "planning_time": 2.416830305,
+  "path_length": 12.074130921487415,
+  "date": {
+    "$date": "2023-10-06T12:52:11.093Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_0_rep_0_2023_10_06_14:48_0",
+  "agent": "manipulator",
+  "t_start": 1696596697.674548,
+  "t_end": 1696596731.0882,
+  "t_start_planned": 111.12057763183672,
+  "t_end_planned": 140.66241170808235
+},{
+  "_id": {
+    "$oid": "6520031dc3903e230f3a2de3"
+  },
+  "name": "board_localization",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T12:52:45.746Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_1_rep_0_2023_10_06_14:48_1",
+  "agent": "manipulator",
+  "t_start": 1696596749.935303,
+  "t_end": 1696596765.7432902,
+  "t_start_planned": 0,
+  "t_end_planned": 15.705727338790894
+},{
+  "_id": {
+    "$oid": "6520032dc3903e230f3a2de4"
+  },
+  "name": "remove_notebook_cover",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 31.900102438,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T12:53:01.842Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_1_rep_0_2023_10_06_14:48_1",
+  "agent": "human",
+  "t_start": 1696596749.9364681,
+  "t_end": 1696596781.8371189,
+  "t_start_planned": 0,
+  "t_end_planned": 30.66241170809819
+},{
+  "_id": {
+    "$oid": "65200341c3903e230f3a2de5"
+  },
+  "name": "probe",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T12:53:21.436Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_1_rep_0_2023_10_06_14:48_1",
+  "agent": "manipulator",
+  "t_start": 1696596765.8321452,
+  "t_end": 1696596801.432968,
+  "t_start_planned": 15.705727338790894,
+  "t_end_planned": 52.88940644264221
+},{
+  "_id": {
+    "$oid": "65200354c3903e230f3a2de6"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 38.500112784,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T12:53:40.437Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_1_rep_0_2023_10_06_14:48_1",
+  "agent": "human",
+  "t_start": 1696596781.9320822,
+  "t_end": 1696596820.43289,
+  "t_start_planned": 30.662411708097352,
+  "t_end_planned": 70.66241170809735
+},{
+  "_id": {
+    "$oid": "65200378c3903e230f3a2de7"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 36.000099308,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T12:54:16.637Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_1_rep_0_2023_10_06_14:48_1",
+  "agent": "human",
+  "t_start": 1696596820.6318793,
+  "t_end": 1696596856.6326048,
+  "t_start_planned": 70.66241170808644,
+  "t_end_planned": 110.66241170808644
+},{
+  "_id": {
+    "$oid": "6520038cc3903e230f3a2de8"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 11.000693119000001,
+  "duration_real": 73.541506102,
+  "planning_time": 0.09858863600000001,
+  "path_length": 9.994362522901056,
+  "date": {
+    "$date": "2023-10-06T12:54:36.506Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_1_rep_0_2023_10_06_14:48_1",
+  "agent": "manipulator",
+  "t_start": 1696596802.8350368,
+  "t_end": 1696596876.5015671,
+  "t_start_planned": 52.8894064426363,
+  "t_end_planned": 82.43124051888192
+},{
+  "_id": {
+    "$oid": "6520039bc3903e230f3a2de9"
+  },
+  "name": "remove_notebook_components",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 30.400101621,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T12:54:51.037Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_1_rep_0_2023_10_06_14:48_1",
+  "agent": "human",
+  "t_start": 1696596860.631969,
+  "t_end": 1696596891.0326445,
+  "t_start_planned": 110.66241170808644,
+  "t_end_planned": 140.66241170808644
+},{
+  "_id": {
+    "$oid": "652003a3c3903e230f3a2deb"
+  },
+  "name": "remove_plug",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T12:54:59.477Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_1_rep_0_2023_10_06_14:48_1",
+  "agent": "manipulator",
+  "t_start": 1696596876.5324988,
+  "t_end": 1696596899.475145,
+  "t_start_planned": 82.43124051888208,
+  "t_end_planned": 108.52294345696191
+},{
+  "_id": {
+    "$oid": "652003c8c3903e230f3a2dec"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 12.555219368,
+  "duration_real": 37.192106879,
+  "planning_time": 2.600274687,
+  "path_length": 13.61258071681888,
+  "date": {
+    "$date": "2023-10-06T12:55:36.944Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_1_rep_0_2023_10_06_14:48_1",
+  "agent": "manipulator",
+  "t_start": 1696596899.531997,
+  "t_end": 1696596936.9386704,
+  "t_start_planned": 111.12057763184082,
+  "t_end_planned": 140.66241170808644
+},{
+  "_id": {
+    "$oid": "652003ebc3903e230f3a2dee"
+  },
+  "name": "board_localization",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T12:56:11.743Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_2_rep_0_2023_10_06_14:48_2",
+  "agent": "manipulator",
+  "t_start": 1696596955.9751534,
+  "t_end": 1696596971.7412019,
+  "t_start_planned": 0,
+  "t_end_planned": 15.705727338790894
+},{
+  "_id": {
+    "$oid": "65200401c3903e230f3a2def"
+  },
+  "name": "remove_notebook_cover",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 37.800098404,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T12:56:33.783Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_2_rep_0_2023_10_06_14:48_2",
+  "agent": "human",
+  "t_start": 1696596955.9775314,
+  "t_end": 1696596993.7784133,
+  "t_start_planned": 0,
+  "t_end_planned": 30.66241170809819
+},{
+  "_id": {
+    "$oid": "6520040fc3903e230f3a2df0"
+  },
+  "name": "probe",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T12:56:47.335Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_2_rep_0_2023_10_06_14:48_2",
+  "agent": "manipulator",
+  "t_start": 1696596971.7717729,
+  "t_end": 1696597007.3313417,
+  "t_start_planned": 15.705727338790894,
+  "t_end_planned": 52.88940644264221
+},{
+  "_id": {
+    "$oid": "65200428c3903e230f3a2df1"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 38.600105971,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T12:57:12.477Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_2_rep_0_2023_10_06_14:48_2",
+  "agent": "human",
+  "t_start": 1696596993.8722308,
+  "t_end": 1696597032.4730258,
+  "t_start_planned": 30.662411708097352,
+  "t_end_planned": 70.66241170809735
+},{
+  "_id": {
+    "$oid": "65200442c3903e230f3a2df2"
+  },
+  "name": "remove_notebook_components",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 25.700118258,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T12:57:38.277Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_2_rep_0_2023_10_06_14:48_2",
+  "agent": "human",
+  "t_start": 1696597032.5717003,
+  "t_end": 1696597058.2723956,
+  "t_start_planned": 70.66241170808917,
+  "t_end_planned": 100.66241170808917
+},{
+  "_id": {
+    "$oid": "65200443c3903e230f3a2df3"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 10.999793794,
+  "duration_real": 50.72245285,
+  "planning_time": 0.09198408900000002,
+  "path_length": 9.874676213465793,
+  "date": {
+    "$date": "2023-10-06T12:57:39.873Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_2_rep_0_2023_10_06_14:48_2",
+  "agent": "manipulator",
+  "t_start": 1696597008.8729987,
+  "t_end": 1696597059.8691523,
+  "t_start_planned": 52.88940644263448,
+  "t_end_planned": 82.4312405188801
+},{
+  "_id": {
+    "$oid": "65200467c3903e230f3a2df4"
+  },
+  "name": "remove_plug",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T12:58:15.210Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_2_rep_0_2023_10_06_14:48_2",
+  "agent": "manipulator",
+  "t_start": 1696597059.9725564,
+  "t_end": 1696597095.2075973,
+  "t_start_planned": 82.43124051888026,
+  "t_end_planned": 108.52294345696009
+},{
+  "_id": {
+    "$oid": "65200469c3903e230f3a2df5"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 39.300120641,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T12:58:17.679Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_2_rep_0_2023_10_06_14:48_2",
+  "agent": "human",
+  "t_start": 1696597058.372149,
+  "t_end": 1696597097.6730218,
+  "t_start_planned": 100.66241170808917,
+  "t_end_planned": 140.66241170808917
+},{
+  "_id": {
+    "$oid": "65200487c3903e230f3a2df7"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 10.431892702999999,
+  "duration_real": 31.820732913999997,
+  "planning_time": 2.4564601280000002,
+  "path_length": 10.047005765076475,
+  "date": {
+    "$date": "2023-10-06T12:58:47.374Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_2_rep_0_2023_10_06_14:48_2",
+  "agent": "manipulator",
+  "t_start": 1696597095.2730994,
+  "t_end": 1696597127.3676255,
+  "t_start_planned": 111.12057763184355,
+  "t_end_planned": 140.66241170808917
+},{
+  "_id": {
+    "$oid": "652004a7c3903e230f3a2df9"
+  },
+  "name": "board_localization",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T12:59:19.885Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_3_rep_0_2023_10_06_14:48_3",
+  "agent": "manipulator",
+  "t_start": 1696597144.1384566,
+  "t_end": 1696597159.8817441,
+  "t_start_planned": 0,
+  "t_end_planned": 15.705727338790894
+},{
+  "_id": {
+    "$oid": "652004bac3903e230f3a2dfa"
+  },
+  "name": "remove_notebook_cover",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 34.70010616,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T12:59:38.847Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_3_rep_0_2023_10_06_14:48_3",
+  "agent": "human",
+  "t_start": 1696597144.1413105,
+  "t_end": 1696597178.8421469,
+  "t_start_planned": 0,
+  "t_end_planned": 30.66241170809819
+},{
+  "_id": {
+    "$oid": "652004ccc3903e230f3a2dfb"
+  },
+  "name": "probe",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T12:59:56.439Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_3_rep_0_2023_10_06_14:48_3",
+  "agent": "manipulator",
+  "t_start": 1696597159.9353561,
+  "t_end": 1696597196.4362717,
+  "t_start_planned": 15.705727338790894,
+  "t_end_planned": 52.88940644264221
+},{
+  "_id": {
+    "$oid": "652004d2c3903e230f3a2dfc"
+  },
+  "name": "remove_notebook_components",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 23.300101345,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:00:02.241Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_3_rep_0_2023_10_06_14:48_3",
+  "agent": "human",
+  "t_start": 1696597178.9354546,
+  "t_end": 1696597202.2361398,
+  "t_start_planned": 30.662411708097807,
+  "t_end_planned": 60.66241170809781
+},{
+  "_id": {
+    "$oid": "652004e8c3903e230f3a2dfd"
+  },
+  "name": "remove_plug",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:00:24.326Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_3_rep_0_2023_10_06_14:48_3",
+  "agent": "manipulator",
+  "t_start": 1696597197.0359068,
+  "t_end": 1696597224.323037,
+  "t_start_planned": 52.889406442638574,
+  "t_end_planned": 78.98110938071841
+},{
+  "_id": {
+    "$oid": "652004fbc3903e230f3a2dfe"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 38.600118067,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:00:43.441Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_3_rep_0_2023_10_06_14:48_3",
+  "agent": "human",
+  "t_start": 1696597204.8351173,
+  "t_end": 1696597243.4358382,
+  "t_start_planned": 60.66241170809735,
+  "t_end_planned": 100.66241170809735
+},{
+  "_id": {
+    "$oid": "65200521c3903e230f3a2dff"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 36.900102053,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:01:21.741Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_3_rep_0_2023_10_06_14:48_3",
+  "agent": "human",
+  "t_start": 1696597244.835142,
+  "t_end": 1696597281.7358189,
+  "t_start_planned": 100.6624117080928,
+  "t_end_planned": 140.6624117080928
+},{
+  "_id": {
+    "$oid": "65200533c3903e230f3a2e01"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 10.307872784,
+  "duration_real": 75.346918535,
+  "planning_time": 0.10830642900000001,
+  "path_length": 9.620205650849481,
+  "date": {
+    "$date": "2023-10-06T13:01:39.899Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_3_rep_0_2023_10_06_14:48_3",
+  "agent": "manipulator",
+  "t_start": 1696597224.3372078,
+  "t_end": 1696597299.8936949,
+  "t_start_planned": 78.98110938071568,
+  "t_end_planned": 108.5229434569613
+},{
+  "_id": {
+    "$oid": "65200552c3903e230f3a2e02"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 11.146406983,
+  "duration_real": 30.655073222,
+  "planning_time": 0.16220723400000003,
+  "path_length": 11.109378530691691,
+  "date": {
+    "$date": "2023-10-06T13:02:10.806Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_3_rep_0_2023_10_06_14:48_3",
+  "agent": "manipulator",
+  "t_start": 1696597299.9356904,
+  "t_end": 1696597330.8016248,
+  "t_start_planned": 108.5229434569613,
+  "t_end_planned": 138.06477753320692
+},{
+  "_id": {
+    "$oid": "65200574c3903e230f3a2e04"
+  },
+  "name": "board_localization",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:02:44.928Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_4_rep_0_2023_10_06_14:48_4",
+  "agent": "manipulator",
+  "t_start": 1696597349.2081513,
+  "t_end": 1696597364.9252286,
+  "t_start_planned": 0,
+  "t_end_planned": 15.705727338790894
+},{
+  "_id": {
+    "$oid": "65200582c3903e230f3a2e05"
+  },
+  "name": "remove_notebook_cover",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 29.000102032,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:02:58.214Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_4_rep_0_2023_10_06_14:48_4",
+  "agent": "human",
+  "t_start": 1696597349.2090082,
+  "t_end": 1696597378.2097347,
+  "t_start_planned": 0,
+  "t_end_planned": 30.66241170809819
+},{
+  "_id": {
+    "$oid": "65200598c3903e230f3a2e06"
+  },
+  "name": "probe",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:03:20.567Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_4_rep_0_2023_10_06_14:48_4",
+  "agent": "manipulator",
+  "t_start": 1696597365.0064406,
+  "t_end": 1696597400.564512,
+  "t_start_planned": 15.705727338790894,
+  "t_end_planned": 52.88940644264221
+},{
+  "_id": {
+    "$oid": "6520059cc3903e230f3a2e07"
+  },
+  "name": "remove_notebook_components",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 24.100099177,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:03:24.011Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_4_rep_0_2023_10_06_14:48_4",
+  "agent": "human",
+  "t_start": 1696597379.905433,
+  "t_end": 1696597404.0061512,
+  "t_start_planned": 30.66241170809819,
+  "t_end_planned": 60.66241170809819
+},{
+  "_id": {
+    "$oid": "652005c8c3903e230f3a2e08"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 39.00010201,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:04:08.910Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_4_rep_0_2023_10_06_14:48_4",
+  "agent": "human",
+  "t_start": 1696597409.9055693,
+  "t_end": 1696597448.9062724,
+  "t_start_planned": 60.66241170809735,
+  "t_end_planned": 100.66241170809735
+},{
+  "_id": {
+    "$oid": "652005f1c3903e230f3a2e09"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 39.400106301,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:04:49.311Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_4_rep_0_2023_10_06_14:48_4",
+  "agent": "human",
+  "t_start": 1696597449.9057498,
+  "t_end": 1696597489.3064985,
+  "t_start_planned": 100.66241170809371,
+  "t_end_planned": 140.6624117080937
+},{
+  "_id": {
+    "$oid": "652005f8c3903e230f3a2e0b"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 11.007201074,
+  "duration_real": 93.82388054399999,
+  "planning_time": 0.09337529700000001,
+  "path_length": 9.878283709099621,
+  "date": {
+    "$date": "2023-10-06T13:04:56.175Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_4_rep_0_2023_10_06_14:48_4",
+  "agent": "manipulator",
+  "t_start": 1696597402.10545,
+  "t_end": 1696597496.1703613,
+  "t_start_planned": 52.8894064426413,
+  "t_end_planned": 82.43124051888692
+},{
+  "_id": {
+    "$oid": "65200610c3903e230f3a2e0c"
+  },
+  "name": "remove_plug",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:05:20.953Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_4_rep_0_2023_10_06_14:48_4",
+  "agent": "manipulator",
+  "t_start": 1696597496.2055514,
+  "t_end": 1696597520.9506254,
+  "t_start_planned": 82.43124051888708,
+  "t_end_planned": 108.52294345696691
+},{
+  "_id": {
+    "$oid": "6520062dc3903e230f3a2e0d"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 9.776968023,
+  "duration_real": 28.205042403,
+  "planning_time": 0.150905159,
+  "path_length": 9.545599019238665,
+  "date": {
+    "$date": "2023-10-06T13:05:49.372Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_4_rep_0_2023_10_06_14:48_4",
+  "agent": "manipulator",
+  "t_start": 1696597521.0056112,
+  "t_end": 1696597549.3652902,
+  "t_start_planned": 111.12057763184248,
+  "t_end_planned": 140.66241170808811
+},{
+  "_id": {
+    "$oid": "65200650c3903e230f3a2e0f"
+  },
+  "name": "board_localization",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:06:24.071Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_5_rep_0_2023_10_06_14:48_5",
+  "agent": "manipulator",
+  "t_start": 1696597568.416727,
+  "t_end": 1696597584.0682812,
+  "t_start_planned": 0,
+  "t_end_planned": 15.705727338790894
+},{
+  "_id": {
+    "$oid": "6520065fc3903e230f3a2e10"
+  },
+  "name": "remove_notebook_cover",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 30.900138777,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:06:39.323Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_5_rep_0_2023_10_06_14:48_5",
+  "agent": "human",
+  "t_start": 1696597568.4183347,
+  "t_end": 1696597599.3191552,
+  "t_start_planned": 0,
+  "t_end_planned": 30.66241170809819
+},{
+  "_id": {
+    "$oid": "65200673c3903e230f3a2e11"
+  },
+  "name": "probe",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:06:59.611Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_5_rep_0_2023_10_06_14:48_5",
+  "agent": "manipulator",
+  "t_start": 1696597584.211952,
+  "t_end": 1696597619.6079602,
+  "t_start_planned": 15.705727338790894,
+  "t_end_planned": 52.88940644264221
+},{
+  "_id": {
+    "$oid": "65200687c3903e230f3a2e12"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 39.600100330000004,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:07:19.018Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_5_rep_0_2023_10_06_14:48_5",
+  "agent": "human",
+  "t_start": 1696597599.4122381,
+  "t_end": 1696597639.0130231,
+  "t_start_planned": 30.662411708095988,
+  "t_end_planned": 70.66241170809599
+},{
+  "_id": {
+    "$oid": "652006a2c3903e230f3a2e13"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 11.001367808,
+  "duration_real": 45.243040758,
+  "planning_time": 0.101270624,
+  "path_length": 9.994616847203794,
+  "date": {
+    "$date": "2023-10-06T13:07:46.794Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_5_rep_0_2023_10_06_14:48_5",
+  "agent": "manipulator",
+  "t_start": 1696597621.3136952,
+  "t_end": 1696597666.7897403,
+  "t_start_planned": 52.88940644264221,
+  "t_end_planned": 82.43124051888783
+},{
+  "_id": {
+    "$oid": "652006aac3903e230f3a2e14"
+  },
+  "name": "remove_notebook_components",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 35.100102544,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:07:54.217Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_5_rep_0_2023_10_06_14:48_5",
+  "agent": "human",
+  "t_start": 1696597639.1122475,
+  "t_end": 1696597674.2129228,
+  "t_start_planned": 70.66241170809599,
+  "t_end_planned": 100.66241170809599
+},{
+  "_id": {
+    "$oid": "652006b9c3903e230f3a2e15"
+  },
+  "name": "remove_plug",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:08:09.692Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_5_rep_0_2023_10_06_14:48_5",
+  "agent": "manipulator",
+  "t_start": 1696597666.812463,
+  "t_end": 1696597689.6892123,
+  "t_start_planned": 82.43124051888799,
+  "t_end_planned": 108.52294345696782
+},{
+  "_id": {
+    "$oid": "652006d8c3903e230f3a2e16"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 45.800100151,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:08:40.117Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_5_rep_0_2023_10_06_14:48_5",
+  "agent": "human",
+  "t_start": 1696597674.3121426,
+  "t_end": 1696597720.112884,
+  "t_start_planned": 100.66241170809417,
+  "t_end_planned": 140.66241170809417
+},{
+  "_id": {
+    "$oid": "652006f1c3903e230f3a2e18"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 11.192315048,
+  "duration_real": 55.90795821,
+  "planning_time": 2.4846574219999997,
+  "path_length": 12.16365337932756,
+  "date": {
+    "$date": "2023-10-06T13:09:05.860Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_5_rep_0_2023_10_06_14:48_5",
+  "agent": "manipulator",
+  "t_start": 1696597689.713306,
+  "t_end": 1696597745.8547032,
+  "t_start_planned": 111.12057763184855,
+  "t_end_planned": 140.66241170809417
+},{
+  "_id": {
+    "$oid": "65200718c3903e230f3a2e1a"
+  },
+  "name": "board_localization",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:09:44.984Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_6_rep_0_2023_10_06_14:48_6",
+  "agent": "manipulator",
+  "t_start": 1696597764.1536474,
+  "t_end": 1696597784.980772,
+  "t_start_planned": 0,
+  "t_end_planned": 15.705727338790894
+},{
+  "_id": {
+    "$oid": "6520072dc3903e230f3a2e1b"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 41.800102779,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:10:05.960Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_6_rep_0_2023_10_06_14:48_6",
+  "agent": "human",
+  "t_start": 1696597764.1547716,
+  "t_end": 1696597805.9559627,
+  "t_start_planned": 0,
+  "t_end_planned": 40
+},{
+  "_id": {
+    "$oid": "65200746c3903e230f3a2e1c"
+  },
+  "name": "probe",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:10:30.173Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_6_rep_0_2023_10_06_14:48_6",
+  "agent": "manipulator",
+  "t_start": 1696597785.0518208,
+  "t_end": 1696597830.170496,
+  "t_start_planned": 15.705727338790894,
+  "t_end_planned": 52.88940644264221
+},{
+  "_id": {
+    "$oid": "6520074ec3903e230f3a2e1d"
+  },
+  "name": "remove_notebook_cover",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 32.900118289,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:10:38.956Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_6_rep_0_2023_10_06_14:48_6",
+  "agent": "human",
+  "t_start": 1696597806.0504944,
+  "t_end": 1696597838.9512534,
+  "t_start_planned": 39.999999999998636,
+  "t_end_planned": 70.66241170809683
+},{
+  "_id": {
+    "$oid": "65200764c3903e230f3a2e1e"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 11.007183202,
+  "duration_real": 30.629918431,
+  "planning_time": 0.098700961,
+  "path_length": 9.878283131998522,
+  "date": {
+    "$date": "2023-10-06T13:11:00.994Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_6_rep_0_2023_10_06_14:48_6",
+  "agent": "manipulator",
+  "t_start": 1696597830.2501044,
+  "t_end": 1696597860.989905,
+  "t_start_planned": 52.88940644264128,
+  "t_end_planned": 82.43124051888691
+},{
+  "_id": {
+    "$oid": "65200768c3903e230f3a2e1f"
+  },
+  "name": "remove_notebook_components",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 25.700098857,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:11:04.755Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_6_rep_0_2023_10_06_14:48_6",
+  "agent": "human",
+  "t_start": 1696597839.050296,
+  "t_end": 1696597864.7510238,
+  "t_start_planned": 70.66241170809683,
+  "t_end_planned": 100.66241170809683
+},{
+  "_id": {
+    "$oid": "6520077ec3903e230f3a2e20"
+  },
+  "name": "remove_plug",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:11:26.088Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_6_rep_0_2023_10_06_14:48_6",
+  "agent": "manipulator",
+  "t_start": 1696597861.0503783,
+  "t_end": 1696597886.0843391,
+  "t_start_planned": 85.02887469376917,
+  "t_end_planned": 111.120577631849
+},{
+  "_id": {
+    "$oid": "65200792c3903e230f3a2e21"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 41.400071254,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:11:46.256Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_6_rep_0_2023_10_06_14:48_6",
+  "agent": "human",
+  "t_start": 1696597864.850817,
+  "t_end": 1696597906.2514706,
+  "t_start_planned": 100.66241170809462,
+  "t_end_planned": 140.66241170809462
+},{
+  "_id": {
+    "$oid": "652007adc3903e230f3a2e23"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 10.515294231,
+  "duration_real": 47.246072373000004,
+  "planning_time": 0.147632353,
+  "path_length": 9.56868211016074,
+  "date": {
+    "$date": "2023-10-06T13:12:13.612Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_6_rep_0_2023_10_06_14:48_6",
+  "agent": "manipulator",
+  "t_start": 1696597886.1519418,
+  "t_end": 1696597933.606161,
+  "t_start_planned": 111.120577631849,
+  "t_end_planned": 140.66241170809462
+},{
+  "_id": {
+    "$oid": "652007d0c3903e230f3a2e25"
+  },
+  "name": "board_localization",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:12:48.522Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_7_rep_0_2023_10_06_14:48_7",
+  "agent": "manipulator",
+  "t_start": 1696597952.235496,
+  "t_end": 1696597968.5185385,
+  "t_start_planned": 0,
+  "t_end_planned": 15.705727338790894
+},{
+  "_id": {
+    "$oid": "652007eac3903e230f3a2e26"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 42.100111414,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:13:14.343Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_7_rep_0_2023_10_06_14:48_7",
+  "agent": "human",
+  "t_start": 1696597952.2372794,
+  "t_end": 1696597994.3381324,
+  "t_start_planned": 0,
+  "t_end_planned": 40
+},{
+  "_id": {
+    "$oid": "65200809c3903e230f3a2e27"
+  },
+  "name": "remove_notebook_cover",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 31.300105415,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:13:45.736Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_7_rep_0_2023_10_06_14:48_7",
+  "agent": "human",
+  "t_start": 1696597994.4308116,
+  "t_end": 1696598025.7314923,
+  "t_start_planned": 39.999999999998636,
+  "t_end_planned": 70.66241170809683
+},{
+  "_id": {
+    "$oid": "6520080ac3903e230f3a2e28"
+  },
+  "name": "probe",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:13:46.056Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_7_rep_0_2023_10_06_14:48_7",
+  "agent": "manipulator",
+  "t_start": 1696597968.531472,
+  "t_end": 1696598026.0531218,
+  "t_start_planned": 15.705727338790894,
+  "t_end_planned": 52.88940644264221
+},{
+  "_id": {
+    "$oid": "65200831c3903e230f3a2e29"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 39.600100191,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:14:25.436Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_7_rep_0_2023_10_06_14:48_7",
+  "agent": "human",
+  "t_start": 1696598025.8311994,
+  "t_end": 1696598065.431888,
+  "t_start_planned": 70.66241170809607,
+  "t_end_planned": 110.66241170809607
+},{
+  "_id": {
+    "$oid": "6520084ac3903e230f3a2e2a"
+  },
+  "name": "remove_notebook_components",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 24.700100546,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:14:50.237Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_7_rep_0_2023_10_06_14:48_7",
+  "agent": "human",
+  "t_start": 1696598065.5315144,
+  "t_end": 1696598090.232224,
+  "t_start_planned": 110.6624117080969,
+  "t_end_planned": 140.6624117080969
+},{
+  "_id": {
+    "$oid": "6520084cc3903e230f3a2e2b"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 11.002807969,
+  "duration_real": 66.411814063,
+  "planning_time": 0.101151268,
+  "path_length": 9.995120795550651,
+  "date": {
+    "$date": "2023-10-06T13:14:52.763Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_7_rep_0_2023_10_06_14:48_7",
+  "agent": "manipulator",
+  "t_start": 1696598026.1307695,
+  "t_end": 1696598092.7585483,
+  "t_start_planned": 52.88940644264221,
+  "t_end_planned": 82.43124051888783
+},{
+  "_id": {
+    "$oid": "65200863c3903e230f3a2e2d"
+  },
+  "name": "remove_plug",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:15:15.249Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_7_rep_0_2023_10_06_14:48_7",
+  "agent": "manipulator",
+  "t_start": 1696598092.8314645,
+  "t_end": 1696598115.2469285,
+  "t_start_planned": 82.43124051888799,
+  "t_end_planned": 108.52294345696782
+},{
+  "_id": {
+    "$oid": "65200882c3903e230f3a2e2e"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 10.089655261,
+  "duration_real": 31.120754743,
+  "planning_time": 2.560225677,
+  "path_length": 9.944914342796203,
+  "date": {
+    "$date": "2023-10-06T13:15:46.672Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_7_rep_0_2023_10_06_14:48_7",
+  "agent": "manipulator",
+  "t_start": 1696598115.3309338,
+  "t_end": 1696598146.6673446,
+  "t_start_planned": 111.12057763185118,
+  "t_end_planned": 140.6624117080968
+},{
+  "_id": {
+    "$oid": "652008a5c3903e230f3a2e30"
+  },
+  "name": "board_localization",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:16:21.341Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_8_rep_0_2023_10_06_14:48_8",
+  "agent": "manipulator",
+  "t_start": 1696598164.2377813,
+  "t_end": 1696598181.3370953,
+  "t_start_planned": 0,
+  "t_end_planned": 15.705727338790894
+},{
+  "_id": {
+    "$oid": "652008bcc3903e230f3a2e31"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 40.000267939,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:16:44.244Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_8_rep_0_2023_10_06_14:48_8",
+  "agent": "human",
+  "t_start": 1696598164.2383785,
+  "t_end": 1696598204.239399,
+  "t_start_planned": 0,
+  "t_end_planned": 40
+},{
+  "_id": {
+    "$oid": "652008d5c3903e230f3a2e32"
+  },
+  "name": "probe",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:17:09.959Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_8_rep_0_2023_10_06_14:48_8",
+  "agent": "manipulator",
+  "t_start": 1696598181.4362345,
+  "t_end": 1696598229.956809,
+  "t_start_planned": 15.705727338790894,
+  "t_end_planned": 52.88940644264221
+},{
+  "_id": {
+    "$oid": "652008dbc3903e230f3a2e33"
+  },
+  "name": "remove_notebook_cover",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 31.000107391,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:17:15.340Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_8_rep_0_2023_10_06_14:48_8",
+  "agent": "human",
+  "t_start": 1696598204.3348713,
+  "t_end": 1696598235.3355854,
+  "t_start_planned": 39.999999999998636,
+  "t_end_planned": 70.66241170809683
+},{
+  "_id": {
+    "$oid": "652008efc3903e230f3a2e34"
+  },
+  "name": "remove_plug",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:17:35.275Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_8_rep_0_2023_10_06_14:48_8",
+  "agent": "manipulator",
+  "t_start": 1696598230.035195,
+  "t_end": 1696598255.2719252,
+  "t_start_planned": 52.8894064426413,
+  "t_end_planned": 78.98110938072114
+},{
+  "_id": {
+    "$oid": "65200901c3903e230f3a2e35"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 38.500116592,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:17:53.941Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_8_rep_0_2023_10_06_14:48_8",
+  "agent": "human",
+  "t_start": 1696598235.4349213,
+  "t_end": 1696598273.9357815,
+  "t_start_planned": 70.6624117080969,
+  "t_end_planned": 110.6624117080969
+},{
+  "_id": {
+    "$oid": "65200919c3903e230f3a2e36"
+  },
+  "name": "remove_notebook_components",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 22.60009995,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:18:17.541Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_8_rep_0_2023_10_06_14:48_8",
+  "agent": "human",
+  "t_start": 1696598274.9347563,
+  "t_end": 1696598297.5354204,
+  "t_start_planned": 110.6624117080969,
+  "t_end_planned": 140.6624117080969
+},{
+  "_id": {
+    "$oid": "6520091bc3903e230f3a2e37"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 10.31544921,
+  "duration_real": 44.056908022,
+  "planning_time": 0.116568659,
+  "path_length": 9.504619891324886,
+  "date": {
+    "$date": "2023-10-06T13:18:19.608Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_8_rep_0_2023_10_06_14:48_8",
+  "agent": "manipulator",
+  "t_start": 1696598255.3361878,
+  "t_end": 1696598299.6035867,
+  "t_start_planned": 78.98110938072114,
+  "t_end_planned": 108.52294345696676
+},{
+  "_id": {
+    "$oid": "6520093cc3903e230f3a2e39"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 11.872148993,
+  "duration_real": 32.839351685,
+  "planning_time": 0.186272508,
+  "path_length": 10.96195551985576,
+  "date": {
+    "$date": "2023-10-06T13:18:52.604Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_8_rep_0_2023_10_06_14:48_8",
+  "agent": "manipulator",
+  "t_start": 1696598299.6350958,
+  "t_end": 1696598332.5994785,
+  "t_start_planned": 111.12057763185119,
+  "t_end_planned": 140.6624117080968
+},{
+  "_id": {
+    "$oid": "65200977c3903e230f3a2e3b"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 40.200101241,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:19:51.694Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_9_rep_0_2023_10_06_14:48_9",
+  "agent": "human",
+  "t_start": 1696598351.488359,
+  "t_end": 1696598391.689112,
+  "t_start_planned": 0,
+  "t_end_planned": 40
+},{
+  "_id": {
+    "$oid": "6520098ac3903e230f3a2e3c"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 9.036301483999999,
+  "duration_real": 58.47955489900001,
+  "planning_time": 0.099366589,
+  "path_length": 7.8344430797565074,
+  "date": {
+    "$date": "2023-10-06T13:20:10.231Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_9_rep_0_2023_10_06_14:48_9",
+  "agent": "manipulator",
+  "t_start": 1696598351.4874492,
+  "t_end": 1696598410.2262347,
+  "t_start_planned": -1.3642420526593924e-12,
+  "t_end_planned": 29.54183407624426
+},{
+  "_id": {
+    "$oid": "65200996c3903e230f3a2e3d"
+  },
+  "name": "remove_notebook_cover",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 30.300105211,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:20:22.089Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_9_rep_0_2023_10_06_14:48_9",
+  "agent": "human",
+  "t_start": 1696598391.783629,
+  "t_end": 1696598422.0844717,
+  "t_start_planned": 39.999999999998636,
+  "t_end_planned": 70.66241170809683
+},{
+  "_id": {
+    "$oid": "65200998c3903e230f3a2e3e"
+  },
+  "name": "board_localization",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:20:24.686Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_9_rep_0_2023_10_06_14:48_9",
+  "agent": "manipulator",
+  "t_start": 1696598410.2840714,
+  "t_end": 1696598424.6829147,
+  "t_start_planned": 29.541834076244413,
+  "t_end_planned": 45.24756141503531
+},{
+  "_id": {
+    "$oid": "652009bac3903e230f3a2e3f"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 36.200101163,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:20:58.390Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_9_rep_0_2023_10_06_14:48_9",
+  "agent": "human",
+  "t_start": 1696598422.184445,
+  "t_end": 1696598458.3852484,
+  "t_start_planned": 70.6624117080969,
+  "t_end_planned": 110.6624117080969
+},{
+  "_id": {
+    "$oid": "652009cac3903e230f3a2e40"
+  },
+  "name": "probe",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:21:14.638Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_9_rep_0_2023_10_06_14:48_9",
+  "agent": "manipulator",
+  "t_start": 1696598424.7844224,
+  "t_end": 1696598474.6357024,
+  "t_start_planned": 45.24756141503531,
+  "t_end_planned": 82.43124051888663
+},{
+  "_id": {
+    "$oid": "652009d6c3903e230f3a2e41"
+  },
+  "name": "remove_notebook_components",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 24.100100302,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:21:26.290Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_9_rep_0_2023_10_06_14:48_9",
+  "agent": "human",
+  "t_start": 1696598462.1850126,
+  "t_end": 1696598486.2857568,
+  "t_start_planned": 110.6624117080969,
+  "t_end_planned": 140.6624117080969
+},{
+  "_id": {
+    "$oid": "652009e3c3903e230f3a2e43"
+  },
+  "name": "remove_plug",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:21:39.895Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_9_rep_0_2023_10_06_14:48_9",
+  "agent": "manipulator",
+  "t_start": 1696598474.684033,
+  "t_end": 1696598499.892281,
+  "t_start_planned": 82.43124051888663,
+  "t_end_planned": 108.52294345696646
+},{
+  "_id": {
+    "$oid": "65200a02c3903e230f3a2e44"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 10.892193512,
+  "duration_real": 30.016003426,
+  "planning_time": 0.12448213000000001,
+  "path_length": 9.698207321400334,
+  "date": {
+    "$date": "2023-10-06T13:22:10.181Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_9_rep_0_2023_10_06_14:48_9",
+  "agent": "manipulator",
+  "t_start": 1696598499.9841127,
+  "t_end": 1696598530.1761038,
+  "t_start_planned": 111.12057763185139,
+  "t_end_planned": 140.662411708097
+},{
+  "_id": {
+    "$oid": "65200a25c3903e230f3a2e46"
+  },
+  "name": "board_localization",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:22:45.406Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_10_rep_0_2023_10_06_14:48_10",
+  "agent": "manipulator",
+  "t_start": 1696598548.2213764,
+  "t_end": 1696598565.4031334,
+  "t_start_planned": 0,
+  "t_end_planned": 15.705727338790894
+},{
+  "_id": {
+    "$oid": "65200a3dc3903e230f3a2e47"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 41.300081657,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:23:09.529Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_10_rep_0_2023_10_06_14:48_10",
+  "agent": "human",
+  "t_start": 1696598548.2235177,
+  "t_end": 1696598589.5242872,
+  "t_start_planned": 0,
+  "t_end_planned": 40
+},{
+  "_id": {
+    "$oid": "65200a58c3903e230f3a2e48"
+  },
+  "name": "remove_notebook_cover",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 26.600100858,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:23:36.224Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_10_rep_0_2023_10_06_14:48_10",
+  "agent": "human",
+  "t_start": 1696598589.61864,
+  "t_end": 1696598616.2194586,
+  "t_start_planned": 39.999999999998636,
+  "t_end_planned": 70.66241170809683
+},{
+  "_id": {
+    "$oid": "65200a58c3903e230f3a2e49"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 10.623108890000001,
+  "duration_real": 50.83061797,
+  "planning_time": 0.10056741100000001,
+  "path_length": 9.222565221819455,
+  "date": {
+    "$date": "2023-10-06T13:23:36.395Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_10_rep_0_2023_10_06_14:48_10",
+  "agent": "manipulator",
+  "t_start": 1696598565.4199643,
+  "t_end": 1696598616.390744,
+  "t_start_planned": 15.705727338789984,
+  "t_end_planned": 45.247561415035605
+},{
+  "_id": {
+    "$oid": "65200a7dc3903e230f3a2e4a"
+  },
+  "name": "probe",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:24:13.631Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_10_rep_0_2023_10_06_14:48_10",
+  "agent": "manipulator",
+  "t_start": 1696598616.418453,
+  "t_end": 1696598653.6278262,
+  "t_start_planned": 45.24756141503576,
+  "t_end_planned": 82.43124051888708
+},{
+  "_id": {
+    "$oid": "65200a82c3903e230f3a2e4b"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 39.60010424,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:24:18.523Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_10_rep_0_2023_10_06_14:48_10",
+  "agent": "human",
+  "t_start": 1696598618.9185507,
+  "t_end": 1696598658.5193088,
+  "t_start_planned": 70.6624117080969,
+  "t_end_planned": 110.6624117080969
+},{
+  "_id": {
+    "$oid": "65200a95c3903e230f3a2e4c"
+  },
+  "name": "remove_plug",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:24:37.050Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_10_rep_0_2023_10_06_14:48_10",
+  "agent": "manipulator",
+  "t_start": 1696598653.7205718,
+  "t_end": 1696598677.0468442,
+  "t_start_planned": 82.43124051888708,
+  "t_end_planned": 108.52294345696691
+},{
+  "_id": {
+    "$oid": "65200a9dc3903e230f3a2e4d"
+  },
+  "name": "remove_notebook_components",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 26.300102609,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:24:45.224Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_10_rep_0_2023_10_06_14:48_10",
+  "agent": "human",
+  "t_start": 1696598658.9186227,
+  "t_end": 1696598685.2193072,
+  "t_start_planned": 110.6624117080969,
+  "t_end_planned": 140.6624117080969
+},{
+  "_id": {
+    "$oid": "65200ab1c3903e230f3a2e4f"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 9.745204743,
+  "duration_real": 28.187709505999997,
+  "planning_time": 0.128814064,
+  "path_length": 9.554329044063394,
+  "date": {
+    "$date": "2023-10-06T13:25:05.539Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_10_rep_0_2023_10_06_14:48_10",
+  "agent": "manipulator",
+  "t_start": 1696598677.1185193,
+  "t_end": 1696598705.5342686,
+  "t_start_planned": 111.12057763185119,
+  "t_end_planned": 140.6624117080968
+},{
+  "_id": {
+    "$oid": "65200ad5c3903e230f3a2e51"
+  },
+  "name": "board_localization",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:25:41.157Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_11_rep_0_2023_10_06_14:48_11",
+  "agent": "manipulator",
+  "t_start": 1696598723.9282484,
+  "t_end": 1696598741.1530004,
+  "t_start_planned": 0,
+  "t_end_planned": 15.705727338790894
+},{
+  "_id": {
+    "$oid": "65200aecc3903e230f3a2e52"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 41.000101725,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:26:04.937Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_11_rep_0_2023_10_06_14:48_11",
+  "agent": "human",
+  "t_start": 1696598723.9318483,
+  "t_end": 1696598764.9326777,
+  "t_start_planned": 0,
+  "t_end_planned": 40
+},{
+  "_id": {
+    "$oid": "65200b07c3903e230f3a2e53"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 10.615459494,
+  "duration_real": 49.771666984999996,
+  "planning_time": 0.10018466200000001,
+  "path_length": 9.339483510900235,
+  "date": {
+    "$date": "2023-10-06T13:26:31.137Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_11_rep_0_2023_10_06_14:48_11",
+  "agent": "manipulator",
+  "t_start": 1696598741.227029,
+  "t_end": 1696598791.132009,
+  "t_start_planned": 15.705727338790886,
+  "t_end_planned": 45.247561415036515
+},{
+  "_id": {
+    "$oid": "65200b0ac3903e230f3a2e54"
+  },
+  "name": "remove_notebook_cover",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 29.300100482,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:26:34.332Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_11_rep_0_2023_10_06_14:48_11",
+  "agent": "human",
+  "t_start": 1696598765.0259001,
+  "t_end": 1696598794.3266194,
+  "t_start_planned": 39.999999999998636,
+  "t_end_planned": 70.66241170809683
+},{
+  "_id": {
+    "$oid": "65200b2cc3903e230f3a2e55"
+  },
+  "name": "probe",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:27:08.908Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_11_rep_0_2023_10_06_14:48_11",
+  "agent": "manipulator",
+  "t_start": 1696598791.2251284,
+  "t_end": 1696598828.904642,
+  "t_start_planned": 45.247561415036664,
+  "t_end_planned": 82.43124051888799
+},{
+  "_id": {
+    "$oid": "65200b36c3903e230f3a2e56"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 44.300103534,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:27:18.931Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_11_rep_0_2023_10_06_14:48_11",
+  "agent": "human",
+  "t_start": 1696598794.6255925,
+  "t_end": 1696598838.9262707,
+  "t_start_planned": 70.6624117080969,
+  "t_end_planned": 110.6624117080969
+},{
+  "_id": {
+    "$oid": "65200b51c3903e230f3a2e57"
+  },
+  "name": "remove_notebook_components",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 26.400099867,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:27:45.430Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_11_rep_0_2023_10_06_14:48_11",
+  "agent": "human",
+  "t_start": 1696598839.0253496,
+  "t_end": 1696598865.4260683,
+  "t_start_planned": 110.6624117080969,
+  "t_end_planned": 140.6624117080969
+},{
+  "_id": {
+    "$oid": "65200b54c3903e230f3a2e59"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 9.097090752,
+  "duration_real": 39.455357392,
+  "planning_time": 1.4543738849999999,
+  "path_length": 7.627255625645756,
+  "date": {
+    "$date": "2023-10-06T13:27:48.607Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_11_rep_0_2023_10_06_14:48_11",
+  "agent": "manipulator",
+  "t_start": 1696598828.9273362,
+  "t_end": 1696598868.602065,
+  "t_start_planned": 85.02887469377129,
+  "t_end_planned": 114.5707087700169
+},{
+  "_id": {
+    "$oid": "65200b6dc3903e230f3a2e5a"
+  },
+  "name": "remove_plug",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:28:13.410Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_11_rep_0_2023_10_06_14:48_11",
+  "agent": "manipulator",
+  "t_start": 1696598868.6255322,
+  "t_end": 1696598893.4076347,
+  "t_start_planned": 114.57070877001706,
+  "t_end_planned": 140.6624117080969
+},{
+  "_id": {
+    "$oid": "65200b98c3903e230f3a2e5c"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 9.044677719,
+  "duration_real": 26.411269447000002,
+  "planning_time": 0.092607296,
+  "path_length": 7.717500029145383,
+  "date": {
+    "$date": "2023-10-06T13:28:56.176Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_12_rep_0_2023_10_06_14:48_12",
+  "agent": "manipulator",
+  "t_start": 1696598909.6337574,
+  "t_end": 1696598936.171541,
+  "t_start_planned": 0,
+  "t_end_planned": 29.541834076245625
+},{
+  "_id": {
+    "$oid": "65200b9bc3903e230f3a2e5d"
+  },
+  "name": "remove_notebook_cover",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 29.800117159,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:28:59.440Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_12_rep_0_2023_10_06_14:48_12",
+  "agent": "human",
+  "t_start": 1696598909.6347625,
+  "t_end": 1696598939.4356337,
+  "t_start_planned": 0,
+  "t_end_planned": 30.66241170809819
+},{
+  "_id": {
+    "$oid": "65200babc3903e230f3a2e5e"
+  },
+  "name": "board_localization",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:29:15.132Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_12_rep_0_2023_10_06_14:48_12",
+  "agent": "manipulator",
+  "t_start": 1696598939.2306862,
+  "t_end": 1696598955.129429,
+  "t_start_planned": 29.541834076244413,
+  "t_end_planned": 45.24756141503531
+},{
+  "_id": {
+    "$oid": "65200bc2c3903e230f3a2e5f"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 38.100071132,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:29:38.436Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_12_rep_0_2023_10_06_14:48_12",
+  "agent": "human",
+  "t_start": 1696598940.330301,
+  "t_end": 1696598978.4310002,
+  "t_start_planned": 30.662411708097352,
+  "t_end_planned": 70.66241170809735
+},{
+  "_id": {
+    "$oid": "65200bdcc3903e230f3a2e60"
+  },
+  "name": "remove_notebook_components",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 23.900125489,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:30:04.236Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_12_rep_0_2023_10_06_14:48_12",
+  "agent": "human",
+  "t_start": 1696598980.3310215,
+  "t_end": 1696599004.2319415,
+  "t_start_planned": 70.66241170809735,
+  "t_end_planned": 100.66241170809735
+},{
+  "_id": {
+    "$oid": "65200be6c3903e230f3a2e61"
+  },
+  "name": "probe",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:30:14.313Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_12_rep_0_2023_10_06_14:48_12",
+  "agent": "manipulator",
+  "t_start": 1696598955.2315543,
+  "t_end": 1696599014.3102226,
+  "t_start_planned": 45.24756141503531,
+  "t_end_planned": 82.43124051888663
+},{
+  "_id": {
+    "$oid": "65200bffc3903e230f3a2e62"
+  },
+  "name": "remove_plug",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:30:39.650Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_12_rep_0_2023_10_06_14:48_12",
+  "agent": "manipulator",
+  "t_start": 1696599014.3304353,
+  "t_end": 1696599039.6465833,
+  "t_start_planned": 82.43124051888663,
+  "t_end_planned": 108.52294345696646
+},{
+  "_id": {
+    "$oid": "65200c0ac3903e230f3a2e63"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 40.500110947,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:30:50.837Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_12_rep_0_2023_10_06_14:48_12",
+  "agent": "human",
+  "t_start": 1696599010.3313951,
+  "t_end": 1696599050.832324,
+  "t_start_planned": 100.66241170809735,
+  "t_end_planned": 140.66241170809735
+},{
+  "_id": {
+    "$oid": "65200c25c3903e230f3a2e65"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 9.777181082,
+  "duration_real": 38.017474292,
+  "planning_time": 0.133002008,
+  "path_length": 9.544599847243232,
+  "date": {
+    "$date": "2023-10-06T13:31:17.969Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_12_rep_0_2023_10_06_14:48_12",
+  "agent": "manipulator",
+  "t_start": 1696599039.7327101,
+  "t_end": 1696599077.9641533,
+  "t_start_planned": 111.12057763185173,
+  "t_end_planned": 140.66241170809735
+},{
+  "_id": {
+    "$oid": "65200c5cc3903e230f3a2e67"
+  },
+  "name": "board_localization",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:32:12.581Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_13_rep_0_2023_10_06_14:48_13",
+  "agent": "manipulator",
+  "t_start": 1696599096.5830197,
+  "t_end": 1696599132.57908,
+  "t_start_planned": 0,
+  "t_end_planned": 15.705727338790894
+},{
+  "_id": {
+    "$oid": "65200c5cc3903e230f3a2e68"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 36.400098789,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:32:12.989Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_13_rep_0_2023_10_06_14:48_13",
+  "agent": "human",
+  "t_start": 1696599096.5839622,
+  "t_end": 1696599132.9846933,
+  "t_start_planned": 0,
+  "t_end_planned": 40
+},{
+  "_id": {
+    "$oid": "65200c88c3903e230f3a2e69"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 39.900102299,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:32:56.486Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_13_rep_0_2023_10_06_14:48_13",
+  "agent": "human",
+  "t_start": 1696599136.5805402,
+  "t_end": 1696599176.4812458,
+  "t_start_planned": 39.99999999999909,
+  "t_end_planned": 79.99999999999909
+},{
+  "_id": {
+    "$oid": "65200c9bc3903e230f3a2e6a"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 10.613386386999998,
+  "duration_real": 62.76406461,
+  "planning_time": 0.09670416000000001,
+  "path_length": 9.339500448813087,
+  "date": {
+    "$date": "2023-10-06T13:33:15.715Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_13_rep_0_2023_10_06_14:48_13",
+  "agent": "manipulator",
+  "t_start": 1696599132.6801655,
+  "t_end": 1696599195.7105825,
+  "t_start_planned": 15.705727338789984,
+  "t_end_planned": 45.247561415035605
+},{
+  "_id": {
+    "$oid": "65200ca6c3903e230f3a2e6b"
+  },
+  "name": "remove_notebook_cover",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 30.300103022,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:33:26.887Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_13_rep_0_2023_10_06_14:48_13",
+  "agent": "human",
+  "t_start": 1696599176.5807912,
+  "t_end": 1696599206.8815668,
+  "t_start_planned": 79.99999999999916,
+  "t_end_planned": 110.66241170809735
+},{
+  "_id": {
+    "$oid": "65200cb3c3903e230f3a2e6c"
+  },
+  "name": "remove_plug",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:33:39.816Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_13_rep_0_2023_10_06_14:48_13",
+  "agent": "manipulator",
+  "t_start": 1696599195.7806997,
+  "t_end": 1696599219.813354,
+  "t_start_planned": 45.24756141503576,
+  "t_end_planned": 71.3392643531156
+},{
+  "_id": {
+    "$oid": "65200cc1c3903e230f3a2e6d"
+  },
+  "name": "remove_notebook_components",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 26.40010309,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:33:53.686Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_13_rep_0_2023_10_06_14:48_13",
+  "agent": "human",
+  "t_start": 1696599207.2809346,
+  "t_end": 1696599233.681598,
+  "t_start_planned": 110.66241170809735,
+  "t_end_planned": 140.66241170809735
+},{
+  "_id": {
+    "$oid": "65200cdac3903e230f3a2e6f"
+  },
+  "name": "probe",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:34:18.600Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_13_rep_0_2023_10_06_14:48_13",
+  "agent": "manipulator",
+  "t_start": 1696599219.8809392,
+  "t_end": 1696599258.5974045,
+  "t_start_planned": 71.3392643531156,
+  "t_end_planned": 108.52294345696691
+},{
+  "_id": {
+    "$oid": "65200cf7c3903e230f3a2e70"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 9.249861183,
+  "duration_real": 28.479493322,
+  "planning_time": 1.3772916460000002,
+  "path_length": 7.686473680939345,
+  "date": {
+    "$date": "2023-10-06T13:34:47.431Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_13_rep_0_2023_10_06_14:48_13",
+  "agent": "manipulator",
+  "t_start": 1696599258.680338,
+  "t_end": 1696599287.4260378,
+  "t_start_planned": 111.12057763185173,
+  "t_end_planned": 140.66241170809735
+},{
+  "_id": {
+    "$oid": "65200d24c3903e230f3a2e72"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 9.045338716,
+  "duration_real": 26.805957736000003,
+  "planning_time": 0.09766187500000001,
+  "path_length": 7.717546105658235,
+  "date": {
+    "$date": "2023-10-06T13:35:32.371Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_14_rep_0_2023_10_06_14:48_14",
+  "agent": "manipulator",
+  "t_start": 1696599305.3748145,
+  "t_end": 1696599332.3660553,
+  "t_start_planned": 0,
+  "t_end_planned": 29.541834076245625
+},{
+  "_id": {
+    "$oid": "65200d2cc3903e230f3a2e73"
+  },
+  "name": "remove_notebook_cover",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 35.100098501,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:35:40.481Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_14_rep_0_2023_10_06_14:48_14",
+  "agent": "human",
+  "t_start": 1696599305.3754873,
+  "t_end": 1696599340.476198,
+  "t_start_planned": 0,
+  "t_end_planned": 30.66241170809819
+},{
+  "_id": {
+    "$oid": "65200d35c3903e230f3a2e74"
+  },
+  "name": "board_localization",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:35:49.281Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_14_rep_0_2023_10_06_14:48_14",
+  "agent": "manipulator",
+  "t_start": 1696599334.9718375,
+  "t_end": 1696599349.2775984,
+  "t_start_planned": 29.541834076244413,
+  "t_end_planned": 45.24756141503531
+},{
+  "_id": {
+    "$oid": "65200d48c3903e230f3a2e75"
+  },
+  "name": "remove_plug",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:36:08.584Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_14_rep_0_2023_10_06_14:48_14",
+  "agent": "manipulator",
+  "t_start": 1696599350.6734931,
+  "t_end": 1696599368.5800512,
+  "t_start_planned": 45.24756141503531,
+  "t_end_planned": 71.33926435311514
+},{
+  "_id": {
+    "$oid": "65200d51c3903e230f3a2e76"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 37.100108018,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:36:17.677Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_14_rep_0_2023_10_06_14:48_14",
+  "agent": "human",
+  "t_start": 1696599340.5717738,
+  "t_end": 1696599377.672596,
+  "t_start_planned": 30.662411708097352,
+  "t_end_planned": 70.66241170809735
+},{
+  "_id": {
+    "$oid": "65200d6dc3903e230f3a2e77"
+  },
+  "name": "remove_notebook_components",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 28.000107333,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:36:45.777Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_14_rep_0_2023_10_06_14:48_14",
+  "agent": "human",
+  "t_start": 1696599377.772005,
+  "t_end": 1696599405.7727945,
+  "t_start_planned": 70.66241170809735,
+  "t_end_planned": 100.66241170809735
+},{
+  "_id": {
+    "$oid": "65200d72c3903e230f3a2e78"
+  },
+  "name": "probe",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:36:50.435Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_14_rep_0_2023_10_06_14:48_14",
+  "agent": "manipulator",
+  "t_start": 1696599376.772942,
+  "t_end": 1696599410.4323082,
+  "t_start_planned": 71.33926435311423,
+  "t_end_planned": 108.52294345696555
+},{
+  "_id": {
+    "$oid": "65200d94c3903e230f3a2e79"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 38.900122088,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:37:24.977Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_14_rep_0_2023_10_06_14:48_14",
+  "agent": "human",
+  "t_start": 1696599406.0717654,
+  "t_end": 1696599444.9726653,
+  "t_start_planned": 100.66241170809735,
+  "t_end_planned": 140.66241170809735
+},{
+  "_id": {
+    "$oid": "65200db2c3903e230f3a2e7b"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 11.098920295,
+  "duration_real": 57.856983048000004,
+  "planning_time": 2.1544169199999996,
+  "path_length": 11.39142906120092,
+  "date": {
+    "$date": "2023-10-06T13:37:54.621Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_14_rep_0_2023_10_06_14:48_14",
+  "agent": "manipulator",
+  "t_start": 1696599416.5728488,
+  "t_end": 1696599474.6171248,
+  "t_start_planned": 111.12057763185173,
+  "t_end_planned": 140.66241170809735
+},{
+  "_id": {
+    "$oid": "65200dd4c3903e230f3a2e7d"
+  },
+  "name": "board_localization",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:38:28.633Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_15_rep_0_2023_10_06_14:48_15",
+  "agent": "manipulator",
+  "t_start": 1696599492.9576483,
+  "t_end": 1696599508.6295927,
+  "t_start_planned": 0,
+  "t_end_planned": 15.705727338790894
+},{
+  "_id": {
+    "$oid": "65200de5c3903e230f3a2e7e"
+  },
+  "name": "remove_notebook_cover",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 32.300108494,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:38:45.266Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_15_rep_0_2023_10_06_14:48_15",
+  "agent": "human",
+  "t_start": 1696599492.960712,
+  "t_end": 1696599525.2614899,
+  "t_start_planned": 0,
+  "t_end_planned": 30.66241170809819
+},{
+  "_id": {
+    "$oid": "65200df8c3903e230f3a2e7f"
+  },
+  "name": "probe",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:39:04.184Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_15_rep_0_2023_10_06_14:48_15",
+  "agent": "manipulator",
+  "t_start": 1696599508.7555325,
+  "t_end": 1696599544.1813245,
+  "t_start_planned": 15.705727338790894,
+  "t_end_planned": 52.88940644264221
+},{
+  "_id": {
+    "$oid": "65200e0ec3903e230f3a2e80"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 41.500107631,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:39:26.860Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_15_rep_0_2023_10_06_14:48_15",
+  "agent": "human",
+  "t_start": 1696599525.3548527,
+  "t_end": 1696599566.855598,
+  "t_start_planned": 30.662411708097352,
+  "t_end_planned": 70.66241170809735
+},{
+  "_id": {
+    "$oid": "65200e13c3903e230f3a2e81"
+  },
+  "name": "remove_plug",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:39:31.086Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_15_rep_0_2023_10_06_14:48_15",
+  "agent": "manipulator",
+  "t_start": 1696599545.856604,
+  "t_end": 1696599571.0828826,
+  "t_start_planned": 52.8894064426413,
+  "t_end_planned": 78.98110938072114
+},{
+  "_id": {
+    "$oid": "65200e3dc3903e230f3a2e82"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 46.900112024,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:40:13.862Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_15_rep_0_2023_10_06_14:48_15",
+  "agent": "human",
+  "t_start": 1696599566.9561722,
+  "t_end": 1696599613.8568628,
+  "t_start_planned": 70.66241170809735,
+  "t_end_planned": 110.66241170809735
+},{
+  "_id": {
+    "$oid": "65200e55c3903e230f3a2e83"
+  },
+  "name": "remove_notebook_components",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 23.800103172,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:40:37.760Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_15_rep_0_2023_10_06_14:48_15",
+  "agent": "human",
+  "t_start": 1696599613.9552352,
+  "t_end": 1696599637.7559106,
+  "t_start_planned": 110.66241170809735,
+  "t_end_planned": 140.66241170809735
+},{
+  "_id": {
+    "$oid": "65200e58c3903e230f3a2e85"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 10.314578703,
+  "duration_real": 68.333087458,
+  "planning_time": 0.10956042700000002,
+  "path_length": 9.503665516488095,
+  "date": {
+    "$date": "2023-10-06T13:40:40.498Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_15_rep_0_2023_10_06_14:48_15",
+  "agent": "manipulator",
+  "t_start": 1696599571.9570382,
+  "t_end": 1696599640.4932327,
+  "t_start_planned": 78.98110938072114,
+  "t_end_planned": 108.52294345696676
+},{
+  "_id": {
+    "$oid": "65200e79c3903e230f3a2e86"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 11.806984653,
+  "duration_real": 32.486787277000005,
+  "planning_time": 0.166871314,
+  "path_length": 10.954701886346013,
+  "date": {
+    "$date": "2023-10-06T13:41:13.251Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_15_rep_0_2023_10_06_14:48_15",
+  "agent": "manipulator",
+  "t_start": 1696599640.5558333,
+  "t_end": 1696599673.2468183,
+  "t_start_planned": 111.12057763185173,
+  "t_end_planned": 140.66241170809735
+},{
+  "_id": {
+    "$oid": "65200e9bc3903e230f3a2e88"
+  },
+  "name": "board_localization",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:41:47.943Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_16_rep_0_2023_10_06_14:48_16",
+  "agent": "manipulator",
+  "t_start": 1696599692.2124562,
+  "t_end": 1696599707.938231,
+  "t_start_planned": 0,
+  "t_end_planned": 15.705727338790894
+},{
+  "_id": {
+    "$oid": "65200eb5c3903e230f3a2e89"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 41.000111807,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:42:13.219Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_16_rep_0_2023_10_06_14:48_16",
+  "agent": "human",
+  "t_start": 1696599692.2134366,
+  "t_end": 1696599733.2142842,
+  "t_start_planned": 0,
+  "t_end_planned": 40
+},{
+  "_id": {
+    "$oid": "65200ebfc3903e230f3a2e8a"
+  },
+  "name": "probe",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:42:23.146Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_16_rep_0_2023_10_06_14:48_16",
+  "agent": "manipulator",
+  "t_start": 1696599708.0125859,
+  "t_end": 1696599743.1425831,
+  "t_start_planned": 15.705727338790894,
+  "t_end_planned": 52.88940644264221
+},{
+  "_id": {
+    "$oid": "65200edac3903e230f3a2e8b"
+  },
+  "name": "remove_plug",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:42:50.338Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_16_rep_0_2023_10_06_14:48_16",
+  "agent": "manipulator",
+  "t_start": 1696599745.1121526,
+  "t_end": 1696599770.3356986,
+  "t_start_planned": 52.8894064426413,
+  "t_end_planned": 78.98110938072114
+},{
+  "_id": {
+    "$oid": "65200edcc3903e230f3a2e8c"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 38.900137254,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:42:52.216Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_16_rep_0_2023_10_06_14:48_16",
+  "agent": "human",
+  "t_start": 1696599733.3108466,
+  "t_end": 1696599772.2116976,
+  "t_start_planned": 39.99999999999909,
+  "t_end_planned": 79.99999999999909
+},{
+  "_id": {
+    "$oid": "65200efcc3903e230f3a2e8d"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 10.306981189,
+  "duration_real": 32.874681106000004,
+  "planning_time": 0.103845097,
+  "path_length": 9.619841696263713,
+  "date": {
+    "$date": "2023-10-06T13:43:24.239Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_16_rep_0_2023_10_06_14:48_16",
+  "agent": "manipulator",
+  "t_start": 1696599771.2104757,
+  "t_end": 1696599804.2347028,
+  "t_start_planned": 78.98110938072114,
+  "t_end_planned": 108.52294345696676
+},{
+  "_id": {
+    "$oid": "65200f0bc3903e230f3a2e8e"
+  },
+  "name": "remove_notebook_cover",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 47.000102665,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:43:39.316Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_16_rep_0_2023_10_06_14:48_16",
+  "agent": "human",
+  "t_start": 1696599772.3101885,
+  "t_end": 1696599819.3109767,
+  "t_start_planned": 79.99999999999916,
+  "t_end_planned": 110.66241170809735
+},{
+  "_id": {
+    "$oid": "65200f1bc3903e230f3a2e8f"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 11.074765774,
+  "duration_real": 30.654407088,
+  "planning_time": 0.14178171,
+  "path_length": 11.085130469868641,
+  "date": {
+    "$date": "2023-10-06T13:43:55.206Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_16_rep_0_2023_10_06_14:48_16",
+  "agent": "manipulator",
+  "t_start": 1696599804.3107448,
+  "t_end": 1696599835.2009964,
+  "t_start_planned": 111.12057763185173,
+  "t_end_planned": 140.66241170809735
+},{
+  "_id": {
+    "$oid": "65200f1ec3903e230f3a2e90"
+  },
+  "name": "remove_notebook_components",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 19.500103141,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:43:58.916Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_16_rep_0_2023_10_06_14:48_16",
+  "agent": "human",
+  "t_start": 1696599819.4103162,
+  "t_end": 1696599838.9109988,
+  "t_start_planned": 110.66241170809735,
+  "t_end_planned": 140.66241170809735
+},{
+  "_id": {
+    "$oid": "65200f4bc3903e230f3a2e93"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 9.044033046,
+  "duration_real": 29.397870074,
+  "planning_time": 0.09991709200000001,
+  "path_length": 7.717519959824666,
+  "date": {
+    "$date": "2023-10-06T13:44:43.749Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_17_rep_0_2023_10_06_14:48_17",
+  "agent": "manipulator",
+  "t_start": 1696599854.1214075,
+  "t_end": 1696599883.7445154,
+  "t_start_planned": 0,
+  "t_end_planned": 29.541834076245625
+},{
+  "_id": {
+    "$oid": "65200f4ec3903e230f3a2e94"
+  },
+  "name": "remove_notebook_cover",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 32.100100267,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:44:46.229Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_17_rep_0_2023_10_06_14:48_17",
+  "agent": "human",
+  "t_start": 1696599854.122876,
+  "t_end": 1696599886.223717,
+  "t_start_planned": 0,
+  "t_end_planned": 30.66241170809819
+},{
+  "_id": {
+    "$oid": "65200f5ac3903e230f3a2e95"
+  },
+  "name": "board_localization",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:44:58.114Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_17_rep_0_2023_10_06_14:48_17",
+  "agent": "manipulator",
+  "t_start": 1696599883.8175123,
+  "t_end": 1696599898.1101668,
+  "t_start_planned": 29.541834076244413,
+  "t_end_planned": 45.24756141503531
+},{
+  "_id": {
+    "$oid": "65200f6fc3903e230f3a2e96"
+  },
+  "name": "remove_plug",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:45:19.984Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_17_rep_0_2023_10_06_14:48_17",
+  "agent": "manipulator",
+  "t_start": 1696599899.4198334,
+  "t_end": 1696599919.9800916,
+  "t_start_planned": 45.24756141503531,
+  "t_end_planned": 71.33926435311514
+},{
+  "_id": {
+    "$oid": "65200f74c3903e230f3a2e97"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 37.900115118,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:45:24.223Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_17_rep_0_2023_10_06_14:48_17",
+  "agent": "human",
+  "t_start": 1696599886.3177326,
+  "t_end": 1696599924.2184074,
+  "t_start_planned": 30.662411708097352,
+  "t_end_planned": 70.66241170809735
+},{
+  "_id": {
+    "$oid": "65200f90c3903e230f3a2e98"
+  },
+  "name": "remove_notebook_components",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 27.900103348000002,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:45:52.723Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_17_rep_0_2023_10_06_14:48_17",
+  "agent": "human",
+  "t_start": 1696599924.8173947,
+  "t_end": 1696599952.7181175,
+  "t_start_planned": 70.66241170809735,
+  "t_end_planned": 100.66241170809735
+},{
+  "_id": {
+    "$oid": "65200f93c3903e230f3a2e99"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 10.40663678,
+  "duration_real": 29.380791116,
+  "planning_time": 0.12296854300000001,
+  "path_length": 9.565574105313633,
+  "date": {
+    "$date": "2023-10-06T13:45:55.132Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_17_rep_0_2023_10_06_14:48_17",
+  "agent": "manipulator",
+  "t_start": 1696599925.5178008,
+  "t_end": 1696599955.127363,
+  "t_start_planned": 71.33926435311332,
+  "t_end_planned": 100.88109842935894
+},{
+  "_id": {
+    "$oid": "65200fbbc3903e230f3a2e9a"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 40.700099757,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:46:35.522Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_17_rep_0_2023_10_06_14:48_17",
+  "agent": "human",
+  "t_start": 1696599954.8170736,
+  "t_end": 1696599995.5177531,
+  "t_start_planned": 100.66241170809735,
+  "t_end_planned": 140.66241170809735
+},{
+  "_id": {
+    "$oid": "65200fddc3903e230f3a2e9c"
+  },
+  "name": "probe",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:47:09.450Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_17_rep_0_2023_10_06_14:48_17",
+  "agent": "manipulator",
+  "t_start": 1696599955.2168648,
+  "t_end": 1696600029.4474542,
+  "t_start_planned": 100.8810984293591,
+  "t_end_planned": 138.06477753321042
+},{
+  "_id": {
+    "$oid": "65200ffbc3903e230f3a2e9e"
+  },
+  "name": "board_localization",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:47:39.194Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_18_rep_0_2023_10_06_14:48_18",
+  "agent": "manipulator",
+  "t_start": 1696600043.4267092,
+  "t_end": 1696600059.190878,
+  "t_start_planned": 0,
+  "t_end_planned": 15.705727338790894
+},{
+  "_id": {
+    "$oid": "65201011c3903e230f3a2e9f"
+  },
+  "name": "remove_notebook_cover",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 38.300119466,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:48:01.734Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_18_rep_0_2023_10_06_14:48_18",
+  "agent": "human",
+  "t_start": 1696600043.4291947,
+  "t_end": 1696600081.7299244,
+  "t_start_planned": 0,
+  "t_end_planned": 30.66241170809819
+},{
+  "_id": {
+    "$oid": "65201018c3903e230f3a2ea0"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 10.615469034,
+  "duration_real": 29.494449963,
+  "planning_time": 0.102167284,
+  "path_length": 9.33954108679543,
+  "date": {
+    "$date": "2023-10-06T13:48:08.859Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_18_rep_0_2023_10_06_14:48_18",
+  "agent": "manipulator",
+  "t_start": 1696600059.2246184,
+  "t_end": 1696600088.8544343,
+  "t_start_planned": 15.705727338790894,
+  "t_end_planned": 45.247561415036515
+},{
+  "_id": {
+    "$oid": "65201029c3903e230f3a2ea1"
+  },
+  "name": "remove_notebook_components",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 24.100104221,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:48:25.930Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_18_rep_0_2023_10_06_14:48_18",
+  "agent": "human",
+  "t_start": 1696600081.824418,
+  "t_end": 1696600105.9251118,
+  "t_start_planned": 30.66241170809819,
+  "t_end_planned": 60.66241170809819
+},{
+  "_id": {
+    "$oid": "6520103dc3903e230f3a2ea2"
+  },
+  "name": "probe",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:48:45.855Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_18_rep_0_2023_10_06_14:48_18",
+  "agent": "manipulator",
+  "t_start": 1696600088.9245872,
+  "t_end": 1696600125.8497667,
+  "t_start_planned": 45.24756141503667,
+  "t_end_planned": 82.43124051888799
+},{
+  "_id": {
+    "$oid": "65201054c3903e230f3a2ea3"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 42.900103217,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:49:08.930Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_18_rep_0_2023_10_06_14:48_18",
+  "agent": "human",
+  "t_start": 1696600106.024115,
+  "t_end": 1696600148.9248488,
+  "t_start_planned": 60.66241170809735,
+  "t_end_planned": 100.66241170809735
+},{
+  "_id": {
+    "$oid": "65201078c3903e230f3a2ea4"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 35.200094153,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:49:44.232Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_18_rep_0_2023_10_06_14:48_18",
+  "agent": "human",
+  "t_start": 1696600149.0255866,
+  "t_end": 1696600184.226323,
+  "t_start_planned": 100.66241170809735,
+  "t_end_planned": 140.66241170809735
+},{
+  "_id": {
+    "$oid": "6520108ac3903e230f3a2ea6"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 11.267181781000001,
+  "duration_real": 76.254644005,
+  "planning_time": 2.180710515,
+  "path_length": 11.631108713854356,
+  "date": {
+    "$date": "2023-10-06T13:50:02.406Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_18_rep_0_2023_10_06_14:48_18",
+  "agent": "manipulator",
+  "t_start": 1696600125.9261029,
+  "t_end": 1696600202.4013197,
+  "t_start_planned": 82.43124051888799,
+  "t_end_planned": 111.97307459513361
+},{
+  "_id": {
+    "$oid": "652010a2c3903e230f3a2ea7"
+  },
+  "name": "remove_plug",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:50:26.492Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_18_rep_0_2023_10_06_14:48_18",
+  "agent": "manipulator",
+  "t_start": 1696600202.4245622,
+  "t_end": 1696600226.4889054,
+  "t_start_planned": 111.97307459513377,
+  "t_end_planned": 138.0647775332136
+},{
+  "_id": {
+    "$oid": "652010d1c3903e230f3a2ea9"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 9.044039415,
+  "duration_real": 26.582859264,
+  "planning_time": 0.10342161300000001,
+  "path_length": 7.717528013431693,
+  "date": {
+    "$date": "2023-10-06T13:51:13.335Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_19_rep_0_2023_10_06_14:48_19",
+  "agent": "manipulator",
+  "t_start": 1696600246.4455888,
+  "t_end": 1696600273.3294837,
+  "t_start_planned": 0,
+  "t_end_planned": 29.541834076245625
+},{
+  "_id": {
+    "$oid": "652010d5c3903e230f3a2eaa"
+  },
+  "name": "remove_notebook_cover",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 30.800104234,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:51:17.252Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_19_rep_0_2023_10_06_14:48_19",
+  "agent": "human",
+  "t_start": 1696600246.446601,
+  "t_end": 1696600277.247406,
+  "t_start_planned": 0,
+  "t_end_planned": 30.66241170809819
+},{
+  "_id": {
+    "$oid": "652010fbc3903e230f3a2eab"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 38.500102148,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:51:55.848Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_19_rep_0_2023_10_06_14:48_19",
+  "agent": "human",
+  "t_start": 1696600277.3423884,
+  "t_end": 1696600315.8431587,
+  "t_start_planned": 30.662411708097352,
+  "t_end_planned": 70.66241170809735
+},{
+  "_id": {
+    "$oid": "65201112c3903e230f3a2eac"
+  },
+  "name": "remove_notebook_components",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 21.700098202,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:52:18.850Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_19_rep_0_2023_10_06_14:48_19",
+  "agent": "human",
+  "t_start": 1696600317.1435087,
+  "t_end": 1696600338.8442125,
+  "t_start_planned": 70.66241170809735,
+  "t_end_planned": 100.66241170809735
+},{
+  "_id": {
+    "$oid": "65201115c3903e230f3a2ead"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 11.131819329999999,
+  "duration_real": 64.955654259,
+  "planning_time": 0.202391389,
+  "path_length": 10.882588242615466,
+  "date": {
+    "$date": "2023-10-06T13:52:21.121Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_19_rep_0_2023_10_06_14:48_19",
+  "agent": "manipulator",
+  "t_start": 1696600276.0426726,
+  "t_end": 1696600341.1156218,
+  "t_start_planned": 29.541834076245635,
+  "t_end_planned": 59.083668152491256
+},{
+  "_id": {
+    "$oid": "65201123c3903e230f3a2eae"
+  },
+  "name": "board_localization",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:52:35.872Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_19_rep_0_2023_10_06_14:48_19",
+  "agent": "manipulator",
+  "t_start": 1696600341.1429875,
+  "t_end": 1696600355.8678305,
+  "t_start_planned": 59.08366815248655,
+  "t_end_planned": 74.78939549127745
+},{
+  "_id": {
+    "$oid": "65201142c3903e230f3a2eaf"
+  },
+  "name": "remove_plug",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:53:06.005Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_19_rep_0_2023_10_06_14:48_19",
+  "agent": "manipulator",
+  "t_start": 1696600355.9445457,
+  "t_end": 1696600386.0008569,
+  "t_start_planned": 74.78939549127745,
+  "t_end_planned": 100.88109842935728
+},{
+  "_id": {
+    "$oid": "65201144c3903e230f3a2eb0"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 41.20010152,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:53:08.348Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_19_rep_0_2023_10_06_14:48_19",
+  "agent": "human",
+  "t_start": 1696600347.1424925,
+  "t_end": 1696600388.3431594,
+  "t_start_planned": 100.66241170809735,
+  "t_end_planned": 140.66241170809735
+},{
+  "_id": {
+    "$oid": "65201163c3903e230f3a2eb2"
+  },
+  "name": "probe",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:53:39.580Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_19_rep_0_2023_10_06_14:48_19",
+  "agent": "manipulator",
+  "t_start": 1696600386.0439768,
+  "t_end": 1696600419.5771635,
+  "t_start_planned": 100.88109842935728,
+  "t_end_planned": 138.0647775332086
+},{
+  "_id": {
+    "$oid": "65201182c3903e230f3a2eb4"
+  },
+  "name": "board_localization",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:54:10.992Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_20_rep_0_2023_10_06_14:48_20",
+  "agent": "manipulator",
+  "t_start": 1696600435.3653712,
+  "t_end": 1696600450.988377,
+  "t_start_planned": 0,
+  "t_end_planned": 15.705727338790894
+},{
+  "_id": {
+    "$oid": "65201197c3903e230f3a2eb5"
+  },
+  "name": "remove_notebook_cover",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 36.000099016,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:54:31.373Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_20_rep_0_2023_10_06_14:48_20",
+  "agent": "human",
+  "t_start": 1696600435.3667145,
+  "t_end": 1696600471.36762,
+  "t_start_planned": 0,
+  "t_end_planned": 30.66241170809819
+},{
+  "_id": {
+    "$oid": "652011a0c3903e230f3a2eb6"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 10.614040544,
+  "duration_real": 29.558660963,
+  "planning_time": 0.106268626,
+  "path_length": 9.33935180689462,
+  "date": {
+    "$date": "2023-10-06T13:54:40.923Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_20_rep_0_2023_10_06_14:48_20",
+  "agent": "manipulator",
+  "t_start": 1696600451.1622136,
+  "t_end": 1696600480.918777,
+  "t_start_planned": 15.705727338790894,
+  "t_end_planned": 45.247561415036515
+},{
+  "_id": {
+    "$oid": "652011b2c3903e230f3a2eb7"
+  },
+  "name": "remove_notebook_components",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 27.100099795,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:54:58.567Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_20_rep_0_2023_10_06_14:48_20",
+  "agent": "human",
+  "t_start": 1696600471.461515,
+  "t_end": 1696600498.5622506,
+  "t_start_planned": 30.66241170809819,
+  "t_end_planned": 60.66241170809819
+},{
+  "_id": {
+    "$oid": "652011c8c3903e230f3a2eb8"
+  },
+  "name": "probe",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:55:20.349Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_20_rep_0_2023_10_06_14:48_20",
+  "agent": "manipulator",
+  "t_start": 1696600480.9618506,
+  "t_end": 1696600520.3462207,
+  "t_start_planned": 45.24756141503667,
+  "t_end_planned": 82.43124051888799
+},{
+  "_id": {
+    "$oid": "652011dcc3903e230f3a2eb9"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 42.100099238,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:55:40.768Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_20_rep_0_2023_10_06_14:48_20",
+  "agent": "human",
+  "t_start": 1696600498.662802,
+  "t_end": 1696600540.7635362,
+  "t_start_planned": 60.66241170809735,
+  "t_end_planned": 100.66241170809735
+},{
+  "_id": {
+    "$oid": "652011e1c3903e230f3a2eba"
+  },
+  "name": "remove_plug",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:55:45.556Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_20_rep_0_2023_10_06_14:48_20",
+  "agent": "manipulator",
+  "t_start": 1696600520.3640018,
+  "t_end": 1696600545.5520854,
+  "t_start_planned": 82.43124051888799,
+  "t_end_planned": 108.52294345696782
+},{
+  "_id": {
+    "$oid": "65201204c3903e230f3a2ebb"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 39.700097761,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T13:56:20.567Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_20_rep_0_2023_10_06_14:48_20",
+  "agent": "human",
+  "t_start": 1696600540.8616033,
+  "t_end": 1696600580.5623386,
+  "t_start_planned": 100.66241170809735,
+  "t_end_planned": 140.66241170809735
+},{
+  "_id": {
+    "$oid": "6520121ec3903e230f3a2ebd"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 10.883881514,
+  "duration_real": 61.148274756999996,
+  "planning_time": 0.14299408400000002,
+  "path_length": 9.735185347284503,
+  "date": {
+    "$date": "2023-10-06T13:56:46.913Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_20_rep_0_2023_10_06_14:48_20",
+  "agent": "manipulator",
+  "t_start": 1696600545.5629687,
+  "t_end": 1696600606.9083762,
+  "t_start_planned": 108.52294345696782,
+  "t_end_planned": 138.06477753321346
+},{
+  "_id": {
+    "$oid": "65202c40c74e0263d9e4d812"
+  },
+  "name": "board_localization",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T15:48:16.712Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_21_rep_0_2023_10_06_14:48_21",
+  "agent": "manipulator",
+  "t_start": 1696607280.939382,
+  "t_end": 1696607296.70836,
+  "t_start_planned": 0,
+  "t_end_planned": 15.705727338790894
+},{
+  "_id": {
+    "$oid": "65202c58c74e0263d9e4d813"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 39.700113839,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T15:48:40.647Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_21_rep_0_2023_10_06_14:48_21",
+  "agent": "human",
+  "t_start": 1696607280.9403074,
+  "t_end": 1696607320.6422641,
+  "t_start_planned": 0,
+  "t_end_planned": 40
+},{
+  "_id": {
+    "$oid": "65202c77c74e0263d9e4d814"
+  },
+  "name": "probe",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T15:49:11.463Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_21_rep_0_2023_10_06_14:48_21",
+  "agent": "manipulator",
+  "t_start": 1696607296.7396135,
+  "t_end": 1696607351.4601545,
+  "t_start_planned": 15.705727338790894,
+  "t_end_planned": 52.88940644264221
+},{
+  "_id": {
+    "$oid": "65202c83c74e0263d9e4d815"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 42.70010193,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T15:49:23.643Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_21_rep_0_2023_10_06_14:48_21",
+  "agent": "human",
+  "t_start": 1696607320.9376535,
+  "t_end": 1696607363.6383996,
+  "t_start_planned": 39.99999999999818,
+  "t_end_planned": 79.99999999999818
+},{
+  "_id": {
+    "$oid": "65202c90c74e0263d9e4d816"
+  },
+  "name": "remove_plug",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T15:49:36.766Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_21_rep_0_2023_10_06_14:48_21",
+  "agent": "manipulator",
+  "t_start": 1696607351.5381691,
+  "t_end": 1696607376.7635686,
+  "t_start_planned": 55.48704061752623,
+  "t_end_planned": 81.57874355560607
+},{
+  "_id": {
+    "$oid": "65202c9fc74e0263d9e4d817"
+  },
+  "name": "remove_notebook_cover",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 27.500099775,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T15:49:51.244Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_21_rep_0_2023_10_06_14:48_21",
+  "agent": "human",
+  "t_start": 1696607363.7385676,
+  "t_end": 1696607391.239277,
+  "t_start_planned": 79.99999999999818,
+  "t_end_planned": 110.66241170809637
+},{
+  "_id": {
+    "$oid": "65202caec74e0263d9e4d818"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 10.314200387,
+  "duration_real": 28.935561857,
+  "planning_time": 0.09566340100000001,
+  "path_length": 9.502992476284454,
+  "date": {
+    "$date": "2023-10-06T15:50:06.081Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_21_rep_0_2023_10_06_14:48_21",
+  "agent": "manipulator",
+  "t_start": 1696607376.8385122,
+  "t_end": 1696607406.0768585,
+  "t_start_planned": 81.57874355560625,
+  "t_end_planned": 111.12057763185187
+},{
+  "_id": {
+    "$oid": "65202cb7c74e0263d9e4d819"
+  },
+  "name": "remove_notebook_components",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 23.700190407,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T15:50:15.343Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_21_rep_0_2023_10_06_14:48_21",
+  "agent": "human",
+  "t_start": 1696607391.6377873,
+  "t_end": 1696607415.3387456,
+  "t_start_planned": 110.66241170809644,
+  "t_end_planned": 140.66241170809644
+},{
+  "_id": {
+    "$oid": "65202cccc74e0263d9e4d81b"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 10.985166908,
+  "duration_real": 30.497053786000002,
+  "planning_time": 0.125570462,
+  "path_length": 10.917649979272689,
+  "date": {
+    "$date": "2023-10-06T15:50:36.811Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_21_rep_0_2023_10_06_14:48_21",
+  "agent": "manipulator",
+  "t_start": 1696607406.137599,
+  "t_end": 1696607436.8069086,
+  "t_start_planned": 111.12057763185184,
+  "t_end_planned": 140.66241170809747
+},{
+  "_id": {
+    "$oid": "65202cffc74e0263d9e4d81d"
+  },
+  "name": "board_localization",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T15:51:27.459Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_22_rep_0_2023_10_06_14:48_22",
+  "agent": "manipulator",
+  "t_start": 1696607471.75106,
+  "t_end": 1696607487.455912,
+  "t_start_planned": 0,
+  "t_end_planned": 15.705727338790894
+},{
+  "_id": {
+    "$oid": "65202d16c74e0263d9e4d81e"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 39.100110463,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T15:51:50.858Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_22_rep_0_2023_10_06_14:48_22",
+  "agent": "human",
+  "t_start": 1696607471.752584,
+  "t_end": 1696607510.8533566,
+  "t_start_planned": 0,
+  "t_end_planned": 40
+},{
+  "_id": {
+    "$oid": "65202d35c74e0263d9e4d81f"
+  },
+  "name": "probe",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T15:52:21.910Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_22_rep_0_2023_10_06_14:48_22",
+  "agent": "manipulator",
+  "t_start": 1696607487.551293,
+  "t_end": 1696607541.90726,
+  "t_start_planned": 15.705727338790894,
+  "t_end_planned": 52.88940644264221
+},{
+  "_id": {
+    "$oid": "65202d42c74e0263d9e4d820"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 42.300099685,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T15:52:34.054Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_22_rep_0_2023_10_06_14:48_22",
+  "agent": "human",
+  "t_start": 1696607511.7495608,
+  "t_end": 1696607554.0501726,
+  "t_start_planned": 40,
+  "t_end_planned": 80
+},{
+  "_id": {
+    "$oid": "65202d5ec74e0263d9e4d821"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 11.003481365999999,
+  "duration_real": 40.100434397,
+  "planning_time": 0.100289459,
+  "path_length": 9.994734166081953,
+  "date": {
+    "$date": "2023-10-06T15:53:02.214Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_22_rep_0_2023_10_06_14:48_22",
+  "agent": "manipulator",
+  "t_start": 1696607541.95099,
+  "t_end": 1696607582.210334,
+  "t_start_planned": 52.88940644264128,
+  "t_end_planned": 82.43124051888691
+},{
+  "_id": {
+    "$oid": "65202d63c74e0263d9e4d822"
+  },
+  "name": "remove_notebook_cover",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 33.000125341,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T15:53:07.155Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_22_rep_0_2023_10_06_14:48_22",
+  "agent": "human",
+  "t_start": 1696607554.1500344,
+  "t_end": 1696607587.150798,
+  "t_start_planned": 80,
+  "t_end_planned": 110.66241170809819
+},{
+  "_id": {
+    "$oid": "65202d75c74e0263d9e4d823"
+  },
+  "name": "remove_plug",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T15:53:25.467Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_22_rep_0_2023_10_06_14:48_22",
+  "agent": "manipulator",
+  "t_start": 1696607582.249551,
+  "t_end": 1696607605.4638145,
+  "t_start_planned": 85.02887469377272,
+  "t_end_planned": 111.12057763185256
+},{
+  "_id": {
+    "$oid": "65202d76c74e0263d9e4d824"
+  },
+  "name": "remove_notebook_components",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 19.10011056,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T15:53:26.357Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_22_rep_0_2023_10_06_14:48_22",
+  "agent": "human",
+  "t_start": 1696607587.2500322,
+  "t_end": 1696607606.350802,
+  "t_start_planned": 110.66241170809819,
+  "t_end_planned": 140.6624117080982
+},{
+  "_id": {
+    "$oid": "65202d98c74e0263d9e4d826"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 11.695659784,
+  "duration_real": 34.301164559,
+  "planning_time": 2.780062944,
+  "path_length": 12.154520507298965,
+  "date": {
+    "$date": "2023-10-06T15:54:00.016Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_22_rep_0_2023_10_06_14:48_22",
+  "agent": "manipulator",
+  "t_start": 1696607605.5501854,
+  "t_end": 1696607640.0111961,
+  "t_start_planned": 111.12057763185256,
+  "t_end_planned": 140.66241170809818
+},{
+  "_id": {
+    "$oid": "65202debc74e0263d9e4d828"
+  },
+  "name": "board_localization",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T15:55:23.701Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_23_rep_0_2023_10_06_14:48_23",
+  "agent": "manipulator",
+  "t_start": 1696607702.0124362,
+  "t_end": 1696607723.698104,
+  "t_start_planned": 0,
+  "t_end_planned": 15.705727338790894
+},{
+  "_id": {
+    "$oid": "65202dffc74e0263d9e4d829"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 41.10010149,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T15:55:43.118Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_23_rep_0_2023_10_06_14:48_23",
+  "agent": "human",
+  "t_start": 1696607702.0131557,
+  "t_end": 1696607743.1138465,
+  "t_start_planned": 0,
+  "t_end_planned": 40
+},{
+  "_id": {
+    "$oid": "65202e1dc74e0263d9e4d82a"
+  },
+  "name": "remove_notebook_cover",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 30.600107165,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T15:56:13.816Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_23_rep_0_2023_10_06_14:48_23",
+  "agent": "human",
+  "t_start": 1696607743.2108107,
+  "t_end": 1696607773.8115556,
+  "t_start_planned": 40,
+  "t_end_planned": 70.66241170809819
+},{
+  "_id": {
+    "$oid": "65202e1ec74e0263d9e4d82b"
+  },
+  "name": "probe",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T15:56:14.443Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_23_rep_0_2023_10_06_14:48_23",
+  "agent": "manipulator",
+  "t_start": 1696607723.7118049,
+  "t_end": 1696607774.4401922,
+  "t_start_planned": 15.705727338790894,
+  "t_end_planned": 52.88940644264221
+},{
+  "_id": {
+    "$oid": "65202e37c74e0263d9e4d82c"
+  },
+  "name": "remove_plug",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T15:56:39.689Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_23_rep_0_2023_10_06_14:48_23",
+  "agent": "manipulator",
+  "t_start": 1696607774.5121093,
+  "t_end": 1696607799.6857486,
+  "t_start_planned": 55.4870406175271,
+  "t_end_planned": 81.57874355560693
+},{
+  "_id": {
+    "$oid": "65202e48c74e0263d9e4d82d"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 42.800109373,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T15:56:56.716Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_23_rep_0_2023_10_06_14:48_23",
+  "agent": "human",
+  "t_start": 1696607773.9103441,
+  "t_end": 1696607816.7111306,
+  "t_start_planned": 70.66241170809819,
+  "t_end_planned": 110.66241170809819
+},{
+  "_id": {
+    "$oid": "65202e61c74e0263d9e4d82e"
+  },
+  "name": "remove_notebook_components",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 24.800128742,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T15:57:21.616Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_23_rep_0_2023_10_06_14:48_23",
+  "agent": "human",
+  "t_start": 1696607816.8105562,
+  "t_end": 1696607841.6114316,
+  "t_start_planned": 110.66241170809819,
+  "t_end_planned": 140.6624117080982
+},{
+  "_id": {
+    "$oid": "65202e63c74e0263d9e4d82f"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 10.315212649,
+  "duration_real": 43.652561447,
+  "planning_time": 0.11136647100000001,
+  "path_length": 9.50159472360152,
+  "date": {
+    "$date": "2023-10-06T15:57:23.567Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_23_rep_0_2023_10_06_14:48_23",
+  "agent": "manipulator",
+  "t_start": 1696607799.7124708,
+  "t_end": 1696607843.5626903,
+  "t_start_planned": 81.57874355560693,
+  "t_end_planned": 111.12057763185256
+},{
+  "_id": {
+    "$oid": "65202e83c74e0263d9e4d831"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 11.706852648,
+  "duration_real": 31.636813057,
+  "planning_time": 0.127746876,
+  "path_length": 10.931143215054506,
+  "date": {
+    "$date": "2023-10-06T15:57:55.352Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_23_rep_0_2023_10_06_14:48_23",
+  "agent": "manipulator",
+  "t_start": 1696607843.6107879,
+  "t_end": 1696607875.3468022,
+  "t_start_planned": 111.12057763185256,
+  "t_end_planned": 140.66241170809818
+},{
+  "_id": {
+    "$oid": "65202eb7c74e0263d9e4d833"
+  },
+  "name": "board_localization",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T15:58:47.020Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_24_rep_0_2023_10_06_14:48_24",
+  "agent": "manipulator",
+  "t_start": 1696607911.2570891,
+  "t_end": 1696607927.017445,
+  "t_start_planned": 0,
+  "t_end_planned": 15.705727338790894
+},{
+  "_id": {
+    "$oid": "65202edac74e0263d9e4d834"
+  },
+  "name": "remove_notebook_cover",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 50.9001031,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T15:59:22.163Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_24_rep_0_2023_10_06_14:48_24",
+  "agent": "human",
+  "t_start": 1696607911.258058,
+  "t_end": 1696607962.1587527,
+  "t_start_planned": 0,
+  "t_end_planned": 30.66241170809819
+},{
+  "_id": {
+    "$oid": "65202edac74e0263d9e4d835"
+  },
+  "name": "probe",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T15:59:22.364Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_24_rep_0_2023_10_06_14:48_24",
+  "agent": "manipulator",
+  "t_start": 1696607927.055595,
+  "t_end": 1696607962.3612957,
+  "t_start_planned": 15.705727338790894,
+  "t_end_planned": 52.88940644264221
+},{
+  "_id": {
+    "$oid": "65202ef5c74e0263d9e4d836"
+  },
+  "name": "remove_plug",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T15:59:49.432Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_24_rep_0_2023_10_06_14:48_24",
+  "agent": "manipulator",
+  "t_start": 1696607964.1560943,
+  "t_end": 1696607989.4278545,
+  "t_start_planned": 52.8894064426413,
+  "t_end_planned": 78.98110938072114
+},{
+  "_id": {
+    "$oid": "65202f01c74e0263d9e4d837"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 39.400102791,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:00:01.663Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_24_rep_0_2023_10_06_14:48_24",
+  "agent": "human",
+  "t_start": 1696607962.2571716,
+  "t_end": 1696608001.657985,
+  "t_start_planned": 30.66241170809819,
+  "t_end_planned": 70.66241170809819
+},{
+  "_id": {
+    "$oid": "65202f27c74e0263d9e4d838"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 38.100098697,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:00:39.861Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_24_rep_0_2023_10_06_14:48_24",
+  "agent": "human",
+  "t_start": 1696608001.7553465,
+  "t_end": 1696608039.8560286,
+  "t_start_planned": 70.66241170809819,
+  "t_end_planned": 110.66241170809819
+},{
+  "_id": {
+    "$oid": "65202f3ac74e0263d9e4d839"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 10.306237313,
+  "duration_real": 67.776828876,
+  "planning_time": 0.116045856,
+  "path_length": 9.620220186761543,
+  "date": {
+    "$date": "2023-10-06T16:00:58.092Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_24_rep_0_2023_10_06_14:48_24",
+  "agent": "manipulator",
+  "t_start": 1696607990.2571077,
+  "t_end": 1696608058.0869699,
+  "t_start_planned": 78.98110938072114,
+  "t_end_planned": 108.52294345696676
+},{
+  "_id": {
+    "$oid": "65202f41c74e0263d9e4d83a"
+  },
+  "name": "remove_notebook_components",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 25.700106401,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:01:05.662Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_24_rep_0_2023_10_06_14:48_24",
+  "agent": "human",
+  "t_start": 1696608039.9563084,
+  "t_end": 1696608065.6571429,
+  "t_start_planned": 110.66241170809819,
+  "t_end_planned": 140.6624117080982
+},{
+  "_id": {
+    "$oid": "65202f58c74e0263d9e4d83c"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 11.104029403,
+  "duration_real": 30.568753481999998,
+  "planning_time": 0.129045005,
+  "path_length": 11.086725715463796,
+  "date": {
+    "$date": "2023-10-06T16:01:28.884Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_24_rep_0_2023_10_06_14:48_24",
+  "agent": "manipulator",
+  "t_start": 1696608058.1556826,
+  "t_end": 1696608088.8788736,
+  "t_start_planned": 111.12057763185256,
+  "t_end_planned": 140.66241170809818
+},{
+  "_id": {
+    "$oid": "65202f94c74e0263d9e4d83e"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 9.042074042,
+  "duration_real": 26.453054368,
+  "planning_time": 0.09607765600000001,
+  "path_length": 7.717511897973237,
+  "date": {
+    "$date": "2023-10-06T16:02:28.569Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_25_rep_0_2023_10_06_14:48_25",
+  "agent": "manipulator",
+  "t_start": 1696608121.9170947,
+  "t_end": 1696608148.5630686,
+  "t_start_planned": 0,
+  "t_end_planned": 29.541834076245625
+},{
+  "_id": {
+    "$oid": "65202f98c74e0263d9e4d83f"
+  },
+  "name": "remove_notebook_cover",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 31.000102088,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:02:32.924Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_25_rep_0_2023_10_06_14:48_25",
+  "agent": "human",
+  "t_start": 1696608121.9190521,
+  "t_end": 1696608152.9197583,
+  "t_start_planned": 0,
+  "t_end_planned": 30.66241170809819
+},{
+  "_id": {
+    "$oid": "65202facc74e0263d9e4d840"
+  },
+  "name": "board_localization",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:02:52.662Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_25_rep_0_2023_10_06_14:48_25",
+  "agent": "manipulator",
+  "t_start": 1696608154.1159596,
+  "t_end": 1696608172.6591074,
+  "t_start_planned": 32.13946825113054,
+  "t_end_planned": 47.84519558992143
+},{
+  "_id": {
+    "$oid": "65202fbfc74e0263d9e4d841"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 38.700101046,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:03:11.722Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_25_rep_0_2023_10_06_14:48_25",
+  "agent": "human",
+  "t_start": 1696608153.0168982,
+  "t_end": 1696608191.7176545,
+  "t_start_planned": 30.66241170809819,
+  "t_end_planned": 70.66241170809819
+},{
+  "_id": {
+    "$oid": "65202fdac74e0263d9e4d842"
+  },
+  "name": "probe",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:03:38.782Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_25_rep_0_2023_10_06_14:48_25",
+  "agent": "manipulator",
+  "t_start": 1696608172.719075,
+  "t_end": 1696608218.7784905,
+  "t_start_planned": 47.84519558992143,
+  "t_end_planned": 85.02887469377275
+},{
+  "_id": {
+    "$oid": "65202feac74e0263d9e4d843"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 41.600111959,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:03:54.222Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_25_rep_0_2023_10_06_14:48_25",
+  "agent": "human",
+  "t_start": 1696608192.616401,
+  "t_end": 1696608234.2172067,
+  "t_start_planned": 70.66241170809819,
+  "t_end_planned": 110.66241170809819
+},{
+  "_id": {
+    "$oid": "65202ff4c74e0263d9e4d844"
+  },
+  "name": "remove_plug",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:04:04.066Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_25_rep_0_2023_10_06_14:48_25",
+  "agent": "manipulator",
+  "t_start": 1696608218.817218,
+  "t_end": 1696608244.063303,
+  "t_start_planned": 85.02887469377275,
+  "t_end_planned": 111.12057763185258
+},{
+  "_id": {
+    "$oid": "65203003c74e0263d9e4d845"
+  },
+  "name": "remove_notebook_components",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 24.70010373,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:04:19.022Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_25_rep_0_2023_10_06_14:48_25",
+  "agent": "human",
+  "t_start": 1696608234.3162496,
+  "t_end": 1696608259.016983,
+  "t_start_planned": 110.66241170809819,
+  "t_end_planned": 140.6624117080982
+},{
+  "_id": {
+    "$oid": "65203010c74e0263d9e4d847"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 9.894592682999999,
+  "duration_real": 28.186006677,
+  "planning_time": 0.151687896,
+  "path_length": 9.56580150076066,
+  "date": {
+    "$date": "2023-10-06T16:04:32.501Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_25_rep_0_2023_10_06_14:48_25",
+  "agent": "manipulator",
+  "t_start": 1696608244.1160533,
+  "t_end": 1696608272.4959872,
+  "t_start_planned": 111.12057763185258,
+  "t_end_planned": 140.6624117080982
+},{
+  "_id": {
+    "$oid": "65203048c74e0263d9e4d849"
+  },
+  "name": "board_localization",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:05:28.793Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_26_rep_0_2023_10_06_14:48_26",
+  "agent": "manipulator",
+  "t_start": 1696608313.0430543,
+  "t_end": 1696608328.788637,
+  "t_start_planned": 0,
+  "t_end_planned": 15.705727338790894
+},{
+  "_id": {
+    "$oid": "65203061c74e0263d9e4d84a"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 40.300097947,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:05:53.349Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_26_rep_0_2023_10_06_14:48_26",
+  "agent": "human",
+  "t_start": 1696608313.0437388,
+  "t_end": 1696608353.3445702,
+  "t_start_planned": 0,
+  "t_end_planned": 40
+},{
+  "_id": {
+    "$oid": "65203082c74e0263d9e4d84b"
+  },
+  "name": "remove_notebook_cover",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 32.600103989,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:06:26.047Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_26_rep_0_2023_10_06_14:48_26",
+  "agent": "human",
+  "t_start": 1696608353.441758,
+  "t_end": 1696608386.0424879,
+  "t_start_planned": 40,
+  "t_end_planned": 70.66241170809819
+},{
+  "_id": {
+    "$oid": "65203084c74e0263d9e4d84c"
+  },
+  "name": "probe",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:06:28.869Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_26_rep_0_2023_10_06_14:48_26",
+  "agent": "manipulator",
+  "t_start": 1696608328.842906,
+  "t_end": 1696608388.8663266,
+  "t_start_planned": 15.705727338790892,
+  "t_end_planned": 52.88940644264221
+},{
+  "_id": {
+    "$oid": "652030acc74e0263d9e4d84d"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 42.00010706,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:07:08.148Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_26_rep_0_2023_10_06_14:48_26",
+  "agent": "human",
+  "t_start": 1696608386.141789,
+  "t_end": 1696608428.142604,
+  "t_start_planned": 70.66241170809819,
+  "t_end_planned": 110.66241170809819
+},{
+  "_id": {
+    "$oid": "652030c4c74e0263d9e4d84e"
+  },
+  "name": "remove_notebook_components",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 24.300103886,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:07:32.547Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_26_rep_0_2023_10_06_14:48_26",
+  "agent": "human",
+  "t_start": 1696608428.2413688,
+  "t_end": 1696608452.542057,
+  "t_start_planned": 110.66241170809819,
+  "t_end_planned": 140.6624117080982
+},{
+  "_id": {
+    "$oid": "652030c8c74e0263d9e4d850"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 11.011369884,
+  "duration_real": 67.007340021,
+  "planning_time": 0.099867647,
+  "path_length": 9.998985605003558,
+  "date": {
+    "$date": "2023-10-06T16:07:36.123Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_26_rep_0_2023_10_06_14:48_26",
+  "agent": "manipulator",
+  "t_start": 1696608388.942335,
+  "t_end": 1696608456.1174715,
+  "t_start_planned": 52.88940644264221,
+  "t_end_planned": 82.43124051888783
+},{
+  "_id": {
+    "$oid": "652030e0c74e0263d9e4d851"
+  },
+  "name": "remove_plug",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:08:00.817Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_26_rep_0_2023_10_06_14:48_26",
+  "agent": "manipulator",
+  "t_start": 1696608456.1412797,
+  "t_end": 1696608480.8134363,
+  "t_start_planned": 85.02887469377275,
+  "t_end_planned": 111.12057763185258
+},{
+  "_id": {
+    "$oid": "652030fec74e0263d9e4d852"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 10.615689388,
+  "duration_real": 29.529519858,
+  "planning_time": 0.128995616,
+  "path_length": 9.7375650441831,
+  "date": {
+    "$date": "2023-10-06T16:08:30.444Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_26_rep_0_2023_10_06_14:48_26",
+  "agent": "manipulator",
+  "t_start": 1696608480.8419597,
+  "t_end": 1696608510.439485,
+  "t_start_planned": 111.12057763185258,
+  "t_end_planned": 140.6624117080982
+},{
+  "_id": {
+    "$oid": "65203130c74e0263d9e4d854"
+  },
+  "name": "board_localization",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:09:20.224Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_27_rep_0_2023_10_06_14:48_27",
+  "agent": "manipulator",
+  "t_start": 1696608544.4796343,
+  "t_end": 1696608560.2203577,
+  "t_start_planned": 0,
+  "t_end_planned": 15.705727338790894
+},{
+  "_id": {
+    "$oid": "65203148c74e0263d9e4d855"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 39.700100378,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:09:44.186Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_27_rep_0_2023_10_06_14:48_27",
+  "agent": "human",
+  "t_start": 1696608544.4805148,
+  "t_end": 1696608584.1812472,
+  "t_start_planned": 0,
+  "t_end_planned": 40
+},{
+  "_id": {
+    "$oid": "65203168c74e0263d9e4d856"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 32.50010528,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:10:16.984Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_27_rep_0_2023_10_06_14:48_27",
+  "agent": "human",
+  "t_start": 1696608584.4777322,
+  "t_end": 1696608616.9784727,
+  "t_start_planned": 40,
+  "t_end_planned": 80
+},{
+  "_id": {
+    "$oid": "6520316ac74e0263d9e4d857"
+  },
+  "name": "probe",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:10:18.519Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_27_rep_0_2023_10_06_14:48_27",
+  "agent": "manipulator",
+  "t_start": 1696608560.2798223,
+  "t_end": 1696608618.5157425,
+  "t_start_planned": 15.705727338790894,
+  "t_end_planned": 52.88940644264221
+},{
+  "_id": {
+    "$oid": "65203189c74e0263d9e4d858"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 11.009111001,
+  "duration_real": 30.309999068,
+  "planning_time": 0.09839599000000002,
+  "path_length": 9.87778972542353,
+  "date": {
+    "$date": "2023-10-06T16:10:49.025Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_27_rep_0_2023_10_06_14:48_27",
+  "agent": "manipulator",
+  "t_start": 1696608618.5780654,
+  "t_end": 1696608649.0199246,
+  "t_start_planned": 55.48704061752697,
+  "t_end_planned": 85.0288746937726
+},{
+  "_id": {
+    "$oid": "6520318ec74e0263d9e4d859"
+  },
+  "name": "remove_notebook_cover",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 30.200099287,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:10:54.683Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_27_rep_0_2023_10_06_14:48_27",
+  "agent": "human",
+  "t_start": 1696608624.4777656,
+  "t_end": 1696608654.6784263,
+  "t_start_planned": 80,
+  "t_end_planned": 110.66241170809819
+},{
+  "_id": {
+    "$oid": "652031a0c74e0263d9e4d85a"
+  },
+  "name": "remove_plug",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:11:12.159Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_27_rep_0_2023_10_06_14:48_27",
+  "agent": "manipulator",
+  "t_start": 1696608649.0781486,
+  "t_end": 1696608672.1561532,
+  "t_start_planned": 85.02887469377275,
+  "t_end_planned": 111.12057763185258
+},{
+  "_id": {
+    "$oid": "652031a8c74e0263d9e4d85b"
+  },
+  "name": "remove_notebook_components",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 25.500092341,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:11:20.683Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_27_rep_0_2023_10_06_14:48_27",
+  "agent": "human",
+  "t_start": 1696608655.1779606,
+  "t_end": 1696608680.678644,
+  "t_start_planned": 110.66241170809819,
+  "t_end_planned": 140.6624117080982
+},{
+  "_id": {
+    "$oid": "652031c1c74e0263d9e4d85d"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 11.409976268000001,
+  "duration_real": 33.171978548,
+  "planning_time": 2.512166591,
+  "path_length": 12.06853515876217,
+  "date": {
+    "$date": "2023-10-06T16:11:45.487Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_27_rep_0_2023_10_06_14:48_27",
+  "agent": "manipulator",
+  "t_start": 1696608672.1782641,
+  "t_end": 1696608705.481945,
+  "t_start_planned": 111.12057763185258,
+  "t_end_planned": 140.6624117080982
+},{
+  "_id": {
+    "$oid": "652031f3c74e0263d9e4d85f"
+  },
+  "name": "board_localization",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:12:35.688Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_28_rep_0_2023_10_06_14:48_28",
+  "agent": "manipulator",
+  "t_start": 1696608740.044043,
+  "t_end": 1696608755.6845198,
+  "t_start_planned": 0,
+  "t_end_planned": 15.705727338790894
+},{
+  "_id": {
+    "$oid": "6520320cc74e0263d9e4d860"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 40.100102479,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:13:00.152Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_28_rep_0_2023_10_06_14:48_28",
+  "agent": "human",
+  "t_start": 1696608740.045908,
+  "t_end": 1696608780.146683,
+  "t_start_planned": 0,
+  "t_end_planned": 40
+},{
+  "_id": {
+    "$oid": "65203229c74e0263d9e4d861"
+  },
+  "name": "probe",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:13:29.949Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_28_rep_0_2023_10_06_14:48_28",
+  "agent": "manipulator",
+  "t_start": 1696608755.8462517,
+  "t_end": 1696608809.9461746,
+  "t_start_planned": 15.705727338790894,
+  "t_end_planned": 52.88940644264221
+},{
+  "_id": {
+    "$oid": "6520322bc74e0263d9e4d862"
+  },
+  "name": "remove_notebook_cover",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 31.600102563,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:13:31.848Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_28_rep_0_2023_10_06_14:48_28",
+  "agent": "human",
+  "t_start": 1696608780.2427113,
+  "t_end": 1696608811.8434498,
+  "t_start_planned": 40,
+  "t_end_planned": 70.66241170809819
+},{
+  "_id": {
+    "$oid": "65203243c74e0263d9e4d863"
+  },
+  "name": "remove_notebook_components",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 23.200107779,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:13:55.152Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_28_rep_0_2023_10_06_14:48_28",
+  "agent": "human",
+  "t_start": 1696608811.942715,
+  "t_end": 1696608835.1434221,
+  "t_start_planned": 70.66241170809819,
+  "t_end_planned": 100.66241170809819
+},{
+  "_id": {
+    "$oid": "65203243c74e0263d9e4d864"
+  },
+  "name": "remove_plug",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:13:55.196Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_28_rep_0_2023_10_06_14:48_28",
+  "agent": "manipulator",
+  "t_start": 1696608810.0430853,
+  "t_end": 1696608835.192995,
+  "t_start_planned": 52.8894064426413,
+  "t_end_planned": 78.98110938072114
+},{
+  "_id": {
+    "$oid": "6520326fc74e0263d9e4d865"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 38.900100926,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:14:39.648Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_28_rep_0_2023_10_06_14:48_28",
+  "agent": "human",
+  "t_start": 1696608840.7428894,
+  "t_end": 1696608879.643562,
+  "t_start_planned": 100.66241170809819,
+  "t_end_planned": 140.6624117080982
+},{
+  "_id": {
+    "$oid": "65203281c74e0263d9e4d867"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 10.315258853,
+  "duration_real": 62.301686923999995,
+  "planning_time": 0.104462489,
+  "path_length": 9.502178390125072,
+  "date": {
+    "$date": "2023-10-06T16:14:57.617Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_28_rep_0_2023_10_06_14:48_28",
+  "agent": "manipulator",
+  "t_start": 1696608835.2433047,
+  "t_end": 1696608897.6118045,
+  "t_start_planned": 78.98110938072114,
+  "t_end_planned": 108.52294345696676
+},{
+  "_id": {
+    "$oid": "652032a0c74e0263d9e4d868"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 11.01025916,
+  "duration_real": 30.296882819,
+  "planning_time": 0.118036954,
+  "path_length": 11.079945322555448,
+  "date": {
+    "$date": "2023-10-06T16:15:28.013Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_28_rep_0_2023_10_06_14:48_28",
+  "agent": "manipulator",
+  "t_start": 1696608897.6429858,
+  "t_end": 1696608928.006915,
+  "t_start_planned": 111.12057763185258,
+  "t_end_planned": 140.6624117080982
+},{
+  "_id": {
+    "$oid": "652032d1c74e0263d9e4d86a"
+  },
+  "name": "board_localization",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:16:17.987Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_29_rep_0_2023_10_06_14:48_29",
+  "agent": "manipulator",
+  "t_start": 1696608962.3767612,
+  "t_end": 1696608977.984351,
+  "t_start_planned": 0,
+  "t_end_planned": 15.705727338790894
+},{
+  "_id": {
+    "$oid": "652032dfc74e0263d9e4d86b"
+  },
+  "name": "remove_notebook_cover",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 29.500103858,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:16:31.885Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_29_rep_0_2023_10_06_14:48_29",
+  "agent": "human",
+  "t_start": 1696608962.3788505,
+  "t_end": 1696608991.8795307,
+  "t_start_planned": 0,
+  "t_end_planned": 30.66241170809819
+},{
+  "_id": {
+    "$oid": "652032e3c74e0263d9e4d86c"
+  },
+  "name": "remove_plug",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:16:35.305Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_29_rep_0_2023_10_06_14:48_29",
+  "agent": "manipulator",
+  "t_start": 1696608978.1759992,
+  "t_end": 1696608995.3026555,
+  "t_start_planned": 15.705727338789075,
+  "t_end_planned": 41.79743027686891
+},{
+  "_id": {
+    "$oid": "652032fac74e0263d9e4d86d"
+  },
+  "name": "remove_notebook_components",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 25.600109495,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:16:58.682Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_29_rep_0_2023_10_06_14:48_29",
+  "agent": "human",
+  "t_start": 1696608993.0756652,
+  "t_end": 1696609018.676419,
+  "t_start_planned": 30.66241170809819,
+  "t_end_planned": 60.66241170809819
+},{
+  "_id": {
+    "$oid": "6520330dc74e0263d9e4d86e"
+  },
+  "name": "probe",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 0,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:17:17.918Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_29_rep_0_2023_10_06_14:48_29",
+  "agent": "manipulator",
+  "t_start": 1696609004.176138,
+  "t_end": 1696609037.9145157,
+  "t_start_planned": 41.79743027686891,
+  "t_end_planned": 78.98110938072023
+},{
+  "_id": {
+    "$oid": "65203327c74e0263d9e4d86f"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 40.800120767,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:17:43.881Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_29_rep_0_2023_10_06_14:48_29",
+  "agent": "human",
+  "t_start": 1696609023.0759802,
+  "t_end": 1696609063.8767736,
+  "t_start_planned": 60.66241170809823,
+  "t_end_planned": 100.66241170809823
+},{
+  "_id": {
+    "$oid": "6520334bc74e0263d9e4d870"
+  },
+  "name": "disassemble_remote_control",
+  "type": "sequence",
+  "outcome": 1,
+  "duration_planned": 0,
+  "duration_real": 35.700102284,
+  "planning_time": 0,
+  "path_length": 0,
+  "date": {
+    "$date": "2023-10-06T16:18:19.681Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_29_rep_0_2023_10_06_14:48_29",
+  "agent": "human",
+  "t_start": 1696609063.975976,
+  "t_end": 1696609099.6767166,
+  "t_start_planned": 100.66241170809823,
+  "t_end_planned": 140.66241170809823
+},{
+  "_id": {
+    "$oid": "6520335ec74e0263d9e4d872"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 8.836167168,
+  "duration_real": 74.819328479,
+  "planning_time": 1.1786031000000001,
+  "path_length": 7.652619413617401,
+  "date": {
+    "$date": "2023-10-06T16:18:38.935Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_29_rep_0_2023_10_06_14:48_29",
+  "agent": "manipulator",
+  "t_start": 1696609043.9778707,
+  "t_end": 1696609118.92937,
+  "t_start_planned": 81.57874355560699,
+  "t_end_planned": 111.12057763185261
+},{
+  "_id": {
+    "$oid": "65203378c74e0263d9e4d873"
+  },
+  "name": "battery_sorting",
+  "type": "pickplace",
+  "outcome": 1,
+  "duration_planned": 8.096814584,
+  "duration_real": 25.707846944,
+  "planning_time": 1.243025191,
+  "path_length": 6.237698138562097,
+  "date": {
+    "$date": "2023-10-06T16:19:04.823Z"
+  },
+  "recipe": "BASIC_SOLVER_rec_29_rep_0_2023_10_06_14:48_29",
+  "agent": "manipulator",
+  "t_start": 1696609118.9762654,
+  "t_end": 1696609144.8178344,
+  "t_start_planned": 111.12057763185261,
+  "t_end_planned": 140.66241170809823
+}]

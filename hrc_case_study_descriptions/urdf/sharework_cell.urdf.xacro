@@ -523,7 +523,6 @@
 
 
 
-
 <!-- Collaborative worspace (central box) -->
 <link name="collaborative_workspace_link">
   <visual>
@@ -600,7 +599,6 @@
      </material>
    </collision>
 </link>
-
 </xacro:macro>
 
 </robot>
