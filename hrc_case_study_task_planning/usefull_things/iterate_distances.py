@@ -22,7 +22,6 @@ pipeline = [
 
 result = list(collection.aggregate(pipeline))
 
-
 # Carica il file CSV in un DataFrame
 csv_file_path1 = '/home/galois/projects/cells_ws/src/hrc_case_study_cell/hrc_case_study/hrc_case_study_task_planning/statistics/distance_monitoring_real_test_distance_results (copy).csv'  # Sostituire con il percorso del file CSV
 csv_file_path2 = '/home/galois/projects/cells_ws/src/hrc_case_study_cell/hrc_case_study/hrc_case_study_task_planning/statistics/distance_monitoring_real_test_distance_results_last (copy).csv'  # Sostituire con il percorso del file CSV
