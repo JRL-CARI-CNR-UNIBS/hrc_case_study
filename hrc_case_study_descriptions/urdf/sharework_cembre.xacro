@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://ros.org/wiki/xacro" name="sharework_cembre_simplified" >
 
+
   <!-- Sharework cell -->
   <xacro:include filename="$(find hrc_case_study_descriptions)/urdf/sharework_cell.urdf.xacro" />
   <xacro:hrc_case_study_cell
